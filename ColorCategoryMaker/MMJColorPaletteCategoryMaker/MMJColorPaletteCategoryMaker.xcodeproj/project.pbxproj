@@ -23,6 +23,7 @@
 		A9C7093D1823BDA1006DC1B5 /* MMJNamedColorParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C7093B1823BDA1006DC1B5 /* MMJNamedColorParser.m */; };
 		A9C709491823BEA3006DC1B5 /* Copic_Color_HEX_CODE.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9C709461823BEA3006DC1B5 /* Copic_Color_HEX_CODE.txt */; };
 		A9C7094A1823BEA3006DC1B5 /* MMJCopicColorParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C709481823BEA3006DC1B5 /* MMJCopicColorParser.m */; };
+		A9C7094E1823C33B006DC1B5 /* MMJColorCategoryWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C7094D1823C33B006DC1B5 /* MMJColorCategoryWriter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		A9C709461823BEA3006DC1B5 /* Copic_Color_HEX_CODE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Copic_Color_HEX_CODE.txt; path = Parsing/Parsers/Copic/Copic_Color_HEX_CODE.txt; sourceTree = "<group>"; };
 		A9C709471823BEA3006DC1B5 /* MMJCopicColorParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMJCopicColorParser.h; path = Parsing/Parsers/Copic/MMJCopicColorParser.h; sourceTree = "<group>"; };
 		A9C709481823BEA3006DC1B5 /* MMJCopicColorParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMJCopicColorParser.m; path = Parsing/Parsers/Copic/MMJCopicColorParser.m; sourceTree = "<group>"; };
+		A9C7094C1823C33B006DC1B5 /* MMJColorCategoryWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMJColorCategoryWriter.h; path = FileHandling/MMJColorCategoryWriter.h; sourceTree = "<group>"; };
+		A9C7094D1823C33B006DC1B5 /* MMJColorCategoryWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMJColorCategoryWriter.m; path = FileHandling/MMJColorCategoryWriter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,11 +121,11 @@
 		A9C708CC1823BB53006DC1B5 /* MMJColorPaletteCategoryMaker */ = {
 			isa = PBXGroup;
 			children = (
+				A9C708D51823BB53006DC1B5 /* MMJAppDelegate.h */,
+				A9C708D61823BB53006DC1B5 /* MMJAppDelegate.m */,
 				A9C709331823BD58006DC1B5 /* ColorHandling */,
 				A9C709371823BD85006DC1B5 /* FileHandling */,
 				A9C7093E1823BDA9006DC1B5 /* Parsing */,
-				A9C708D51823BB53006DC1B5 /* MMJAppDelegate.h */,
-				A9C708D61823BB53006DC1B5 /* MMJAppDelegate.m */,
 				A9C708CD1823BB53006DC1B5 /* Supporting Files */,
 			);
 			path = MMJColorPaletteCategoryMaker;
@@ -154,6 +157,8 @@
 			children = (
 				A9C709341823BD7E006DC1B5 /* MMJFileWriter.h */,
 				A9C709351823BD7E006DC1B5 /* MMJFileWriter.m */,
+				A9C7094C1823C33B006DC1B5 /* MMJColorCategoryWriter.h */,
+				A9C7094D1823C33B006DC1B5 /* MMJColorCategoryWriter.m */,
 			);
 			name = FileHandling;
 			sourceTree = "<group>";
@@ -285,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9C7093C1823BDA1006DC1B5 /* MMJColorCategoryMaker.m in Sources */,
+				A9C7094E1823C33B006DC1B5 /* MMJColorCategoryWriter.m in Sources */,
 				A9C7093D1823BDA1006DC1B5 /* MMJNamedColorParser.m in Sources */,
 				A9C709321823BD52006DC1B5 /* UIColor+HexString.m in Sources */,
 				A9C7094A1823BEA3006DC1B5 /* MMJCopicColorParser.m in Sources */,
@@ -482,6 +488,7 @@
 				A9C708F11823BB53006DC1B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9C708F21823BB53006DC1B5 /* Build configuration list for PBXNativeTarget "MMJColorPaletteCategoryMakerTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +497,7 @@
 				A9C708F41823BB53006DC1B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

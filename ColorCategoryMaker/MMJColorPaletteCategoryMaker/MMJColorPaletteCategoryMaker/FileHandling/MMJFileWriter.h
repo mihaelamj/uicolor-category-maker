@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface MMJFileWriter : NSObject
-+ (void)writeFileName:(NSString *)fileName directoryName:(NSString *)directoryName fileBody:(NSString *)fileBody;
++ (NSString *)writeFileName:(NSString *)fileName directoryName:(NSString *)directoryName fileBody:(NSString *)fileBody;
 @end
