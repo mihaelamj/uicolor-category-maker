@@ -1,22 +1,24 @@
 //
-//  MMJCopicColorParser.m
-//  NiceColors
+//  MMJGenericColorParser.m
+//  MMJColorPaletteCategoryMaker
 //
-//  Created by Mihaela Mihaljević Jakić on 29/10/13.
+//  Created by Mihaela Mihaljević Jakić on 01/11/13.
 //  Copyright (c) 2013 Token d.o.o. All rights reserved.
 //
 
-#import "MMJCopicColorParser.h"
+#import "MMJGenericColorParser.h"
 #import "UIColor+HexString.h"
 
-@interface MMJCopicColorParser()
-
-@end
-
-@implementation MMJCopicColorParser
-
+@implementation MMJGenericColorParser
 #pragma mark - Overrides
 
+/**
+ *  Generic parser expecting colorname hexvalue lines
+ *
+ *  @param colorArray 
+ *
+ *  @return NSDictionary with colorname : hexvalue pairs
+ */
 - (NSDictionary *)parseColorArrayIntoDictionary:(NSArray *)colorArray
 {
     __block NSMutableDictionary *resultDict = [[NSMutableDictionary alloc] init];
@@ -37,10 +39,9 @@
 
 #pragma mark - Class methods
 
-+ (NSDictionary *)copicColorsDictionary
++ (NSDictionary *)genericColorsDictionaryWithFileName:(NSString *)fileName fileType:(NSString *)fileType
 {
-    MMJCopicColorParser *parser = [[MMJCopicColorParser alloc] initWithFileName:@"Copic_Color_HEX_CODE" fileType:@"txt"];
+    MMJGenericColorParser *parser = [[MMJGenericColorParser alloc] initWithFileName:fileName fileType:fileType];
     return [parser parse];
 }
-
 @end

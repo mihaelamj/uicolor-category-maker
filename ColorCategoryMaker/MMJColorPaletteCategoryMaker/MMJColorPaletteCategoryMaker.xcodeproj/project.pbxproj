@@ -22,8 +22,10 @@
 		A9C7093C1823BDA1006DC1B5 /* MMJColorCategoryMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C709391823BDA1006DC1B5 /* MMJColorCategoryMaker.m */; };
 		A9C7093D1823BDA1006DC1B5 /* MMJNamedColorParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C7093B1823BDA1006DC1B5 /* MMJNamedColorParser.m */; };
 		A9C709491823BEA3006DC1B5 /* Copic_Color_HEX_CODE.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9C709461823BEA3006DC1B5 /* Copic_Color_HEX_CODE.txt */; };
-		A9C7094A1823BEA3006DC1B5 /* MMJCopicColorParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C709481823BEA3006DC1B5 /* MMJCopicColorParser.m */; };
 		A9C7094E1823C33B006DC1B5 /* MMJColorCategoryWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C7094D1823C33B006DC1B5 /* MMJColorCategoryWriter.m */; };
+		A9C709501823CE62006DC1B5 /* HTML_Colors1.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9C7094F1823CE62006DC1B5 /* HTML_Colors1.txt */; };
+		A9C7095A1823D153006DC1B5 /* MMJGenericColorParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C709591823D153006DC1B5 /* MMJGenericColorParser.m */; };
+		A9C709621823D595006DC1B5 /* HTML1.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9C709611823D595006DC1B5 /* HTML1.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,10 +61,12 @@
 		A9C7093A1823BDA1006DC1B5 /* MMJNamedColorParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMJNamedColorParser.h; path = Parsing/MMJNamedColorParser.h; sourceTree = "<group>"; };
 		A9C7093B1823BDA1006DC1B5 /* MMJNamedColorParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMJNamedColorParser.m; path = Parsing/MMJNamedColorParser.m; sourceTree = "<group>"; };
 		A9C709461823BEA3006DC1B5 /* Copic_Color_HEX_CODE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Copic_Color_HEX_CODE.txt; path = Parsing/Parsers/Copic/Copic_Color_HEX_CODE.txt; sourceTree = "<group>"; };
-		A9C709471823BEA3006DC1B5 /* MMJCopicColorParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMJCopicColorParser.h; path = Parsing/Parsers/Copic/MMJCopicColorParser.h; sourceTree = "<group>"; };
-		A9C709481823BEA3006DC1B5 /* MMJCopicColorParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMJCopicColorParser.m; path = Parsing/Parsers/Copic/MMJCopicColorParser.m; sourceTree = "<group>"; };
 		A9C7094C1823C33B006DC1B5 /* MMJColorCategoryWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMJColorCategoryWriter.h; path = FileHandling/MMJColorCategoryWriter.h; sourceTree = "<group>"; };
 		A9C7094D1823C33B006DC1B5 /* MMJColorCategoryWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMJColorCategoryWriter.m; path = FileHandling/MMJColorCategoryWriter.m; sourceTree = "<group>"; };
+		A9C7094F1823CE62006DC1B5 /* HTML_Colors1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HTML_Colors1.txt; path = Parsing/Parsers/HTML/HTML_Colors1.txt; sourceTree = "<group>"; };
+		A9C709581823D153006DC1B5 /* MMJGenericColorParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMJGenericColorParser.h; path = Parsing/Parsers/Generic/MMJGenericColorParser.h; sourceTree = "<group>"; };
+		A9C709591823D153006DC1B5 /* MMJGenericColorParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMJGenericColorParser.m; path = Parsing/Parsers/Generic/MMJGenericColorParser.m; sourceTree = "<group>"; };
+		A9C709611823D595006DC1B5 /* HTML1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HTML1.txt; path = Parsing/Parsers/HTML1/HTML1.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +182,10 @@
 		A9C709421823BDC3006DC1B5 /* Parsers */ = {
 			isa = PBXGroup;
 			children = (
+				A9C709581823D153006DC1B5 /* MMJGenericColorParser.h */,
+				A9C709591823D153006DC1B5 /* MMJGenericColorParser.m */,
+				A9C709631823D59F006DC1B5 /* HTML1 */,
+				A9C709511823CE68006DC1B5 /* HTML */,
 				A9C7094B1823BEB0006DC1B5 /* Copic */,
 			);
 			name = Parsers;
@@ -187,10 +195,24 @@
 			isa = PBXGroup;
 			children = (
 				A9C709461823BEA3006DC1B5 /* Copic_Color_HEX_CODE.txt */,
-				A9C709471823BEA3006DC1B5 /* MMJCopicColorParser.h */,
-				A9C709481823BEA3006DC1B5 /* MMJCopicColorParser.m */,
 			);
 			name = Copic;
+			sourceTree = "<group>";
+		};
+		A9C709511823CE68006DC1B5 /* HTML */ = {
+			isa = PBXGroup;
+			children = (
+				A9C7094F1823CE62006DC1B5 /* HTML_Colors1.txt */,
+			);
+			name = HTML;
+			sourceTree = "<group>";
+		};
+		A9C709631823D59F006DC1B5 /* HTML1 */ = {
+			isa = PBXGroup;
+			children = (
+				A9C709611823D595006DC1B5 /* HTML1.txt */,
+			);
+			name = HTML1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +292,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9C708D11823BB53006DC1B5 /* InfoPlist.strings in Resources */,
+				A9C709621823D595006DC1B5 /* HTML1.txt in Resources */,
+				A9C709501823CE62006DC1B5 /* HTML_Colors1.txt in Resources */,
 				A9C708D91823BB53006DC1B5 /* Images.xcassets in Resources */,
 				A9C709491823BEA3006DC1B5 /* Copic_Color_HEX_CODE.txt in Resources */,
 			);
@@ -293,7 +317,7 @@
 				A9C7094E1823C33B006DC1B5 /* MMJColorCategoryWriter.m in Sources */,
 				A9C7093D1823BDA1006DC1B5 /* MMJNamedColorParser.m in Sources */,
 				A9C709321823BD52006DC1B5 /* UIColor+HexString.m in Sources */,
-				A9C7094A1823BEA3006DC1B5 /* MMJCopicColorParser.m in Sources */,
+				A9C7095A1823D153006DC1B5 /* MMJGenericColorParser.m in Sources */,
 				A9C708D31823BB53006DC1B5 /* main.m in Sources */,
 				A9C708D71823BB53006DC1B5 /* MMJAppDelegate.m in Sources */,
 				A9C709361823BD7E006DC1B5 /* MMJFileWriter.m in Sources */,

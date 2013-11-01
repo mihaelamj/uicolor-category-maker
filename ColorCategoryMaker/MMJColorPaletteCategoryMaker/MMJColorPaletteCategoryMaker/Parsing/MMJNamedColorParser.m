@@ -57,7 +57,11 @@
 }
 
 #pragma mark - Parsing
-
+/**
+ *  Breaks file string into array by line breaks and sanitizes string lines
+ *
+ *  @return NSDictionary with colorname : hexvalue pairs
+ */
 - (NSDictionary *)parse
 {
     NSStringEncoding endcoding = 0;
@@ -72,6 +76,13 @@
 }
 
 //abstract
+/**
+ *  Abstract method that needs to be overriden
+ *
+ *  @param colorArray
+ *
+ *  @return NSDictionary with colorname : hexvalue pairs
+ */
 - (NSDictionary *)parseColorArrayIntoDictionary:(NSArray *)colorArray
 {
     return nil;

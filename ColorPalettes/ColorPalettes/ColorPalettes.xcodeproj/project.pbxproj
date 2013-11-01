@@ -442,6 +442,7 @@
 				A9C7092C1823BBE5006DC1B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9C7092D1823BBE5006DC1B5 /* Build configuration list for PBXNativeTarget "ColorPalettesTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +451,7 @@
 				A9C7092F1823BBE5006DC1B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
