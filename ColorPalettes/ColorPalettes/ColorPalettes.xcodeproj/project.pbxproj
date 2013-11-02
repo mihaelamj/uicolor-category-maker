@@ -10,13 +10,13 @@
 		A924F904182510B3001860E2 /* MMJColorPaletteChooserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A924F903182510B3001860E2 /* MMJColorPaletteChooserViewController.m */; };
 		A924F90B1825144A001860E2 /* MMJColorPaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A924F90A1825144A001860E2 /* MMJColorPaletteViewController.m */; };
 		A924F90E18251529001860E2 /* MMJColorPalettes.m in Sources */ = {isa = PBXBuildFile; fileRef = A924F90D18251529001860E2 /* MMJColorPalettes.m */; };
-		A924F91818251AFC001860E2 /* UIColor+CopicColors.m in Sources */ = {isa = PBXBuildFile; fileRef = A924F91118251AFC001860E2 /* UIColor+CopicColors.m */; };
 		A924F91918251AFC001860E2 /* UIColor+Crayola.m in Sources */ = {isa = PBXBuildFile; fileRef = A924F91318251AFC001860E2 /* UIColor+Crayola.m */; };
 		A924F91A18251AFC001860E2 /* UIColor+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = A924F91518251AFC001860E2 /* UIColor+HTML.m */; };
 		A924F91B18251AFC001860E2 /* UIColor+HTML1.m in Sources */ = {isa = PBXBuildFile; fileRef = A924F91718251AFC001860E2 /* UIColor+HTML1.m */; };
 		A924F91E18251BD7001860E2 /* UIColor+StandardColors.m in Sources */ = {isa = PBXBuildFile; fileRef = A924F91D18251BD7001860E2 /* UIColor+StandardColors.m */; };
 		A924F92218251C19001860E2 /* NSString+MethodList.m in Sources */ = {isa = PBXBuildFile; fileRef = A924F92118251C19001860E2 /* NSString+MethodList.m */; };
 		A924F92518251C44001860E2 /* NSArray+StringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A924F92418251C44001860E2 /* NSArray+StringHelper.m */; };
+		A924F92818251E7F001860E2 /* UIColor+Copic.m in Sources */ = {isa = PBXBuildFile; fileRef = A924F92718251E7F001860E2 /* UIColor+Copic.m */; };
 		A9C709021823BBE5006DC1B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C709011823BBE5006DC1B5 /* Foundation.framework */; };
 		A9C709041823BBE5006DC1B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C709031823BBE5006DC1B5 /* CoreGraphics.framework */; };
 		A9C709061823BBE5006DC1B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C709051823BBE5006DC1B5 /* UIKit.framework */; };
@@ -48,8 +48,6 @@
 		A924F90A1825144A001860E2 /* MMJColorPaletteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMJColorPaletteViewController.m; path = ViewControllers/MMJColorPaletteViewController.m; sourceTree = "<group>"; };
 		A924F90C18251529001860E2 /* MMJColorPalettes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMJColorPalettes.h; path = Colors/MMJColorPalettes.h; sourceTree = "<group>"; };
 		A924F90D18251529001860E2 /* MMJColorPalettes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMJColorPalettes.m; path = Colors/MMJColorPalettes.m; sourceTree = "<group>"; };
-		A924F91018251AFC001860E2 /* UIColor+CopicColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+CopicColors.h"; path = "Colors/UIColor+CopicColors.h"; sourceTree = "<group>"; };
-		A924F91118251AFC001860E2 /* UIColor+CopicColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+CopicColors.m"; path = "Colors/UIColor+CopicColors.m"; sourceTree = "<group>"; };
 		A924F91218251AFC001860E2 /* UIColor+Crayola.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Crayola.h"; path = "Colors/UIColor+Crayola.h"; sourceTree = "<group>"; };
 		A924F91318251AFC001860E2 /* UIColor+Crayola.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Crayola.m"; path = "Colors/UIColor+Crayola.m"; sourceTree = "<group>"; };
 		A924F91418251AFC001860E2 /* UIColor+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+HTML.h"; path = "Colors/UIColor+HTML.h"; sourceTree = "<group>"; };
@@ -62,6 +60,8 @@
 		A924F92118251C19001860E2 /* NSString+MethodList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+MethodList.m"; path = "ColorHelpers/NSString+MethodList.m"; sourceTree = "<group>"; };
 		A924F92318251C44001860E2 /* NSArray+StringHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+StringHelper.h"; path = "ColorHelpers/NSArray+StringHelper.h"; sourceTree = "<group>"; };
 		A924F92418251C44001860E2 /* NSArray+StringHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+StringHelper.m"; path = "ColorHelpers/NSArray+StringHelper.m"; sourceTree = "<group>"; };
+		A924F92618251E7F001860E2 /* UIColor+Copic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Copic.h"; path = "Colors/UIColor+Copic.h"; sourceTree = "<group>"; };
+		A924F92718251E7F001860E2 /* UIColor+Copic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Copic.m"; path = "Colors/UIColor+Copic.m"; sourceTree = "<group>"; };
 		A9C708FE1823BBE5006DC1B5 /* ColorPalettes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorPalettes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C709011823BBE5006DC1B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A9C709031823BBE5006DC1B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -109,8 +109,8 @@
 			children = (
 				A924F90C18251529001860E2 /* MMJColorPalettes.h */,
 				A924F90D18251529001860E2 /* MMJColorPalettes.m */,
-				A924F91018251AFC001860E2 /* UIColor+CopicColors.h */,
-				A924F91118251AFC001860E2 /* UIColor+CopicColors.m */,
+				A924F92618251E7F001860E2 /* UIColor+Copic.h */,
+				A924F92718251E7F001860E2 /* UIColor+Copic.m */,
 				A924F91218251AFC001860E2 /* UIColor+Crayola.h */,
 				A924F91318251AFC001860E2 /* UIColor+Crayola.m */,
 				A924F91418251AFC001860E2 /* UIColor+HTML.h */,
@@ -316,9 +316,9 @@
 			files = (
 				A924F91918251AFC001860E2 /* UIColor+Crayola.m in Sources */,
 				A924F92218251C19001860E2 /* NSString+MethodList.m in Sources */,
-				A924F91818251AFC001860E2 /* UIColor+CopicColors.m in Sources */,
 				A924F91B18251AFC001860E2 /* UIColor+HTML1.m in Sources */,
 				A924F90E18251529001860E2 /* MMJColorPalettes.m in Sources */,
+				A924F92818251E7F001860E2 /* UIColor+Copic.m in Sources */,
 				A9C7090E1823BBE5006DC1B5 /* main.m in Sources */,
 				A924F90B1825144A001860E2 /* MMJColorPaletteViewController.m in Sources */,
 				A924F92518251C44001860E2 /* NSArray+StringHelper.m in Sources */,

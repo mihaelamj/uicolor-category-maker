@@ -37,7 +37,7 @@
 - (void)testCopic
 {
     NSDictionary *copicColors = [MMJGenericColorParser genericColorsDictionaryWithFileName:@"Copic_Color_HEX_CODE" fileType:@"txt"];
-    NSString *filesPath = [MMJColorCategoryWriter makeColorCategoryFilesCategoryName:@"CopicColors" colorsDictionary:copicColors directory:@"Documents"];
+    NSString *filesPath = [MMJColorCategoryWriter makeColorCategoryFilesCategoryName:@"Copic" colorsDictionary:copicColors directory:@"Documents"];
     NSLog(@"files written to /n%@", filesPath);
 }
 

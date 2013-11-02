@@ -48,7 +48,7 @@
 {
     if (!_colors) {
         _colors = [[NSMutableArray alloc] init];
-        //remove black, white and clear color
+
         [self.tableView reloadData];
     }
     return _colors;
