@@ -14,6 +14,9 @@
 //generic parser
 #import "MMJGenericColorParser.h"
 
+//specific parsers
+#import "MMJCrayolaColorParser.h"
+
 @implementation MMJAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -26,13 +29,13 @@
     [self testCopic];
     [self testHTML];
     [self testHTML1];
+    [self testCrayola];
     
     return YES;
 }
 
 - (void)testCopic
 {
-    //test Copic
     NSDictionary *copicColors = [MMJGenericColorParser genericColorsDictionaryWithFileName:@"Copic_Color_HEX_CODE" fileType:@"txt"];
     NSString *filesPath = [MMJColorCategoryWriter makeColorCategoryFilesCategoryName:@"CopicColors" colorsDictionary:copicColors directory:@"Documents"];
     NSLog(@"files written to /n%@", filesPath);
@@ -49,6 +52,13 @@
 {
     NSDictionary *htmlColors = [MMJGenericColorParser genericColorsDictionaryWithFileName:@"HTML1" fileType:@"txt"];
     NSString *filesPath = [MMJColorCategoryWriter makeColorCategoryFilesCategoryName:@"HTML1" colorsDictionary:htmlColors directory:@"Documents"];
+    NSLog(@"files written to /n%@", filesPath);
+}
+
+- (void)testCrayola
+{
+    NSDictionary *crayolaColors = [MMJCrayolaColorParser crayolaColorsDictionary];
+    NSString *filesPath = [MMJColorCategoryWriter makeColorCategoryFilesCategoryName:@"Crayola" colorsDictionary:crayolaColors directory:@"Documents"];
     NSLog(@"files written to /n%@", filesPath);
 }
 

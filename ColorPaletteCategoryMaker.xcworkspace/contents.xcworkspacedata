@@ -7,4 +7,7 @@
    <FileRef
       location = "group:ColorCategoryMaker/MMJColorPaletteCategoryMaker/MMJColorPaletteCategoryMaker.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:../slidingviews/SlidingHarmonicaViews.xcodeproj">
+   </FileRef>
 </Workspace>

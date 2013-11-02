@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A924F8EF1824FC2E001860E2 /* Crayola.txt in Resources */ = {isa = PBXBuildFile; fileRef = A924F8EE1824FC2E001860E2 /* Crayola.txt */; };
+		A924F8F31824FCA5001860E2 /* MMJCrayolaColorParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A924F8F21824FCA5001860E2 /* MMJCrayolaColorParser.m */; };
 		A9C708C71823BB53006DC1B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C708C61823BB53006DC1B5 /* Foundation.framework */; };
 		A9C708C91823BB53006DC1B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C708C81823BB53006DC1B5 /* CoreGraphics.framework */; };
 		A9C708CB1823BB53006DC1B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C708CA1823BB53006DC1B5 /* UIKit.framework */; };
@@ -39,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A924F8EE1824FC2E001860E2 /* Crayola.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Crayola.txt; path = Parsing/Parsers/Crayola/Crayola.txt; sourceTree = "<group>"; };
+		A924F8F11824FCA5001860E2 /* MMJCrayolaColorParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMJCrayolaColorParser.h; sourceTree = "<group>"; };
+		A924F8F21824FCA5001860E2 /* MMJCrayolaColorParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMJCrayolaColorParser.m; sourceTree = "<group>"; };
 		A9C708C31823BB53006DC1B5 /* MMJColorPaletteCategoryMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMJColorPaletteCategoryMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C708C61823BB53006DC1B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A9C708C81823BB53006DC1B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -93,6 +98,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A924F8F01824FC33001860E2 /* Crayola */ = {
+			isa = PBXGroup;
+			children = (
+				A924F8F11824FCA5001860E2 /* MMJCrayolaColorParser.h */,
+				A924F8F21824FCA5001860E2 /* MMJCrayolaColorParser.m */,
+				A924F8EE1824FC2E001860E2 /* Crayola.txt */,
+			);
+			name = Crayola;
+			sourceTree = "<group>";
+		};
 		A9C708BA1823BB53006DC1B5 = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +199,7 @@
 			children = (
 				A9C709581823D153006DC1B5 /* MMJGenericColorParser.h */,
 				A9C709591823D153006DC1B5 /* MMJGenericColorParser.m */,
+				A924F8F01824FC33001860E2 /* Crayola */,
 				A9C709631823D59F006DC1B5 /* HTML1 */,
 				A9C709511823CE68006DC1B5 /* HTML */,
 				A9C7094B1823BEB0006DC1B5 /* Copic */,
@@ -291,6 +307,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A924F8EF1824FC2E001860E2 /* Crayola.txt in Resources */,
 				A9C708D11823BB53006DC1B5 /* InfoPlist.strings in Resources */,
 				A9C709621823D595006DC1B5 /* HTML1.txt in Resources */,
 				A9C709501823CE62006DC1B5 /* HTML_Colors1.txt in Resources */,
@@ -315,6 +332,7 @@
 			files = (
 				A9C7093C1823BDA1006DC1B5 /* MMJColorCategoryMaker.m in Sources */,
 				A9C7094E1823C33B006DC1B5 /* MMJColorCategoryWriter.m in Sources */,
+				A924F8F31824FCA5001860E2 /* MMJCrayolaColorParser.m in Sources */,
 				A9C7093D1823BDA1006DC1B5 /* MMJNamedColorParser.m in Sources */,
 				A9C709321823BD52006DC1B5 /* UIColor+HexString.m in Sources */,
 				A9C7095A1823D153006DC1B5 /* MMJGenericColorParser.m in Sources */,

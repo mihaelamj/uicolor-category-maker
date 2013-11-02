@@ -10,4 +10,8 @@
 
 @interface MMJGenericColorParser : MMJNamedColorParser
 + (NSDictionary *)genericColorsDictionaryWithFileName:(NSString *)fileName fileType:(NSString *)fileType;
+
++ (NSDictionary *)genericColorsDictionaryWithFileName:(NSString *)fileName fileType:(NSString *)fileType colorNameIndex:(int)colorNameIndex colorHexCodeIndex:(int)colorHexCodeIndex;
+
+- (NSString *)cleanLineString:(NSString *)lineString; //virual
 @end
