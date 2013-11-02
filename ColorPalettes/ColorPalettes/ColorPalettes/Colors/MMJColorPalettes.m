@@ -30,7 +30,7 @@
 /**
  *  Color family repository
  *
- *  @return <#return value description#>
+ *  @return colors for a given category
  */
 - (NSArray *)palletes
 {
