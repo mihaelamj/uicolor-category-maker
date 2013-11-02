@@ -10,4 +10,8 @@
 
 @interface MMJColorPalettes : NSObject
 
+@property (strong, nonatomic) NSArray *palletes;
+
+- (NSArray *)colorsForPalette:(NSString *)palette;
+
 @end

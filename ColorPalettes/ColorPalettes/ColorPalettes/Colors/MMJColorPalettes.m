@@ -17,20 +17,34 @@
 #import "UIColor+HTML.h"
 #import "UIColor+HTML1.h"
 
+#import "UIColor+StandardColors.h"
+
 @interface MMJColorPalettes()
-@property (strong, nonatomic) NSArray *palletes;
+
 @end
 
 @implementation MMJColorPalettes
 
 #pragma mark - Properties
 
+/**
+ *  Color family repository
+ *
+ *  @return <#return value description#>
+ */
 - (NSArray *)palletes
 {
     if (!_palletes) {
         _palletes = @[@"Copic", @"Crayola", @"HTML", @"HTML1"];
     }
     return _palletes;
+}
+
+#pragma mark - Public methods
+
+- (NSArray *)colorsForPalette:(NSString *)palette
+{
+    return [UIColor colorNamesWithPrefix:[NSString stringWithFormat:@"%@_", palette]];
 }
 
 @end

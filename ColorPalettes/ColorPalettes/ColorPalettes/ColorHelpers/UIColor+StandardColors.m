@@ -57,6 +57,21 @@
     return goodColors;
 }
 
++ (NSArray *)colorNamesWithPrefix:(NSString *)prefix
+{
+    NSArray *goodColors = [UIColor standardColorNames];
+    if (goodColors) {
+        //remove non-prefixed color names from result
+        goodColors = [goodColors filteredArrayUsingPredicate:[NSPredicate predicateWithBlock:^BOOL(id colorName, NSDictionary *bindings)
+                                                              {
+                                                                  NSString *colorNameStr = (NSString *)colorName;
+                                                                  BOOL isPrefixedColor = [colorNameStr hasPrefix:prefix];
+                                                                  return (isPrefixedColor);
+                                                              }]];
+    }
+    return goodColors;
+}
+
 + (UIColor *)randomStandardColor
 {
     NSArray *standardColors = [self standardColorNames];
