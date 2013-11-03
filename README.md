@@ -28,7 +28,8 @@ NSLog(@"files written to /n%@", filesPath);
 
 ##ColorPalletes
  iOS project for viewing generated colour category colours, names and hex values.
-*Included example categories*
+Just add the generated category files to the project.
+* Included example categories
 1. UIColor+Copic : Copic markers colors
 2. UIColor+Crayola : Crayola colors
 3. UIColor+Html : named HTML colours
