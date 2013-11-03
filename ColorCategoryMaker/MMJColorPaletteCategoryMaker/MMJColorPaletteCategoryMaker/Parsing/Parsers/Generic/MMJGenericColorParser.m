@@ -77,6 +77,7 @@
             //testing if good color was generated
             NSString *reverseColorHex = [UIColor hexStringWithColor:color type:HexColorType_RRGGBB];
             NSString *origHexString = [[colorHex stringByReplacingOccurrencesOfString: @"#" withString: @""] uppercaseString];
+            
             NSString *validHex = [reverseColorHex isEqualToString:origHexString] ? @"YES" : @"NO";
             if ([validHex isEqualToString:@"NO"])
                 NSLog(@"%@ valid: %@ colorHex=%@, result=%@", key, validHex, origHexString, reverseColorHex);

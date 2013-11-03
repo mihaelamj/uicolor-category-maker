@@ -90,7 +90,6 @@
         NSString *colorName = (NSString *)object ;
         
         //generate method name
-//        NSString *methodNameString = [NSString stringWithFormat:METHOD_NAME_STRING, colorCategoryName, colorName];
         NSString *methodNameString = [NSString stringWithFormat:METHOD_NAME_STRING, [colorCategoryName lowercaseString], colorName];
         
         //for interface - > in new line, append ; at the end of the method declaration

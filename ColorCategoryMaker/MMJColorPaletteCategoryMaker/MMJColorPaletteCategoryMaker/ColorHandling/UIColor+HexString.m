@@ -126,7 +126,7 @@
     return @{@"alpha" : [NSNumber numberWithInt:hexComponentAlpha],
              @"red" : [NSNumber numberWithInt:hexComponentRed],
              @"green" : [NSNumber numberWithInt:hexComponentGreen],
-            @"blue" : [NSNumber numberWithInt:hexComponentBlue]};
+             @"blue" : [NSNumber numberWithInt:hexComponentBlue]};
 }
 
 + (NSString *)hexStringWithColor:(UIColor *)color type:(HexColorType)type

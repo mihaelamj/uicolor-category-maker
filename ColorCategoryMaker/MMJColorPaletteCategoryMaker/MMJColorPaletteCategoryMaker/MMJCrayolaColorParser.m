@@ -33,37 +33,6 @@
     return result;
 }
 
-//- (NSString *)sanitizedColorNameFromLineString:(NSString *)lineString
-//{
-//    //find the # character
-//    NSRange hashRange = [lineString rangeOfString:@"#"];
-//    //copy till # -> "21	Burnt Sienna	"
-//    NSString *colorName = [lineString substringWithRange:NSMakeRange(0, hashRange.location - 1)];
-//    
-//    //remove numbers from color name -> "	Burnt Sienna    "
-//    colorName = [self stringWithoutNumbers:colorName];
-//    //remove brackets and ' from color name
-//    colorName = [self stringWithGoodCharacters:colorName];
-//    //remove spaces from color name - > "BurntSienna"
-//    colorName = [self stringWithoutSpaces:colorName];
-//    
-//    return colorName;
-//}
-//
-//- (NSString *)sanitizedColorHexFromLineString:(NSString *)lineString
-//{
-//    //find the # character
-//    NSRange hashRange = [lineString rangeOfString:@"#"];
-//    //find the ( characyer
-//    NSRange lBracket = [lineString rangeOfString:@"("];
-//   //copy from # to ( -> "#EA7E5D	"
-//    NSString *colorHex = [lineString substringWithRange:NSMakeRange(hashRange.location, lBracket.location - hashRange.location-1)];
-//    //remove spaces from color hex - > "BurntSienna"
-//    colorHex = [self stringWithoutSpaces:colorHex];
-//    
-//    return colorHex;
-//}
-
 - (NSString *)sanitizedColorNameFromLineString:(NSString *)lineStringPart
 {
      //"121 Violet (Purple) "
