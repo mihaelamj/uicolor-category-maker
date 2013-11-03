@@ -10,6 +10,9 @@ It parses text file with hex color values and color names, and generates UIColor
 Parser is generic and you can subclass it for any specific file format.
 Example:
 ``` objective-c
-    NSDictionary *copicColors = [MMJGenericColorParser genericColorsDictionaryWithFileName:@"Copic_Color_HEX_CODE" fileType:@"txt"];
-    NSString *filesPath = [MMJColorCategoryWriter makeColorCategoryFilesCategoryName:@"Copic" colorsDictionary:copicColors directory:@"Documents"];
+//makes dictionary of <color name> : <color components dictionary>
+NSDictionary *copicColors = [MMJGenericColorParser genericColorsDictionaryWithFileName:@"Copic_Color_HEX_CODE" fileType:@"txt"];
+
+//makes UIColor+Copic.h & UIColor+Copic.m files
+NSString *filesPath = [MMJColorCategoryWriter makeColorCategoryFilesCategoryName:@"Copic" colorsDictionary:copicColors directory:@"Documents"];
 ```
