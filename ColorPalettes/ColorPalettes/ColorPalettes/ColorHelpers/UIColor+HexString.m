@@ -46,13 +46,13 @@
     return type;
 }
 
-+ (UIColor *)colorWithHexString:(NSString *) hexString
++ (UIColor *)colorWithHexString:(NSString *)hexString
 {
     //remove #
     NSString *colorString = [[hexString stringByReplacingOccurrencesOfString: @"#" withString: @""] uppercaseString];
     CGFloat alpha, red, blue, green;
     //get the hex format type
-    HexColorType type = [UIColor typeFromHexString:hexString];
+    HexColorType type = [UIColor typeFromHexString:colorString];
     switch (type) {
         case HexColorType_RGB:
             alpha = 1.0f;
@@ -83,6 +83,50 @@
             break;
     }
     return [UIColor colorWithRed: red green: green blue: blue alpha: alpha];
+}
+
++ (NSDictionary *)colorComponentsForHexString:(NSString *)hexString
+{
+    //remove #
+    NSString *colorString = [[hexString stringByReplacingOccurrencesOfString: @"#" withString: @""] uppercaseString];
+    
+    //get the hex format type
+    HexColorType type = [UIColor typeFromHexString:colorString];
+    
+    unsigned hexComponentRed, hexComponentGreen, hexComponentBlue, hexComponentAlpha;
+    switch (type) {
+        case HexColorType_RGB:
+            hexComponentAlpha = 255.0f;
+            hexComponentRed   = [self hexComponentFrom: colorString start: 0 length: 1];
+            hexComponentGreen = [self hexComponentFrom: colorString start: 1 length: 1] ;
+            hexComponentBlue  = [self hexComponentFrom: colorString start: 2 length: 1];
+            break;
+        case HexColorType_ARGB:
+            hexComponentAlpha = [self hexComponentFrom: colorString start: 0 length: 1];
+            hexComponentRed   = [self hexComponentFrom: colorString start: 1 length: 1];
+            hexComponentGreen = [self hexComponentFrom: colorString start: 2 length: 1];
+            hexComponentBlue  = [self colorComponentFrom: colorString start: 3 length: 1];
+            break;
+        case HexColorType_RRGGBB:
+            hexComponentAlpha = 255.0f;
+            hexComponentRed   = [self hexComponentFrom: colorString start: 0 length: 2];
+            hexComponentGreen = [self hexComponentFrom: colorString start: 2 length: 2];
+            hexComponentBlue  = [self hexComponentFrom: colorString start: 4 length: 2];
+            break;
+        case HexColorType_AARRGGBB:
+            hexComponentAlpha = [self hexComponentFrom: colorString start: 0 length: 2];
+            hexComponentRed   = [self hexComponentFrom: colorString start: 2 length: 2];
+            hexComponentGreen = [self hexComponentFrom: colorString start: 4 length: 2];
+            hexComponentBlue  = [self hexComponentFrom: colorString start: 6 length: 2];
+            break;
+        default:
+            [NSException raise:@"Invalid color value" format: @"Color value %@ is invalid.  It should be a hex value of the form #RBG, #ARGB, #RRGGBB, or #AARRGGBB", hexString];
+            break;
+    }
+    return @{@"alpha" : [NSNumber numberWithInt:hexComponentAlpha],
+             @"red" : [NSNumber numberWithInt:hexComponentRed],
+             @"green" : [NSNumber numberWithInt:hexComponentGreen],
+             @"blue" : [NSNumber numberWithInt:hexComponentBlue]};
 }
 
 + (NSString *)hexStringWithColor:(UIColor *)color type:(HexColorType)type
@@ -178,6 +222,15 @@
     unsigned hexComponent;
     [[NSScanner scannerWithString: fullHex] scanHexInt: &hexComponent];
     return hexComponent / 255.0;
+}
+
++ (CGFloat)hexComponentFrom:(NSString *)string start:(NSUInteger)start length:(NSUInteger)length
+{
+    NSString *fullHex = [UIColor fullHexFrom:string start:start length:length];
+    //F becomes FF
+    unsigned hexComponent;
+    [[NSScanner scannerWithString: fullHex] scanHexInt: &hexComponent];
+    return hexComponent;
 }
 
 @end
