@@ -27,8 +27,8 @@ NSLog(@"files written to /n%@", filesPath);
 * UIColor+<category name>.h & UIColor+<category name>.m files will be generated, and the path printed in console.
 
 ##ColorPalletes
-* iOS project for viewing generated colour category colours, names and hex values.
-* Included example categories :
+ iOS project for viewing generated colour category colours, names and hex values.
+*Included example categories*
 1. UIColor+Copic : Copic markers colors
 2. UIColor+Crayola : Crayola colors
 3. UIColor+Html : named HTML colours
