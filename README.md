@@ -28,8 +28,8 @@ NSLog(@"files written to /n%@", filesPath);
 
 ##ColorPalletes
 * iOS project for viewing generated colour category colours, names and hex values.
-* Included are examples :
-** UIColor+Copic : Copic markers colors
-** UIColor+Crayola : Crayola colors
-** UIColor+Html : named HTML colors
-** UIColor+Pantone : all pantone colors
+ Included are examples :
+- UIColor+Copic : Copic markers colors
+- UIColor+Crayola : Crayola colors
+- UIColor+Html : named HTML colours
+- UIColor+Pantone : all pantone colors
