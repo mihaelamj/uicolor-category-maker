@@ -10,4 +10,8 @@
 
 @interface MMJColorPaletteViewController : UIViewController
 
+- (void)setPaletteName:(NSString *)paletteName;
+
+- (void)setColors:(NSArray *)colors;
+
 @end

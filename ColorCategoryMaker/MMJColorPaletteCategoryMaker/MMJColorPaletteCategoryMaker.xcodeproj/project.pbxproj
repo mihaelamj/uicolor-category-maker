@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		A924F8EF1824FC2E001860E2 /* Crayola.txt in Resources */ = {isa = PBXBuildFile; fileRef = A924F8EE1824FC2E001860E2 /* Crayola.txt */; };
 		A924F8F31824FCA5001860E2 /* MMJCrayolaColorParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A924F8F21824FCA5001860E2 /* MMJCrayolaColorParser.m */; };
+		A947BB3A18262AAA00BB88E7 /* Pantone.txt in Resources */ = {isa = PBXBuildFile; fileRef = A947BB3918262AAA00BB88E7 /* Pantone.txt */; };
+		A947BB4F182645B700BB88E7 /* html_named.txt in Resources */ = {isa = PBXBuildFile; fileRef = A947BB4E182645B700BB88E7 /* html_named.txt */; };
 		A9C708C71823BB53006DC1B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C708C61823BB53006DC1B5 /* Foundation.framework */; };
 		A9C708C91823BB53006DC1B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C708C81823BB53006DC1B5 /* CoreGraphics.framework */; };
 		A9C708CB1823BB53006DC1B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C708CA1823BB53006DC1B5 /* UIKit.framework */; };
@@ -25,9 +27,7 @@
 		A9C7093D1823BDA1006DC1B5 /* MMJNamedColorParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C7093B1823BDA1006DC1B5 /* MMJNamedColorParser.m */; };
 		A9C709491823BEA3006DC1B5 /* Copic_Color_HEX_CODE.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9C709461823BEA3006DC1B5 /* Copic_Color_HEX_CODE.txt */; };
 		A9C7094E1823C33B006DC1B5 /* MMJColorCategoryWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C7094D1823C33B006DC1B5 /* MMJColorCategoryWriter.m */; };
-		A9C709501823CE62006DC1B5 /* HTML_Colors1.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9C7094F1823CE62006DC1B5 /* HTML_Colors1.txt */; };
 		A9C7095A1823D153006DC1B5 /* MMJGenericColorParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C709591823D153006DC1B5 /* MMJGenericColorParser.m */; };
-		A9C709621823D595006DC1B5 /* HTML1.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9C709611823D595006DC1B5 /* HTML1.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +44,8 @@
 		A924F8EE1824FC2E001860E2 /* Crayola.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Crayola.txt; path = Parsing/Parsers/Crayola/Crayola.txt; sourceTree = "<group>"; };
 		A924F8F11824FCA5001860E2 /* MMJCrayolaColorParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMJCrayolaColorParser.h; sourceTree = "<group>"; };
 		A924F8F21824FCA5001860E2 /* MMJCrayolaColorParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMJCrayolaColorParser.m; sourceTree = "<group>"; };
+		A947BB3918262AAA00BB88E7 /* Pantone.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Pantone.txt; path = Parsing/Parsers/Pantone/Pantone.txt; sourceTree = "<group>"; };
+		A947BB4E182645B700BB88E7 /* html_named.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = html_named.txt; path = Parsing/Parsers/html/html_named.txt; sourceTree = "<group>"; };
 		A9C708C31823BB53006DC1B5 /* MMJColorPaletteCategoryMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMJColorPaletteCategoryMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C708C61823BB53006DC1B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A9C708C81823BB53006DC1B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -68,10 +70,8 @@
 		A9C709461823BEA3006DC1B5 /* Copic_Color_HEX_CODE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Copic_Color_HEX_CODE.txt; path = Parsing/Parsers/Copic/Copic_Color_HEX_CODE.txt; sourceTree = "<group>"; };
 		A9C7094C1823C33B006DC1B5 /* MMJColorCategoryWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMJColorCategoryWriter.h; path = FileHandling/MMJColorCategoryWriter.h; sourceTree = "<group>"; };
 		A9C7094D1823C33B006DC1B5 /* MMJColorCategoryWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMJColorCategoryWriter.m; path = FileHandling/MMJColorCategoryWriter.m; sourceTree = "<group>"; };
-		A9C7094F1823CE62006DC1B5 /* HTML_Colors1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HTML_Colors1.txt; path = Parsing/Parsers/HTML/HTML_Colors1.txt; sourceTree = "<group>"; };
 		A9C709581823D153006DC1B5 /* MMJGenericColorParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMJGenericColorParser.h; path = Parsing/Parsers/Generic/MMJGenericColorParser.h; sourceTree = "<group>"; };
 		A9C709591823D153006DC1B5 /* MMJGenericColorParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMJGenericColorParser.m; path = Parsing/Parsers/Generic/MMJGenericColorParser.m; sourceTree = "<group>"; };
-		A9C709611823D595006DC1B5 /* HTML1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HTML1.txt; path = Parsing/Parsers/HTML1/HTML1.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +106,14 @@
 				A924F8EE1824FC2E001860E2 /* Crayola.txt */,
 			);
 			name = Crayola;
+			sourceTree = "<group>";
+		};
+		A947BB3B18262AAD00BB88E7 /* Pantone */ = {
+			isa = PBXGroup;
+			children = (
+				A947BB3918262AAA00BB88E7 /* Pantone.txt */,
+			);
+			name = Pantone;
 			sourceTree = "<group>";
 		};
 		A9C708BA1823BB53006DC1B5 = {
@@ -199,8 +207,8 @@
 			children = (
 				A9C709581823D153006DC1B5 /* MMJGenericColorParser.h */,
 				A9C709591823D153006DC1B5 /* MMJGenericColorParser.m */,
+				A947BB3B18262AAD00BB88E7 /* Pantone */,
 				A924F8F01824FC33001860E2 /* Crayola */,
-				A9C709631823D59F006DC1B5 /* HTML1 */,
 				A9C709511823CE68006DC1B5 /* HTML */,
 				A9C7094B1823BEB0006DC1B5 /* Copic */,
 			);
@@ -218,17 +226,9 @@
 		A9C709511823CE68006DC1B5 /* HTML */ = {
 			isa = PBXGroup;
 			children = (
-				A9C7094F1823CE62006DC1B5 /* HTML_Colors1.txt */,
+				A947BB4E182645B700BB88E7 /* html_named.txt */,
 			);
 			name = HTML;
-			sourceTree = "<group>";
-		};
-		A9C709631823D59F006DC1B5 /* HTML1 */ = {
-			isa = PBXGroup;
-			children = (
-				A9C709611823D595006DC1B5 /* HTML1.txt */,
-			);
-			name = HTML1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,11 +308,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A924F8EF1824FC2E001860E2 /* Crayola.txt in Resources */,
+				A947BB3A18262AAA00BB88E7 /* Pantone.txt in Resources */,
 				A9C708D11823BB53006DC1B5 /* InfoPlist.strings in Resources */,
-				A9C709621823D595006DC1B5 /* HTML1.txt in Resources */,
-				A9C709501823CE62006DC1B5 /* HTML_Colors1.txt in Resources */,
 				A9C708D91823BB53006DC1B5 /* Images.xcassets in Resources */,
 				A9C709491823BEA3006DC1B5 /* Copic_Color_HEX_CODE.txt in Resources */,
+				A947BB4F182645B700BB88E7 /* html_named.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -3,12 +3,59 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "__55-[MMJGenericColorParser parseColorArrayIntoDictionary:]_block_invoke:MMJGenericColorParser.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MMJColorPaletteViewController setColors:]:MMJColorPaletteViewController.m">
+      </ContextState>
+      <ContextState
          contextName = "__53-[MMJCopicColorParser parseColorArrayIntoDictionary:]_block_invoke:MMJCopicColorParser.m">
          <PersistentStrings>
             <PersistentString
                value = "colorArray">
             </PersistentString>
          </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MMJColorPalettes colorsForPalette:]:MMJColorPalettes.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MMJAppDelegate generateHtml]:MMJAppDelegate.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MMJColorPaletteViewController tableView:cellForRowAtIndexPath:]:MMJColorPaletteViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "+[UIColor(StandardColors) colorNamesWithPrefix:]:UIColor+StandardColors.m">
+      </ContextState>
+      <ContextState
+         contextName = "+[UIColor(HexString) colorWithHexStringNew:]:UIColor+HexString.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "blue1">
+            </PersistentString>
+            <PersistentString
+               value = "red1">
+            </PersistentString>
+            <PersistentString
+               value = "green1">
+            </PersistentString>
+            <PersistentString
+               value = "type">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MMJGenericColorParser parseColorArrayIntoDictionary:]:MMJGenericColorParser.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MMJNamedColorParser parse]:MMJNamedColorParser.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MMJColorPaletteChooserViewController tableView:didSelectRowAtIndexPath:]:MMJColorPaletteChooserViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "+[UIColor(StandardColors) standardColorNames]:UIColor+StandardColors.m">
       </ContextState>
    </ContextStates>
 </VariablesViewState>

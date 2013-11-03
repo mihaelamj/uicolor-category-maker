@@ -8,11 +8,16 @@
 
 #import "MMJColorPaletteViewController.h"
 
+#import "UIColor+StandardColors.h"
+
+#import "UIColor+HexString.h"
+
 #define COLOR_TABLE_CELL @"ColorTableCell"
 
 @interface MMJColorPaletteViewController ()<UITableViewDataSource, UITableViewDelegate>
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) NSArray *colors;
+@property (nonatomic, strong) NSString *paletteName;
 @end
 
 @implementation MMJColorPaletteViewController
@@ -20,7 +25,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+    
+    // add tableView to view
+    [self.view addSubview:self.tableView];
 }
 
 #pragma mark - Properties
@@ -44,14 +51,67 @@
     return _tableView;
 }
 
-- (NSMutableArray *)colors
+- (void)setColors:(NSArray *)colors
 {
-    if (!_colors) {
-        _colors = [[NSMutableArray alloc] init];
+    _colors = colors;
+    [self.tableView reloadData];
+    //reload cells
+//    NSArray *indexPathsArr = [self.tableView indexPathsForVisibleRows];
+//    [self.tableView reloadRowsAtIndexPaths:indexPathsArr withRowAnimation:UITableViewRowAnimationNone];
+}
 
-        [self.tableView reloadData];
-    }
-    return _colors;
+- (void)setPaletteName:(NSString *)paletteName
+{
+    _paletteName = paletteName;
+    self.title = paletteName;
+}
+
+#pragma mark - TableView Data Source
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return [self.colors count];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    //get cell
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:COLOR_TABLE_CELL];
+    
+    UIColor *cellColor = [self colorAtIndex:indexPath.row];
+//    cell.backgroundColor = cellColor;
+    cell.contentView.backgroundColor = cellColor;
+//    cell.backgroundColor = [UIColor yellowColor];
+    
+    //set color name as cell's text
+    NSString *justColorName = [self.colors objectAtIndex:indexPath.row];
+    justColorName = [self justColorName:justColorName];
+    
+    NSString *colorHex = [UIColor hexStringWithColor:cellColor type:HexColorType_RRGGBB];
+//    NSString *reverseColorHex = [UIColor hexStringWithColor:cellColor type:HexColorType_RRGGBB];
+    
+//    cell.textLabel.text = justColorName;
+    cell.textLabel.text = [NSString stringWithFormat:@"%@ [%@]", justColorName, colorHex];
+    
+    return cell;
+}
+
+#pragma mark - Private
+
+- (UIColor *)colorAtIndex:(int)index
+{
+   return [UIColor colorFromName:self.colors[index]];
+}
+
+- (NSString *)justColorName:(NSString *)colorSelectorName
+{
+    NSString *paletteName = [NSString stringWithFormat:@"%@_", self.paletteName];
+    NSRange palleteNameRange = [colorSelectorName rangeOfString:paletteName];
+    
+    NSRange colorRange = [colorSelectorName rangeOfString:@"_Color"];
+    
+    NSRange colorNameRange = NSMakeRange(palleteNameRange.length, colorRange.location - palleteNameRange.length);
+    return [colorSelectorName substringWithRange:colorNameRange];
 }
 
 

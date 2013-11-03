@@ -59,7 +59,7 @@
 
 + (NSArray *)colorNamesWithPrefix:(NSString *)prefix
 {
-    NSArray *goodColors = [UIColor standardColorNames];
+    NSArray *goodColors = [NSString getClassOrInstanceMethodsFromClassName:@"UIColor" getClassMethods:YES];
     if (goodColors) {
         //remove non-prefixed color names from result
         goodColors = [goodColors filteredArrayUsingPredicate:[NSPredicate predicateWithBlock:^BOOL(id colorName, NSDictionary *bindings)

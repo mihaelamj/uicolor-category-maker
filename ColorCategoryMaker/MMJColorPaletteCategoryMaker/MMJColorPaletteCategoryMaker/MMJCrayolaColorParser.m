@@ -33,31 +33,57 @@
     return result;
 }
 
-- (NSString *)sanitizedColorNameFromLineString:(NSString *)lineString
+//- (NSString *)sanitizedColorNameFromLineString:(NSString *)lineString
+//{
+//    //find the # character
+//    NSRange hashRange = [lineString rangeOfString:@"#"];
+//    //copy till # -> "21	Burnt Sienna	"
+//    NSString *colorName = [lineString substringWithRange:NSMakeRange(0, hashRange.location - 1)];
+//    
+//    //remove numbers from color name -> "	Burnt Sienna    "
+//    colorName = [self stringWithoutNumbers:colorName];
+//    //remove brackets and ' from color name
+//    colorName = [self stringWithGoodCharacters:colorName];
+//    //remove spaces from color name - > "BurntSienna"
+//    colorName = [self stringWithoutSpaces:colorName];
+//    
+//    return colorName;
+//}
+//
+//- (NSString *)sanitizedColorHexFromLineString:(NSString *)lineString
+//{
+//    //find the # character
+//    NSRange hashRange = [lineString rangeOfString:@"#"];
+//    //find the ( characyer
+//    NSRange lBracket = [lineString rangeOfString:@"("];
+//   //copy from # to ( -> "#EA7E5D	"
+//    NSString *colorHex = [lineString substringWithRange:NSMakeRange(hashRange.location, lBracket.location - hashRange.location-1)];
+//    //remove spaces from color hex - > "BurntSienna"
+//    colorHex = [self stringWithoutSpaces:colorHex];
+//    
+//    return colorHex;
+//}
+
+- (NSString *)sanitizedColorNameFromLineString:(NSString *)lineStringPart
 {
-    //find the # character
-    NSRange hashRange = [lineString rangeOfString:@"#"];
-    //copy till # -> "21	Burnt Sienna	"
-    NSString *colorName = [lineString substringWithRange:NSMakeRange(0, hashRange.location - 1)];
-    
-    //remove numbers from color name -> "	Burnt Sienna    "
-    colorName = [self stringWithoutNumbers:colorName];
-    //remove brackets and ' from color name
+     //"121 Violet (Purple) "
+    //remove numbers from color name -> "	Violet (Purple)  "
+    NSString *colorName = [self stringWithoutNumbers:lineStringPart];
+    //remove brackets and ' from color name -> "	Violet Purple  "
     colorName = [self stringWithGoodCharacters:colorName];
-    //remove spaces from color name - > "BurntSienna"
+    //remove spaces from color name - > "VioletPurple"
     colorName = [self stringWithoutSpaces:colorName];
     
     return colorName;
 }
 
-- (NSString *)sanitizedColorHexFromLineString:(NSString *)lineString
+- (NSString *)sanitizedColorHexFromLineString:(NSString *)lineStringPart
 {
-    //find the # character
-    NSRange hashRange = [lineString rangeOfString:@"#"];
+    NSRange hashRange = [lineStringPart rangeOfString:@"#"];
     //find the ( characyer
-    NSRange lBracket = [lineString rangeOfString:@"("];
-   //copy from # to ( -> "#EA7E5D	"
-    NSString *colorHex = [lineString substringWithRange:NSMakeRange(hashRange.location, lBracket.location - hashRange.location-1)];
+    NSRange lBracket = [lineStringPart rangeOfString:@"("];
+    //copy from # to ( -> "#EA7E5D	"
+    NSString *colorHex = [lineStringPart substringWithRange:NSMakeRange(hashRange.location, lBracket.location - hashRange.location-1)];
     //remove spaces from color hex - > "BurntSienna"
     colorHex = [self stringWithoutSpaces:colorHex];
     
@@ -68,10 +94,16 @@
 
 - (NSString *)cleanLineString:(NSString *)lineString
 {
-//21	Burnt Sienna	#EA7E5D	(234, 126, 93)	48	1949
-    NSString *colorName = [self sanitizedColorNameFromLineString:lineString]; //BurntSienna
-    NSString *colorHex = [self sanitizedColorHexFromLineString:lineString]; //#EA7E5D
+    //"121 Violet (Purple) #926EAE (146, 110, 174) 8 1903 "
+    //find the # character
+    NSRange hashRange = [lineString rangeOfString:@"#"];
     
+    NSString *colorName = [lineString substringToIndex:hashRange.location-1];
+    colorName = [self sanitizedColorNameFromLineString:colorName];
+    
+    NSString *colorHex =[lineString substringFromIndex:hashRange.location];
+    colorHex = [self sanitizedColorHexFromLineString:colorHex];
+
     return [NSString stringWithFormat:@"%@ %@", colorName, colorHex];
 }
 

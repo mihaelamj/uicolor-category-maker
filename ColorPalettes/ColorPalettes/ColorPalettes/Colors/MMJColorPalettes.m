@@ -12,10 +12,11 @@
  *  Import all color categories to use in the project
  */
 
+
 #import "UIColor+Copic.h"
 #import "UIColor+Crayola.h"
-#import "UIColor+HTML.h"
-#import "UIColor+HTML1.h"
+#import "UIColor+Pantone.h"
+#import "UIColor+Html.h"
 
 #import "UIColor+StandardColors.h"
 
@@ -26,25 +27,41 @@
 @implementation MMJColorPalettes
 
 #pragma mark - Properties
+/**
+ *  Add color category name (palette) to the array
+ *
+ *  @return array of palette/category names
+ */
+- (NSArray *)palletes
+{
+    if (!_palletes) {
+        _palletes = @[@"copic", @"crayola", @"pantone", @"html"];
+    }
+    return _palletes;
+}
 
 /**
  *  Color family repository
  *
  *  @return colors for a given category
  */
-- (NSArray *)palletes
-{
-    if (!_palletes) {
-        _palletes = @[@"Copic", @"Crayola", @"HTML", @"HTML1"];
-    }
-    return _palletes;
-}
 
 #pragma mark - Public methods
 
 - (NSArray *)colorsForPalette:(NSString *)palette
 {
-    return [UIColor colorNamesWithPrefix:[NSString stringWithFormat:@"%@_", palette]];
+    NSArray *colors = [UIColor colorNamesWithPrefix:[NSString stringWithFormat:@"%@_", palette]];
+    return [self sortByName:colors];
+}
+
+#pragma mark - Private
+
+- (NSArray *)sortByName:(NSArray *)colorsArray;
+{
+    NSArray *sortedArray = [colorsArray sortedArrayUsingComparator:^NSComparisonResult(id id1, id id2) {
+        return [(NSString *)id1 compare:(NSString *)id2];
+    }];
+    return sortedArray;
 }
 
 @end

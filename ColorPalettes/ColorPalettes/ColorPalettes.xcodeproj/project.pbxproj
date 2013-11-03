@@ -10,13 +10,14 @@
 		A924F904182510B3001860E2 /* MMJColorPaletteChooserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A924F903182510B3001860E2 /* MMJColorPaletteChooserViewController.m */; };
 		A924F90B1825144A001860E2 /* MMJColorPaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A924F90A1825144A001860E2 /* MMJColorPaletteViewController.m */; };
 		A924F90E18251529001860E2 /* MMJColorPalettes.m in Sources */ = {isa = PBXBuildFile; fileRef = A924F90D18251529001860E2 /* MMJColorPalettes.m */; };
-		A924F91918251AFC001860E2 /* UIColor+Crayola.m in Sources */ = {isa = PBXBuildFile; fileRef = A924F91318251AFC001860E2 /* UIColor+Crayola.m */; };
-		A924F91A18251AFC001860E2 /* UIColor+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = A924F91518251AFC001860E2 /* UIColor+HTML.m */; };
-		A924F91B18251AFC001860E2 /* UIColor+HTML1.m in Sources */ = {isa = PBXBuildFile; fileRef = A924F91718251AFC001860E2 /* UIColor+HTML1.m */; };
 		A924F91E18251BD7001860E2 /* UIColor+StandardColors.m in Sources */ = {isa = PBXBuildFile; fileRef = A924F91D18251BD7001860E2 /* UIColor+StandardColors.m */; };
 		A924F92218251C19001860E2 /* NSString+MethodList.m in Sources */ = {isa = PBXBuildFile; fileRef = A924F92118251C19001860E2 /* NSString+MethodList.m */; };
 		A924F92518251C44001860E2 /* NSArray+StringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A924F92418251C44001860E2 /* NSArray+StringHelper.m */; };
-		A924F92818251E7F001860E2 /* UIColor+Copic.m in Sources */ = {isa = PBXBuildFile; fileRef = A924F92718251E7F001860E2 /* UIColor+Copic.m */; };
+		A947BB5518264EEA00BB88E7 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = A947BB5418264EEA00BB88E7 /* UIColor+HexString.m */; };
+		A947BB5E18265E9900BB88E7 /* UIColor+Copic.m in Sources */ = {isa = PBXBuildFile; fileRef = A947BB5718265E9900BB88E7 /* UIColor+Copic.m */; };
+		A947BB5F18265E9900BB88E7 /* UIColor+Crayola.m in Sources */ = {isa = PBXBuildFile; fileRef = A947BB5918265E9900BB88E7 /* UIColor+Crayola.m */; };
+		A947BB6018265E9900BB88E7 /* UIColor+Html.m in Sources */ = {isa = PBXBuildFile; fileRef = A947BB5B18265E9900BB88E7 /* UIColor+Html.m */; };
+		A947BB6118265E9900BB88E7 /* UIColor+Pantone.m in Sources */ = {isa = PBXBuildFile; fileRef = A947BB5D18265E9900BB88E7 /* UIColor+Pantone.m */; };
 		A9C709021823BBE5006DC1B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C709011823BBE5006DC1B5 /* Foundation.framework */; };
 		A9C709041823BBE5006DC1B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C709031823BBE5006DC1B5 /* CoreGraphics.framework */; };
 		A9C709061823BBE5006DC1B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C709051823BBE5006DC1B5 /* UIKit.framework */; };
@@ -48,20 +49,22 @@
 		A924F90A1825144A001860E2 /* MMJColorPaletteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMJColorPaletteViewController.m; path = ViewControllers/MMJColorPaletteViewController.m; sourceTree = "<group>"; };
 		A924F90C18251529001860E2 /* MMJColorPalettes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMJColorPalettes.h; path = Colors/MMJColorPalettes.h; sourceTree = "<group>"; };
 		A924F90D18251529001860E2 /* MMJColorPalettes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMJColorPalettes.m; path = Colors/MMJColorPalettes.m; sourceTree = "<group>"; };
-		A924F91218251AFC001860E2 /* UIColor+Crayola.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Crayola.h"; path = "Colors/UIColor+Crayola.h"; sourceTree = "<group>"; };
-		A924F91318251AFC001860E2 /* UIColor+Crayola.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Crayola.m"; path = "Colors/UIColor+Crayola.m"; sourceTree = "<group>"; };
-		A924F91418251AFC001860E2 /* UIColor+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+HTML.h"; path = "Colors/UIColor+HTML.h"; sourceTree = "<group>"; };
-		A924F91518251AFC001860E2 /* UIColor+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HTML.m"; path = "Colors/UIColor+HTML.m"; sourceTree = "<group>"; };
-		A924F91618251AFC001860E2 /* UIColor+HTML1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+HTML1.h"; path = "Colors/UIColor+HTML1.h"; sourceTree = "<group>"; };
-		A924F91718251AFC001860E2 /* UIColor+HTML1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HTML1.m"; path = "Colors/UIColor+HTML1.m"; sourceTree = "<group>"; };
 		A924F91C18251BD7001860E2 /* UIColor+StandardColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+StandardColors.h"; path = "ColorHelpers/UIColor+StandardColors.h"; sourceTree = "<group>"; };
 		A924F91D18251BD7001860E2 /* UIColor+StandardColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+StandardColors.m"; path = "ColorHelpers/UIColor+StandardColors.m"; sourceTree = "<group>"; };
 		A924F92018251C19001860E2 /* NSString+MethodList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+MethodList.h"; path = "ColorHelpers/NSString+MethodList.h"; sourceTree = "<group>"; };
 		A924F92118251C19001860E2 /* NSString+MethodList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+MethodList.m"; path = "ColorHelpers/NSString+MethodList.m"; sourceTree = "<group>"; };
 		A924F92318251C44001860E2 /* NSArray+StringHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+StringHelper.h"; path = "ColorHelpers/NSArray+StringHelper.h"; sourceTree = "<group>"; };
 		A924F92418251C44001860E2 /* NSArray+StringHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+StringHelper.m"; path = "ColorHelpers/NSArray+StringHelper.m"; sourceTree = "<group>"; };
-		A924F92618251E7F001860E2 /* UIColor+Copic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Copic.h"; path = "Colors/UIColor+Copic.h"; sourceTree = "<group>"; };
-		A924F92718251E7F001860E2 /* UIColor+Copic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Copic.m"; path = "Colors/UIColor+Copic.m"; sourceTree = "<group>"; };
+		A947BB5318264EEA00BB88E7 /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+HexString.h"; path = "ColorHelpers/UIColor+HexString.h"; sourceTree = "<group>"; };
+		A947BB5418264EEA00BB88E7 /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HexString.m"; path = "ColorHelpers/UIColor+HexString.m"; sourceTree = "<group>"; };
+		A947BB5618265E9900BB88E7 /* UIColor+Copic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Copic.h"; path = "Colors/UIColor+Copic.h"; sourceTree = "<group>"; };
+		A947BB5718265E9900BB88E7 /* UIColor+Copic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Copic.m"; path = "Colors/UIColor+Copic.m"; sourceTree = "<group>"; };
+		A947BB5818265E9900BB88E7 /* UIColor+Crayola.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Crayola.h"; path = "Colors/UIColor+Crayola.h"; sourceTree = "<group>"; };
+		A947BB5918265E9900BB88E7 /* UIColor+Crayola.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Crayola.m"; path = "Colors/UIColor+Crayola.m"; sourceTree = "<group>"; };
+		A947BB5A18265E9900BB88E7 /* UIColor+Html.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Html.h"; path = "Colors/UIColor+Html.h"; sourceTree = "<group>"; };
+		A947BB5B18265E9900BB88E7 /* UIColor+Html.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Html.m"; path = "Colors/UIColor+Html.m"; sourceTree = "<group>"; };
+		A947BB5C18265E9900BB88E7 /* UIColor+Pantone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Pantone.h"; path = "Colors/UIColor+Pantone.h"; sourceTree = "<group>"; };
+		A947BB5D18265E9900BB88E7 /* UIColor+Pantone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Pantone.m"; path = "Colors/UIColor+Pantone.m"; sourceTree = "<group>"; };
 		A9C708FE1823BBE5006DC1B5 /* ColorPalettes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorPalettes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C709011823BBE5006DC1B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A9C709031823BBE5006DC1B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -109,14 +112,14 @@
 			children = (
 				A924F90C18251529001860E2 /* MMJColorPalettes.h */,
 				A924F90D18251529001860E2 /* MMJColorPalettes.m */,
-				A924F92618251E7F001860E2 /* UIColor+Copic.h */,
-				A924F92718251E7F001860E2 /* UIColor+Copic.m */,
-				A924F91218251AFC001860E2 /* UIColor+Crayola.h */,
-				A924F91318251AFC001860E2 /* UIColor+Crayola.m */,
-				A924F91418251AFC001860E2 /* UIColor+HTML.h */,
-				A924F91518251AFC001860E2 /* UIColor+HTML.m */,
-				A924F91618251AFC001860E2 /* UIColor+HTML1.h */,
-				A924F91718251AFC001860E2 /* UIColor+HTML1.m */,
+				A947BB5618265E9900BB88E7 /* UIColor+Copic.h */,
+				A947BB5718265E9900BB88E7 /* UIColor+Copic.m */,
+				A947BB5818265E9900BB88E7 /* UIColor+Crayola.h */,
+				A947BB5918265E9900BB88E7 /* UIColor+Crayola.m */,
+				A947BB5A18265E9900BB88E7 /* UIColor+Html.h */,
+				A947BB5B18265E9900BB88E7 /* UIColor+Html.m */,
+				A947BB5C18265E9900BB88E7 /* UIColor+Pantone.h */,
+				A947BB5D18265E9900BB88E7 /* UIColor+Pantone.m */,
 			);
 			name = Colors;
 			sourceTree = "<group>";
@@ -135,6 +138,8 @@
 		A924F91F18251BDF001860E2 /* Color helpers */ = {
 			isa = PBXGroup;
 			children = (
+				A947BB5318264EEA00BB88E7 /* UIColor+HexString.h */,
+				A947BB5418264EEA00BB88E7 /* UIColor+HexString.m */,
 				A924F92018251C19001860E2 /* NSString+MethodList.h */,
 				A924F92118251C19001860E2 /* NSString+MethodList.m */,
 				A924F92318251C44001860E2 /* NSArray+StringHelper.h */,
@@ -314,18 +319,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A924F91918251AFC001860E2 /* UIColor+Crayola.m in Sources */,
 				A924F92218251C19001860E2 /* NSString+MethodList.m in Sources */,
-				A924F91B18251AFC001860E2 /* UIColor+HTML1.m in Sources */,
 				A924F90E18251529001860E2 /* MMJColorPalettes.m in Sources */,
-				A924F92818251E7F001860E2 /* UIColor+Copic.m in Sources */,
+				A947BB5E18265E9900BB88E7 /* UIColor+Copic.m in Sources */,
 				A9C7090E1823BBE5006DC1B5 /* main.m in Sources */,
 				A924F90B1825144A001860E2 /* MMJColorPaletteViewController.m in Sources */,
 				A924F92518251C44001860E2 /* NSArray+StringHelper.m in Sources */,
 				A9C709121823BBE5006DC1B5 /* MMJAppDelegate.m in Sources */,
-				A924F91A18251AFC001860E2 /* UIColor+HTML.m in Sources */,
+				A947BB5F18265E9900BB88E7 /* UIColor+Crayola.m in Sources */,
 				A924F91E18251BD7001860E2 /* UIColor+StandardColors.m in Sources */,
 				A924F904182510B3001860E2 /* MMJColorPaletteChooserViewController.m in Sources */,
+				A947BB6018265E9900BB88E7 /* UIColor+Html.m in Sources */,
+				A947BB5518264EEA00BB88E7 /* UIColor+HexString.m in Sources */,
+				A947BB6118265E9900BB88E7 /* UIColor+Pantone.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

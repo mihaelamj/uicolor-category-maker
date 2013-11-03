@@ -8,11 +8,18 @@
 
 #import "MMJColorPaletteChooserViewController.h"
 
+//detail view controller
+#import "MMJColorPaletteViewController.h"
+
+//all palettes/categories
+#import "MMJColorPalettes.h"
+
 #define COLORS_CELL_ID @"colors_cell"
 
 @interface MMJColorPaletteChooserViewController ()<UITableViewDataSource, UITableViewDelegate>
 @property (nonatomic, strong) UITableView *tableView;
-@property (nonatomic, strong) NSMutableArray *colorPalettes;
+@property (nonatomic, strong) MMJColorPalettes *colorPalettes;
+@property (nonatomic, strong) MMJColorPaletteViewController *colorsViewController;
 @end
 
 @implementation MMJColorPaletteChooserViewController
@@ -47,24 +54,32 @@
     return _tableView;
 }
 
-- (NSMutableArray *)colorPalettes
+- (MMJColorPalettes *)colorPalettes
 {
     if (!_colorPalettes) {
-        _colorPalettes = [[NSMutableArray alloc] init];
+        _colorPalettes = [[MMJColorPalettes alloc] init];
     }
     return  _colorPalettes;
 }
 
 - (NSString *)colorPaletteAtIndex:(int)index
 {
-    return [self.colorPalettes objectAtIndex:index];
+    return [self.colorPalettes.palletes objectAtIndex:index];
+}
+
+- (MMJColorPaletteViewController *)colorsViewController
+{
+    if (!_colorsViewController) {
+        _colorsViewController = [[MMJColorPaletteViewController alloc] init];
+    }
+    return _colorsViewController;
 }
 
 #pragma mark - TableView Data Source
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return [self.colorPalettes count];
+    return [self.colorPalettes.palletes count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -73,7 +88,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:COLORS_CELL_ID];
     
     //set color pallete as cell's text
-    cell.textLabel.text = [self.colorPalettes objectAtIndex:indexPath.row];
+    cell.textLabel.text = [self colorPaletteAtIndex:indexPath.row];
     
     return cell;
 }
@@ -82,16 +97,25 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    //get selected view controller
-    UIViewController *colorsController = nil;
-    if (!colorsController)
-        return;
+    NSString * pallete = [self colorPaletteAtIndex:indexPath.row];
     
-    //set selected view conroller's title
-    colorsController.title = [self colorPaletteAtIndex:indexPath.row];
+    //re-create detail VC
+    self.colorsViewController = nil;
+    
+    // set detail VC title
+    if ([self.colorsViewController respondsToSelector:@selector(setPaletteName:)]) {
+        [self.colorsViewController setPaletteName:pallete];
+    }
+    
+    //get all color method names
+    NSArray *palleteColors = [self.colorPalettes colorsForPalette:pallete];
+    //give color method names to child VC
+    if ([self.colorsViewController respondsToSelector:@selector(setColors:)]) {
+        [self.colorsViewController setColors:palleteColors];
+    }
     
     //instruct navigation controller to push detail view controller
-    [self.navigationController pushViewController:colorsController animated:YES];
+    [self.navigationController pushViewController:self.colorsViewController animated:YES];
 }
 
 
