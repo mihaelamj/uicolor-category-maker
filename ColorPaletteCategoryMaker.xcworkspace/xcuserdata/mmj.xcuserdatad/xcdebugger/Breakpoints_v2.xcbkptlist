@@ -41,22 +41,6 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ColorPalettes/ColorPalettes/ColorPalettes/MMJAppDelegate.m"
-            timestampString = "405168951.560291"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
-            landmarkName = "-testColors"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "ColorCategoryMaker/MMJColorPaletteCategoryMaker/MMJColorPaletteCategoryMaker/MMJAppDelegate.m"
             timestampString = "405169446.634529"
             startingColumnNumber = "9223372036854775807"
