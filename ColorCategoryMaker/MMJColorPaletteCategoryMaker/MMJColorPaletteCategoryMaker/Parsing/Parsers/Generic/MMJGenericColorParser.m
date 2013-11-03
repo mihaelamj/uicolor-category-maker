@@ -72,18 +72,21 @@
             NSString *key = [oneColorArray objectAtIndex:self.colorNameIndex];
             NSString *colorHex = [oneColorArray objectAtIndex:self.colorHexCodeIndex];
             
-            UIColor *color = [UIColor colorWithHexString:colorHex];
+//            UIColor *color = [UIColor colorWithHexString:colorHex];
+            
+            NSDictionary *colorComponents = [UIColor colorComponentsForHexString:colorHex];
+            
             //121	Violet (Purple)	#926EAE	(146, 110, 174)	8	1903
             //testing if good color was generated
-            NSString *reverseColorHex = [UIColor hexStringWithColor:color type:HexColorType_RRGGBB];
-            NSString *origHexString = [[colorHex stringByReplacingOccurrencesOfString: @"#" withString: @""] uppercaseString];
-            
-            NSString *validHex = [reverseColorHex isEqualToString:origHexString] ? @"YES" : @"NO";
-            if ([validHex isEqualToString:@"NO"])
-                NSLog(@"%@ valid: %@ colorHex=%@, result=%@", key, validHex, origHexString, reverseColorHex);
+//            NSString *reverseColorHex = [UIColor hexStringWithColor:color type:HexColorType_RRGGBB];
+//            NSString *origHexString = [[colorHex stringByReplacingOccurrencesOfString: @"#" withString: @""] uppercaseString];
+//            
+//            NSString *validHex = [reverseColorHex isEqualToString:origHexString] ? @"YES" : @"NO";
+//            if ([validHex isEqualToString:@"NO"])
+//                NSLog(@"%@ valid: %@ colorHex=%@, result=%@", key, validHex, origHexString, reverseColorHex);
             
 //            NSLog(@"color:%@ %@, HEX: %@", key, color, origHexString);
-            [resultDict setObject:color forKey:key];
+            [resultDict setObject:colorComponents forKey:key];
         }
     }];
     

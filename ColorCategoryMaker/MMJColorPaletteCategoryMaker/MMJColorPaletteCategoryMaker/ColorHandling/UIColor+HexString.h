@@ -22,7 +22,7 @@ typedef enum {
 + (NSString *)hexStringWithColor:(UIColor *)color type:(HexColorType)type;
 + (UIColor *)colorWithHexString:(NSString *) hexString;
 
-+ (NSDictionary *)colorComponentsForHexColor:(NSString *)hexString;
++ (NSDictionary *)colorComponentsForHexString:(NSString *)hexString;
 
 + (HexColorType)typeFromHexString:(NSString *)hexString;
 - (BOOL)isEqualToColor:(UIColor *)otherColor;

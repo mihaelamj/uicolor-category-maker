@@ -85,7 +85,7 @@
     return [UIColor colorWithRed: red green: green blue: blue alpha: alpha];
 }
 
-+ (NSDictionary *)colorComponentsForHexColor:(NSString *)hexString
++ (NSDictionary *)colorComponentsForHexString:(NSString *)hexString
 {
     //remove #
     NSString *colorString = [[hexString stringByReplacingOccurrencesOfString: @"#" withString: @""] uppercaseString];
