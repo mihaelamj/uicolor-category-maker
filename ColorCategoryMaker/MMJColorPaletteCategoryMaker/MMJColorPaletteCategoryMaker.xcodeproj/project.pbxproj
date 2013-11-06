@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A904F4D0182A0CE90032F30A /* UIImage+Colored.m in Sources */ = {isa = PBXBuildFile; fileRef = A904F4CF182A0CE90032F30A /* UIImage+Colored.m */; };
 		A924F8EF1824FC2E001860E2 /* Crayola.txt in Resources */ = {isa = PBXBuildFile; fileRef = A924F8EE1824FC2E001860E2 /* Crayola.txt */; };
 		A924F8F31824FCA5001860E2 /* MMJCrayolaColorParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A924F8F21824FCA5001860E2 /* MMJCrayolaColorParser.m */; };
 		A947BB3A18262AAA00BB88E7 /* Pantone.txt in Resources */ = {isa = PBXBuildFile; fileRef = A947BB3918262AAA00BB88E7 /* Pantone.txt */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A904F4CE182A0CE90032F30A /* UIImage+Colored.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Colored.h"; path = "ColorHandling/UIImage+Colored.h"; sourceTree = "<group>"; };
+		A904F4CF182A0CE90032F30A /* UIImage+Colored.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Colored.m"; path = "ColorHandling/UIImage+Colored.m"; sourceTree = "<group>"; };
 		A924F8EE1824FC2E001860E2 /* Crayola.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Crayola.txt; path = Parsing/Parsers/Crayola/Crayola.txt; sourceTree = "<group>"; };
 		A924F8F11824FCA5001860E2 /* MMJCrayolaColorParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMJCrayolaColorParser.h; sourceTree = "<group>"; };
 		A924F8F21824FCA5001860E2 /* MMJCrayolaColorParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMJCrayolaColorParser.m; sourceTree = "<group>"; };
@@ -175,6 +178,8 @@
 			children = (
 				A9C709301823BD52006DC1B5 /* UIColor+HexString.h */,
 				A9C709311823BD52006DC1B5 /* UIColor+HexString.m */,
+				A904F4CE182A0CE90032F30A /* UIImage+Colored.h */,
+				A904F4CF182A0CE90032F30A /* UIImage+Colored.m */,
 			);
 			name = ColorHandling;
 			sourceTree = "<group>";
@@ -332,6 +337,7 @@
 			files = (
 				A9C7093C1823BDA1006DC1B5 /* MMJColorCategoryMaker.m in Sources */,
 				A9C7094E1823C33B006DC1B5 /* MMJColorCategoryWriter.m in Sources */,
+				A904F4D0182A0CE90032F30A /* UIImage+Colored.m in Sources */,
 				A924F8F31824FCA5001860E2 /* MMJCrayolaColorParser.m in Sources */,
 				A9C7093D1823BDA1006DC1B5 /* MMJNamedColorParser.m in Sources */,
 				A9C709321823BD52006DC1B5 /* UIColor+HexString.m in Sources */,
