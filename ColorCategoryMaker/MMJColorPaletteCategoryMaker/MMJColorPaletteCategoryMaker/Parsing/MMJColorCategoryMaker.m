@@ -70,6 +70,7 @@
 
 + (void)getFileBodiesForColorCategoryNamed:(NSString *)colorCategoryName withColorDictionary:(NSDictionary *)colorDictionary withReturnBlock:(void (^)(NSString *interfaceFileName, NSString *implementationFileName, NSString *interfaceBody, NSString *implementationBody, NSError *error))block
 {
+#warning implement error
     __block NSMutableString *implementationBodyString = [[NSMutableString alloc] init];
     __block NSMutableString *interfaceBodyString = [[NSMutableString alloc] init];
     

@@ -17,6 +17,7 @@
 #import "UIColor+Crayola.h"
 #import "UIColor+Pantone.h"
 #import "UIColor+Html.h"
+#import "UIColor+Crayon.h"
 
 #import "UIColor+StandardColors.h"
 
@@ -35,7 +36,7 @@
 - (NSArray *)palletes
 {
     if (!_palletes) {
-        _palletes = @[@"copic", @"crayola", @"pantone", @"html"];
+        _palletes = @[@"copic", @"crayola", @"pantone", @"html", @"crayon"];
     }
     return _palletes;
 }

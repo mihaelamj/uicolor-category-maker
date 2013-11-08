@@ -107,7 +107,7 @@
         [self.colorsViewController setPaletteName:pallete];
     }
     
-    //get all color method names
+    //get all color method names for pallete
     NSArray *palleteColors = [self.colorPalettes colorsForPalette:pallete];
     //give color method names to child VC
     if ([self.colorsViewController respondsToSelector:@selector(setColors:)]) {

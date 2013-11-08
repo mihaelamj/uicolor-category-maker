@@ -84,6 +84,13 @@
     }
     return [UIColor colorWithRed: red green: green blue: blue alpha: alpha];
 }
+/**
+ *  gives color components for a given color
+ *
+ *  @param hexString a hex value of the form #RBG, #ARGB, #RRGGBB, or #AARRGGBB"
+ *
+ *  @return color parts dictionary @{@"alpha":@alphaPart, @"red":@redPart, @"green":@greenPart, @"blue":@bluePart}
+ */
 
 + (NSDictionary *)colorComponentsForHexString:(NSString *)hexString
 {
@@ -201,10 +208,10 @@
 {
     NSMutableString *mutableFullHex = [NSMutableString stringWithCapacity:[fullHexString length]];
     [mutableFullHex setString:fullHexString];
-
+    
     for (int index = 0; index < [fullHexString length] / 2; index++) {
         [mutableFullHex replaceCharactersInRange:NSMakeRange(index, 1)
-                           withString:@""];
+                                      withString:@""];
     }
     return [NSString stringWithString:mutableFullHex];
 }

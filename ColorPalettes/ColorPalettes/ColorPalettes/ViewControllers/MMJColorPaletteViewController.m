@@ -55,9 +55,6 @@
 {
     _colors = colors;
     [self.tableView reloadData];
-    //reload cells
-//    NSArray *indexPathsArr = [self.tableView indexPathsForVisibleRows];
-//    [self.tableView reloadRowsAtIndexPaths:indexPathsArr withRowAnimation:UITableViewRowAnimationNone];
 }
 
 - (void)setPaletteName:(NSString *)paletteName
@@ -81,16 +78,12 @@
     UIColor *cellColor = [self colorAtIndex:indexPath.row];
 //    cell.backgroundColor = cellColor;
     cell.contentView.backgroundColor = cellColor;
-//    cell.backgroundColor = [UIColor yellowColor];
     
-    //set color name as cell's text
+    //set color name and hex string as cell's text
     NSString *justColorName = [self.colors objectAtIndex:indexPath.row];
     justColorName = [self justColorName:justColorName];
-    
+    //get hex string from color
     NSString *colorHex = [UIColor hexStringWithColor:cellColor type:HexColorType_RRGGBB];
-//    NSString *reverseColorHex = [UIColor hexStringWithColor:cellColor type:HexColorType_RRGGBB];
-    
-//    cell.textLabel.text = justColorName;
     cell.textLabel.text = [NSString stringWithFormat:@"%@ [%@]", justColorName, colorHex];
     
     return cell;

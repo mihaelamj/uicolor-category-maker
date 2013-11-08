@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9220936182D512600E322F5 /* UIColor+Crayon.m in Sources */ = {isa = PBXBuildFile; fileRef = A9220935182D512600E322F5 /* UIColor+Crayon.m */; };
 		A924F904182510B3001860E2 /* MMJColorPaletteChooserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A924F903182510B3001860E2 /* MMJColorPaletteChooserViewController.m */; };
 		A924F90B1825144A001860E2 /* MMJColorPaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A924F90A1825144A001860E2 /* MMJColorPaletteViewController.m */; };
 		A924F90E18251529001860E2 /* MMJColorPalettes.m in Sources */ = {isa = PBXBuildFile; fileRef = A924F90D18251529001860E2 /* MMJColorPalettes.m */; };
@@ -43,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A9220934182D512600E322F5 /* UIColor+Crayon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Crayon.h"; path = "Colors/UIColor+Crayon.h"; sourceTree = "<group>"; };
+		A9220935182D512600E322F5 /* UIColor+Crayon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Crayon.m"; path = "Colors/UIColor+Crayon.m"; sourceTree = "<group>"; };
 		A924F902182510B3001860E2 /* MMJColorPaletteChooserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMJColorPaletteChooserViewController.h; path = ViewControllers/MMJColorPaletteChooserViewController.h; sourceTree = "<group>"; };
 		A924F903182510B3001860E2 /* MMJColorPaletteChooserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMJColorPaletteChooserViewController.m; path = ViewControllers/MMJColorPaletteChooserViewController.m; sourceTree = "<group>"; };
 		A924F9091825144A001860E2 /* MMJColorPaletteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMJColorPaletteViewController.h; path = ViewControllers/MMJColorPaletteViewController.h; sourceTree = "<group>"; };
@@ -120,6 +123,8 @@
 				A947BB5B18265E9900BB88E7 /* UIColor+Html.m */,
 				A947BB5C18265E9900BB88E7 /* UIColor+Pantone.h */,
 				A947BB5D18265E9900BB88E7 /* UIColor+Pantone.m */,
+				A9220934182D512600E322F5 /* UIColor+Crayon.h */,
+				A9220935182D512600E322F5 /* UIColor+Crayon.m */,
 			);
 			name = Colors;
 			sourceTree = "<group>";
@@ -324,6 +329,7 @@
 				A947BB5E18265E9900BB88E7 /* UIColor+Copic.m in Sources */,
 				A9C7090E1823BBE5006DC1B5 /* main.m in Sources */,
 				A924F90B1825144A001860E2 /* MMJColorPaletteViewController.m in Sources */,
+				A9220936182D512600E322F5 /* UIColor+Crayon.m in Sources */,
 				A924F92518251C44001860E2 /* NSArray+StringHelper.m in Sources */,
 				A9C709121823BBE5006DC1B5 /* MMJAppDelegate.m in Sources */,
 				A947BB5F18265E9900BB88E7 /* UIColor+Crayola.m in Sources */,

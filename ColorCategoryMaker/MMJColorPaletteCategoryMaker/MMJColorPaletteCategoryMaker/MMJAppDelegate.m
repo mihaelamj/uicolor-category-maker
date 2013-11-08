@@ -26,6 +26,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
+    [self generateCrayon];    
     [self generateCopic];
     [self generateHtml];
     [self generateCrayola];
@@ -66,6 +67,7 @@
 - (void)generateCrayon
 {
     //    http://www.colourlovers.com/web/blog/2008/04/22/all-120-crayon-names-color-codes-and-fun-facts
+    // spaces between color names removed by hand
     NSDictionary *crayonColors = [MMJGenericColorParser genericColorsDictionaryWithFileName:@"Crayons" fileType:@"txt"];
     NSString *filesPath = [MMJColorCategoryWriter makeColorCategoryFilesCategoryName:@"Crayon" colorsDictionary:crayonColors directory:@"Documents"];
     NSLog(@"files written to /n%@", filesPath);
