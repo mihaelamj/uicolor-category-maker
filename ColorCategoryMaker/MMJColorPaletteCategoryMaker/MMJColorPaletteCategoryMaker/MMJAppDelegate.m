@@ -43,6 +43,7 @@
 
 - (void)generateHtml
 {
+    //http://www.w3schools.com/html/html_colornames.asp
     NSDictionary *htmlColors = [MMJGenericColorParser genericColorsDictionaryWithFileName:@"html_named" fileType:@"txt"];
     NSString *filesPath = [MMJColorCategoryWriter makeColorCategoryFilesCategoryName:@"HTML" colorsDictionary:htmlColors directory:@"Documents"];
     NSLog(@"files written to /n%@", filesPath);
@@ -59,6 +60,14 @@
 {
     NSDictionary *pantoneColors = [MMJGenericColorParser genericColorsDictionaryWithFileName:@"Pantone" fileType:@"txt" colorNameIndex:0 colorHexCodeIndex:7];
     NSString *filesPath = [MMJColorCategoryWriter makeColorCategoryFilesCategoryName:@"Pantone" colorsDictionary:pantoneColors directory:@"Documents" ];
+    NSLog(@"files written to /n%@", filesPath);
+}
+
+- (void)generateCrayon
+{
+    //    http://www.colourlovers.com/web/blog/2008/04/22/all-120-crayon-names-color-codes-and-fun-facts
+    NSDictionary *crayonColors = [MMJGenericColorParser genericColorsDictionaryWithFileName:@"Crayons" fileType:@"txt"];
+    NSString *filesPath = [MMJColorCategoryWriter makeColorCategoryFilesCategoryName:@"Crayon" colorsDictionary:crayonColors directory:@"Documents"];
     NSLog(@"files written to /n%@", filesPath);
 }
 

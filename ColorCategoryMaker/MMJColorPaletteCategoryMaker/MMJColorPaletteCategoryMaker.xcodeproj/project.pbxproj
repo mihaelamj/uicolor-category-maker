@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E06FE88182D141B0005DE7D /* Crayons.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2E06FE87182D141B0005DE7D /* Crayons.txt */; };
 		A904F4D0182A0CE90032F30A /* UIImage+Colored.m in Sources */ = {isa = PBXBuildFile; fileRef = A904F4CF182A0CE90032F30A /* UIImage+Colored.m */; };
 		A904F4D3182A0E220032F30A /* MMJColorCategoryImagesMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = A904F4D2182A0E220032F30A /* MMJColorCategoryImagesMaker.m */; };
 		A924F8EF1824FC2E001860E2 /* Crayola.txt in Resources */ = {isa = PBXBuildFile; fileRef = A924F8EE1824FC2E001860E2 /* Crayola.txt */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E06FE87182D141B0005DE7D /* Crayons.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Crayons.txt; path = Parsing/Parsers/Crayons.txt; sourceTree = "<group>"; };
 		A904F4CE182A0CE90032F30A /* UIImage+Colored.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Colored.h"; path = "ColorHandling/UIImage+Colored.h"; sourceTree = "<group>"; };
 		A904F4CF182A0CE90032F30A /* UIImage+Colored.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Colored.m"; path = "ColorHandling/UIImage+Colored.m"; sourceTree = "<group>"; };
 		A904F4D1182A0E220032F30A /* MMJColorCategoryImagesMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMJColorCategoryImagesMaker.h; path = Parsing/MMJColorCategoryImagesMaker.h; sourceTree = "<group>"; };
@@ -217,6 +219,7 @@
 			children = (
 				A9C709581823D153006DC1B5 /* MMJGenericColorParser.h */,
 				A9C709591823D153006DC1B5 /* MMJGenericColorParser.m */,
+				2E06FE87182D141B0005DE7D /* Crayons.txt */,
 				A947BB3B18262AAD00BB88E7 /* Pantone */,
 				A924F8F01824FC33001860E2 /* Crayola */,
 				A9C709511823CE68006DC1B5 /* HTML */,
@@ -318,6 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A924F8EF1824FC2E001860E2 /* Crayola.txt in Resources */,
+				2E06FE88182D141B0005DE7D /* Crayons.txt in Resources */,
 				A947BB3A18262AAA00BB88E7 /* Pantone.txt in Resources */,
 				A9C708D11823BB53006DC1B5 /* InfoPlist.strings in Resources */,
 				A9C708D91823BB53006DC1B5 /* Images.xcassets in Resources */,
