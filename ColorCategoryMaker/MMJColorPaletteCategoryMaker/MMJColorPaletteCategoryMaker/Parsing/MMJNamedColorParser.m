@@ -60,7 +60,7 @@
 /**
  *  Breaks file string into array by line breaks and sanitizes string lines
  *
- *  @return NSDictionary with colorname : hexvalue pairs
+ *  @return NSDictionary with colorname : color parts dictionary @{@"alpha":@alphaPart, @"red":@redPart, @"green":@greenPart, @"blue":@bluePart}
  */
 - (NSDictionary *)parse
 {
@@ -81,7 +81,7 @@
  *
  *  @param colorArray
  *
- *  @return NSDictionary with colorname : hexvalue pairs
+ *  @return NSDictionary with colorname : color parts dictionary @{@"alpha":@alphaPart, @"red":@redPart, @"green":@greenPart, @"blue":@bluePart}
  */
 - (NSDictionary *)parseColorArrayIntoDictionary:(NSArray *)colorArray
 {

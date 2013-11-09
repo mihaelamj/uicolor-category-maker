@@ -55,7 +55,7 @@
  *
  *  @param colorArray 
  *
- *  @return NSDictionary with colorname : hexvalue pairs
+ *  @return NSDictionary with colorname : color parts dictionary @{@"alpha":@alphaPart, @"red":@redPart, @"green":@greenPart, @"blue":@bluePart}
  */
 - (NSDictionary *)parseColorArrayIntoDictionary:(NSArray *)colorArray
 {
