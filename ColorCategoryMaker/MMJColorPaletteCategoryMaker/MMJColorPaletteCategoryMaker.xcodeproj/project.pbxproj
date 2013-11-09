@@ -31,6 +31,9 @@
 		A9C709491823BEA3006DC1B5 /* Copic_Color_HEX_CODE.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9C709461823BEA3006DC1B5 /* Copic_Color_HEX_CODE.txt */; };
 		A9C7094E1823C33B006DC1B5 /* MMJColorCategoryWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C7094D1823C33B006DC1B5 /* MMJColorCategoryWriter.m */; };
 		A9C7095A1823D153006DC1B5 /* MMJGenericColorParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C709591823D153006DC1B5 /* MMJGenericColorParser.m */; };
+		A9CAD17B182E272600F0E650 /* MMJColorCategoryReadmeMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CAD17A182E272600F0E650 /* MMJColorCategoryReadmeMaker.m */; };
+		A9CAD17E182E30AB00F0E650 /* NSString+MMJUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CAD17D182E30AB00F0E650 /* NSString+MMJUtils.m */; };
+		A9CAD182182E421300F0E650 /* MMJColorCategoryImagesWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CAD181182E421300F0E650 /* MMJColorCategoryImagesWriter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +83,12 @@
 		A9C7094D1823C33B006DC1B5 /* MMJColorCategoryWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMJColorCategoryWriter.m; path = FileHandling/MMJColorCategoryWriter.m; sourceTree = "<group>"; };
 		A9C709581823D153006DC1B5 /* MMJGenericColorParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMJGenericColorParser.h; path = Parsing/Parsers/Generic/MMJGenericColorParser.h; sourceTree = "<group>"; };
 		A9C709591823D153006DC1B5 /* MMJGenericColorParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMJGenericColorParser.m; path = Parsing/Parsers/Generic/MMJGenericColorParser.m; sourceTree = "<group>"; };
+		A9CAD179182E272600F0E650 /* MMJColorCategoryReadmeMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMJColorCategoryReadmeMaker.h; path = Parsing/MMJColorCategoryReadmeMaker.h; sourceTree = "<group>"; };
+		A9CAD17A182E272600F0E650 /* MMJColorCategoryReadmeMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMJColorCategoryReadmeMaker.m; path = Parsing/MMJColorCategoryReadmeMaker.m; sourceTree = "<group>"; };
+		A9CAD17C182E30AB00F0E650 /* NSString+MMJUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+MMJUtils.h"; path = "Strings/NSString+MMJUtils.h"; sourceTree = "<group>"; };
+		A9CAD17D182E30AB00F0E650 /* NSString+MMJUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+MMJUtils.m"; path = "Strings/NSString+MMJUtils.m"; sourceTree = "<group>"; };
+		A9CAD180182E421300F0E650 /* MMJColorCategoryImagesWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMJColorCategoryImagesWriter.h; path = FileHandling/MMJColorCategoryImagesWriter.h; sourceTree = "<group>"; };
+		A9CAD181182E421300F0E650 /* MMJColorCategoryImagesWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMJColorCategoryImagesWriter.m; path = FileHandling/MMJColorCategoryImagesWriter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +175,7 @@
 			children = (
 				A9C708D51823BB53006DC1B5 /* MMJAppDelegate.h */,
 				A9C708D61823BB53006DC1B5 /* MMJAppDelegate.m */,
+				A9CAD17F182E30B700F0E650 /* Strings */,
 				A9C709331823BD58006DC1B5 /* ColorHandling */,
 				A9C709371823BD85006DC1B5 /* FileHandling */,
 				A9C7093E1823BDA9006DC1B5 /* Parsing */,
@@ -204,6 +214,8 @@
 				A9C709351823BD7E006DC1B5 /* MMJFileWriter.m */,
 				A9C7094C1823C33B006DC1B5 /* MMJColorCategoryWriter.h */,
 				A9C7094D1823C33B006DC1B5 /* MMJColorCategoryWriter.m */,
+				A9CAD180182E421300F0E650 /* MMJColorCategoryImagesWriter.h */,
+				A9CAD181182E421300F0E650 /* MMJColorCategoryImagesWriter.m */,
 			);
 			name = FileHandling;
 			sourceTree = "<group>";
@@ -215,8 +227,8 @@
 				A9C709391823BDA1006DC1B5 /* MMJColorCategoryMaker.m */,
 				A904F4D1182A0E220032F30A /* MMJColorCategoryImagesMaker.h */,
 				A904F4D2182A0E220032F30A /* MMJColorCategoryImagesMaker.m */,
-				A9C7093A1823BDA1006DC1B5 /* MMJNamedColorParser.h */,
-				A9C7093B1823BDA1006DC1B5 /* MMJNamedColorParser.m */,
+				A9CAD179182E272600F0E650 /* MMJColorCategoryReadmeMaker.h */,
+				A9CAD17A182E272600F0E650 /* MMJColorCategoryReadmeMaker.m */,
 				A9C709421823BDC3006DC1B5 /* Parsers */,
 			);
 			name = Parsing;
@@ -225,6 +237,8 @@
 		A9C709421823BDC3006DC1B5 /* Parsers */ = {
 			isa = PBXGroup;
 			children = (
+				A9C7093A1823BDA1006DC1B5 /* MMJNamedColorParser.h */,
+				A9C7093B1823BDA1006DC1B5 /* MMJNamedColorParser.m */,
 				A9C709581823D153006DC1B5 /* MMJGenericColorParser.h */,
 				A9C709591823D153006DC1B5 /* MMJGenericColorParser.m */,
 				A9220933182D4C7300E322F5 /* Crayons */,
@@ -250,6 +264,15 @@
 				A947BB4E182645B700BB88E7 /* html_named.txt */,
 			);
 			name = HTML;
+			sourceTree = "<group>";
+		};
+		A9CAD17F182E30B700F0E650 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				A9CAD17C182E30AB00F0E650 /* NSString+MMJUtils.h */,
+				A9CAD17D182E30AB00F0E650 /* NSString+MMJUtils.m */,
+			);
+			name = Strings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -359,10 +382,13 @@
 				A904F4D3182A0E220032F30A /* MMJColorCategoryImagesMaker.m in Sources */,
 				A9C7093D1823BDA1006DC1B5 /* MMJNamedColorParser.m in Sources */,
 				A9C709321823BD52006DC1B5 /* UIColor+HexString.m in Sources */,
+				A9CAD17B182E272600F0E650 /* MMJColorCategoryReadmeMaker.m in Sources */,
+				A9CAD17E182E30AB00F0E650 /* NSString+MMJUtils.m in Sources */,
 				A9C7095A1823D153006DC1B5 /* MMJGenericColorParser.m in Sources */,
 				A9C708D31823BB53006DC1B5 /* main.m in Sources */,
 				A9C708D71823BB53006DC1B5 /* MMJAppDelegate.m in Sources */,
 				A9C709361823BD7E006DC1B5 /* MMJFileWriter.m in Sources */,
+				A9CAD182182E421300F0E650 /* MMJColorCategoryImagesWriter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

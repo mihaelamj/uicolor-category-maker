@@ -11,7 +11,7 @@
 
 @implementation MMJColorCategoryImagesMaker
 
-#pragma  mark - Private
+#pragma  mark - Private Methods
 
 + (UIColor *)colorFromColorComponents:(NSDictionary *)colorComponents;
 {
@@ -24,7 +24,7 @@
     return color;
 }
 
-#pragma mark - Public
+#pragma mark - Public Methods
 
 + (NSDictionary *)imagesForColorCategoryNamed:(NSString *)colorCategoryName withColorDictionary:(NSDictionary *)colorDictionary size:(CGSize)size
 {

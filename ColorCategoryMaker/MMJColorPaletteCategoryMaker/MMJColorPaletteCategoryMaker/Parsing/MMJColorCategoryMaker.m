@@ -7,6 +7,7 @@
 //
 
 #import "MMJColorCategoryMaker.h"
+#import "NSString+MMJUtils.h"
 
 #define INTERFACE_FILE_NAME @"UIColor+%@.h"
 #define INTERFACE_START_STRING @"@interface UIColor (%@)\n"
@@ -60,12 +61,6 @@
     return [NSString stringWithFormat:HEADER_COMMENTS, fileName, colorCodesSource];
 }
 
-+ (NSString *)stringCapitilized:(NSString *)string
-{
-    NSString *lowerStr = [string lowercaseString];
-    return [NSString stringWithFormat:@"%@%@",[[lowerStr substringToIndex:1] uppercaseString],[lowerStr substringFromIndex:1]];
-}
-
 + (NSArray *)sortByName:(NSArray *)colorsArray;
 {
     NSArray *sortedArray = [colorsArray sortedArrayUsingComparator:^NSComparisonResult(id id1, id id2) {
@@ -82,7 +77,7 @@
     __block NSMutableString *implementationBodyString = [[NSMutableString alloc] init];
     __block NSMutableString *interfaceBodyString = [[NSMutableString alloc] init];
     
-    NSString *capitilizedCategoryName = [self stringCapitilized:colorCategoryName];
+    NSString *capitilizedCategoryName = [colorCategoryName stringCapitilized];
     
     NSString *interfaceFN = [NSString stringWithFormat:INTERFACE_FILE_NAME, capitilizedCategoryName];
     NSString *implementationFN = [NSString stringWithFormat:IMPLEMENTATION_FILE_NAME, capitilizedCategoryName];
