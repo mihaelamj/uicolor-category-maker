@@ -16,13 +16,14 @@
 @property (strong, nonatomic) NSDictionary *colorsDictionary;
 @property (strong, nonatomic) NSString *categoryName;
 @property (strong, nonatomic) NSString *directory;
+@property (strong, nonatomic) NSString *colorCodesSource;
 @end
 
 @implementation MMJColorCategoryWriter
 
 #pragma mark - Private
 
-- (id)initWithCategoryName:(NSString *)categoryName colorsDictionary:(NSDictionary *)colorsDictionary directory:(NSString *)directory
+- (id)initWithCategoryName:(NSString *)categoryName colorsDictionary:(NSDictionary *)colorsDictionary directory:(NSString *)directory colorCodesSource:(NSString *)colorCodesSource
 {
     if (!categoryName || !colorsDictionary || !directory)
         return nil;
@@ -32,6 +33,7 @@
         _categoryName = categoryName;
         _colorsDictionary = colorsDictionary;
         _directory = directory;
+        _colorCodesSource = colorCodesSource;
     }
     return self;
 }
@@ -43,7 +45,7 @@
     __block NSString *_interfaceBody = nil;
     __block NSString *_implementationBody = nil;
     
-    [MMJColorCategoryMaker getFileBodiesForColorCategoryNamed:self.categoryName withColorDictionary:self.colorsDictionary withReturnBlock:^(NSString *interfaceFileName, NSString *implementationFileName, NSString *interfaceBody, NSString *implementationBody, NSError *error){
+    [MMJColorCategoryMaker getFileBodiesForColorCategoryNamed:self.categoryName withColorDictionary:self.colorsDictionary colorCodesSource:self.colorCodesSource withReturnBlock:^(NSString *interfaceFileName, NSString *implementationFileName, NSString *interfaceBody, NSString *implementationBody, NSError *error){
         
         _interfaceFileName = interfaceFileName,
         _implementationFileName = implementationFileName;
@@ -64,9 +66,9 @@
 
 #pragma mark - Public
 
-+ (NSString *)makeColorCategoryFilesCategoryName:(NSString *)categoryName colorsDictionary:(NSDictionary *)colorsDictionary directory:(NSString *)directory
++ (NSString *)makeColorCategoryFilesCategoryName:(NSString *)categoryName colorsDictionary:(NSDictionary *)colorsDictionary directory:(NSString *)directory colorCodesSource:(NSString *)colorCodesSource
 {
-    MMJColorCategoryWriter *writer = [[MMJColorCategoryWriter alloc]initWithCategoryName:categoryName colorsDictionary:colorsDictionary directory:directory];
+    MMJColorCategoryWriter *writer = [[MMJColorCategoryWriter alloc]initWithCategoryName:categoryName colorsDictionary:colorsDictionary directory:directory colorCodesSource:colorCodesSource];
     if (!writer) return nil;
     
     return [writer writeColorCategoryFiles];

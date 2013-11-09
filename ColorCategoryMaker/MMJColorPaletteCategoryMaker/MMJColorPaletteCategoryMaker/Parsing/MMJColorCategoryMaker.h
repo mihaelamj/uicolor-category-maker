@@ -10,6 +10,6 @@
 
 @interface MMJColorCategoryMaker : NSObject
 
-+ (void)getFileBodiesForColorCategoryNamed:(NSString *)colorCategoryName withColorDictionary:(NSDictionary *)colorDictionary withReturnBlock:(void (^)(NSString *interfaceFileName, NSString *implementationFileName, NSString *interfaceBody, NSString *implementationBody, NSError *error))block;
++ (void)getFileBodiesForColorCategoryNamed:(NSString *)colorCategoryName withColorDictionary:(NSDictionary *)colorDictionary colorCodesSource:(NSString *)colorCodesSource withReturnBlock:(void (^)(NSString *interfaceFileName, NSString *implementationFileName, NSString *interfaceBody, NSString *implementationBody, NSError *error))block;
 
 @end

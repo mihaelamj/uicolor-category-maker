@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface MMJColorCategoryWriter : NSObject
-+ (NSString *)makeColorCategoryFilesCategoryName:(NSString *)categoryName colorsDictionary:(NSDictionary *)colorsDictionary directory:(NSString *)directory;
++ (NSString *)makeColorCategoryFilesCategoryName:(NSString *)categoryName colorsDictionary:(NSDictionary *)colorsDictionary directory:(NSString *)directory colorCodesSource:(NSString *)colorCodesSource;
 @end
