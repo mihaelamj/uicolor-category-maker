@@ -12,4 +12,6 @@
 
 + (NSString *)makeColorCategoryReadmeFile:(NSString *)fileName categoryName:(NSString *)categoryName imagesDictionary:(NSDictionary *)imagesDictionary directory:(NSString *)directory colorCodesSource:(NSString *)colorCodesSource gitHubPath:(NSString *)gitHubPath imageSize:(CGSize)imageSize;
 
++ (NSString *)makeColorCategoryReadmeFile:(NSString *)fileName categoryName:(NSString *)categoryName imagesDictionary:(NSDictionary *)imagesDictionary directory:(NSString *)directory colorCodesSource:(NSString *)colorCodesSource gitHubPath:(NSString *)gitHubPath imageSize:(CGSize)imageSize shortFormat:(BOOL)shortFormat;
+
 @end

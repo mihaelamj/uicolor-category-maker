@@ -17,4 +17,12 @@
                                       gitHubPath:(NSString *)gitHubPath
                                  imagesDirectory:(NSString *)imagesDirectory;
 
++ (NSString *)readmeContentsForColorCategoryName:(NSString *)colorCategoryName
+                                colorCodesSource:(NSString *)colorCodesSource
+                                colorsDictionary:(NSDictionary *)colorsDictionary
+                                       imageSize:(CGSize)imageSize
+                                      gitHubPath:(NSString *)gitHubPath
+                                 imagesDirectory:(NSString *)imagesDirectory
+                                     shortFormat:(BOOL)shortFormat;
+
 @end

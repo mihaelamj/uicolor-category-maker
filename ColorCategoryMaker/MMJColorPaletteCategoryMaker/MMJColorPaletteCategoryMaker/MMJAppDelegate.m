@@ -81,7 +81,7 @@
     //make images and readme file
     CGSize imageSize = CGSizeMake(150, 50);
     NSString *gitHubPath = @"https://raw.github.com//mihaelamj/uicolor-html/master/images/";
-    NSString *readmePath = [MMJColorImagesWithReadme makeColorImagesForCategory:categoryName directory:directory colorsSource:colorCodesSource imageSize:imageSize gitHubPath:gitHubPath colorsDictionary:htmlColors];
+    NSString *readmePath = [MMJColorImagesWithReadme makeColorImagesForCategory:categoryName directory:directory colorsSource:colorCodesSource imageSize:imageSize gitHubPath:gitHubPath colorsDictionary:htmlColors shortFormat:YES];
     NSLog(@"readme file written to /n%@", readmePath);
 }
 
@@ -102,7 +102,9 @@
     
     //make images and readme file
     CGSize imageSize = CGSizeMake(150, 50);
-
+    NSString *gitHubPath = @"https://raw.github.com//mihaelamj/uicolor-crayola/master/images/";
+    NSString *readmePath = [MMJColorImagesWithReadme makeColorImagesForCategory:categoryName directory:directory colorsSource:colorCodesSource imageSize:imageSize gitHubPath:gitHubPath colorsDictionary:crayolaColors shortFormat:YES];
+    NSLog(@"readme file written to /n%@", readmePath);
 }
 
 - (void)generatePantone

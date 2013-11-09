@@ -12,4 +12,6 @@
 
 + (NSString *)makeColorImagesForCategory:(NSString *)category directory:(NSString *)directory colorsSource:(NSString *)colorsSource imageSize:(CGSize)imageSize gitHubPath:(NSString *)gitHubPath colorsDictionary:(NSDictionary *)colorsDictionary;
 
++ (NSString *)makeColorImagesForCategory:(NSString *)category directory:(NSString *)directory colorsSource:(NSString *)colorsSource imageSize:(CGSize)imageSize gitHubPath:(NSString *)gitHubPath colorsDictionary:(NSDictionary *)colorsDictionary shortFormat:(BOOL)shortFormat;
+
 @end
