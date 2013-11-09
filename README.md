@@ -8,7 +8,7 @@
 * [UIColor+Copic](https://github.com/mihaelamj/uicolor-copic "Copic markers colors category")
 * [UIColor+HTML](https://github.com/mihaelamj/uicolor-html "HTML named colors category")
 * [UIColor+Crayola](https://github.com/mihaelamj/uicolor-crayola "Crayola crayon colors category")
-* [UIColor+Pantone](https://github.com/mihaelamj/uicolor-pantone"Pantone colors category")
+* [UIColor+Pantone](https://github.com/mihaelamj/uicolor-pantone "Pantone colors category")
 
 ## ColorPaletteCategoryMaker
 
