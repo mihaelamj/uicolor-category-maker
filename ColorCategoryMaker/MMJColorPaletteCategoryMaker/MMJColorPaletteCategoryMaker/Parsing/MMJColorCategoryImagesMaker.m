@@ -21,7 +21,6 @@
     int alphaPart = [[colorComponents objectForKey:@"alpha"] intValue];
     
     UIColor *color = [UIColor colorWithRed:redPart/255.0 green:greenPart/255.0 blue:bluePart/255.0 alpha:alphaPart/255.0];
-    //generate method body with components
     return color;
 }
 

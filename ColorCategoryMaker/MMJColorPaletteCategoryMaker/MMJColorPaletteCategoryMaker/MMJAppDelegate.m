@@ -37,6 +37,7 @@
 
 - (void)generateCopic
 {
+    //http://blog.paigeedraw.com/2012/07/copic-marker-color-rgb-hex-conversion.html
     NSDictionary *copicColors = [MMJGenericColorParser genericColorsDictionaryWithFileName:@"Copic_Color_HEX_CODE" fileType:@"txt"];
     NSString *filesPath = [MMJColorCategoryWriter makeColorCategoryFilesCategoryName:@"Copic" colorsDictionary:copicColors directory:@"Documents"];
     NSLog(@"files written to /n%@", filesPath);
@@ -52,6 +53,7 @@
 
 - (void)generateCrayola
 {
+    //http://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors
     NSDictionary *crayolaColors = [MMJCrayolaColorParser crayolaColorsDictionary];
     NSString *filesPath = [MMJColorCategoryWriter makeColorCategoryFilesCategoryName:@"Crayola" colorsDictionary:crayolaColors directory:@"Documents"];
     NSLog(@"files written to /n%@", filesPath);
@@ -59,6 +61,7 @@
 
 - (void)generatePantone
 {
+    //http://www.umsiko.co.za/links/color.html
     NSDictionary *pantoneColors = [MMJGenericColorParser genericColorsDictionaryWithFileName:@"Pantone" fileType:@"txt" colorNameIndex:0 colorHexCodeIndex:7];
     NSString *filesPath = [MMJColorCategoryWriter makeColorCategoryFilesCategoryName:@"Pantone" colorsDictionary:pantoneColors directory:@"Documents" ];
     NSLog(@"files written to /n%@", filesPath);
@@ -66,8 +69,8 @@
 
 - (void)generateCrayon
 {
-    //    http://www.colourlovers.com/web/blog/2008/04/22/all-120-crayon-names-color-codes-and-fun-facts
-    // spaces between color names removed by hand
+    //http://www.colourlovers.com/web/blog/2008/04/22/all-120-crayon-names-color-codes-and-fun-facts
+    //spaces between color names removed by hand
     NSDictionary *crayonColors = [MMJGenericColorParser genericColorsDictionaryWithFileName:@"Crayons" fileType:@"txt"];
     NSString *filesPath = [MMJColorCategoryWriter makeColorCategoryFilesCategoryName:@"Crayon" colorsDictionary:crayonColors directory:@"Documents"];
     NSLog(@"files written to /n%@", filesPath);
