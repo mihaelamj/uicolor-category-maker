@@ -63,15 +63,15 @@
     
 // 2. make images in colors
     //make images dictionary
-    CGSize imageSize = CGSizeMake(50, 50);
+    CGSize imageSize = CGSizeMake(150, 50);
     //make dictionary with colorname : UIImage pairs
     NSDictionary *colorImages = [MMJColorCategoryImagesMaker imagesForColorCategoryNamed:categoryName withColorDictionary:copicColors size:imageSize];
     
     NSString *imagesPath = [MMJColorCategoryImagesWriter makeColorCategoryImagesCategoryName:categoryName imagesDictionary:colorImages directory:directory];
     NSLog(@"images written to /n%@", imagesPath);
     
-// 3. make redame file for GitHub
-    NSString *gitHubPath = @"";
+// 3. make redame file for GitHub https://github.com/mihaelamj/uicolor-copic/master/images"
+    NSString *gitHubPath = @"https://raw.github.com//mihaelamj/uicolor-copic/master/images/";
     
     NSString *readmePath = [MMJColorCategoryReadmeWriter makeColorCategoryReadmeFile:@"README.md" categoryName:categoryName imagesDictionary:colorImages directory:directory colorCodesSource:colorCodesSource gitHubPath:gitHubPath imageSize:imageSize];
     
