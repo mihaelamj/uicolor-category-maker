@@ -17,14 +17,8 @@
 //specific parsers
 #import "MMJCrayolaColorParser.h"
 
-//making images from colors
-#import "MMJColorCategoryImagesMaker.h"
-
-//writing images to the disk
-#import "MMJColorCategoryImagesWriter.h"
-
-//writing README.md to the deisk
-#import "MMJColorCategoryReadmeWriter.h"
+//making images from colors and README.md
+#import "MMJColorImagesWithReadme.h"
 
 @implementation MMJAppDelegate
 
@@ -35,8 +29,8 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    [self generateCopic];
-//    [self generateHtml];
+    //[self generateCopic];
+    [self generateHtml];
 //    [self generateCrayola];
 //    [self generatePantone];
 //    [self generateCrayon]; 
@@ -61,76 +55,95 @@
     
     NSLog(@"files written to /n%@", filesPath);
     
-    // 2. make images in colors
-    //make images dictionary
+    //make images and readme file
     CGSize imageSize = CGSizeMake(150, 50);
-    //make dictionary with colorname : UIImage pairs
-    NSDictionary *colorImages = [MMJColorCategoryImagesMaker imagesForColorCategoryNamed:categoryName withColorDictionary:copicColors size:imageSize];
-    
-    NSString *imagesPath = [MMJColorCategoryImagesWriter makeColorCategoryImagesCategoryName:categoryName imagesDictionary:colorImages directory:directory];
-    NSLog(@"images written to /n%@", imagesPath);
-    
-    // 3. make redame file for GitHub https://github.com/mihaelamj/uicolor-copic/master/images"
     NSString *gitHubPath = @"https://raw.github.com//mihaelamj/uicolor-copic/master/images/";
     
-    NSString *readmePath = [MMJColorCategoryReadmeWriter makeColorCategoryReadmeFile:@"README.md" categoryName:categoryName imagesDictionary:copicColors directory:directory colorCodesSource:colorCodesSource gitHubPath:gitHubPath imageSize:imageSize];
-    
+    NSString *readmePath = [MMJColorImagesWithReadme makeColorImagesForCategory:categoryName directory:directory colorsSource:colorCodesSource imageSize:imageSize gitHubPath:gitHubPath colorsDictionary:copicColors];
     NSLog(@"readme file written to /n%@", readmePath);
 }
 
 - (void)generateHtml
 {
+    NSString *categoryName = @"HTML";
+    NSString *directory = @"Documents";
+    NSString *colorCodesSource = @"http://www.w3schools.com/html/html_colornames.asp";
+    
     NSDictionary *htmlColors = [MMJGenericColorParser genericColorsDictionaryWithFileName:@"html_named" fileType:@"txt"];
     
     NSString *filesPath = [MMJColorCategoryWriter
-                           makeColorCategoryFilesCategoryName:@"HTML"
+                           makeColorCategoryFilesCategoryName:categoryName
                            colorsDictionary:htmlColors
-                           directory:@"Documents"
-                           colorCodesSource:@"http://www.w3schools.com/html/html_colornames.asp"];
-    
+                           directory:directory
+                           colorCodesSource:colorCodesSource];
     NSLog(@"files written to /n%@", filesPath);
+    
+    //make images and readme file
+    CGSize imageSize = CGSizeMake(150, 50);
+    NSString *gitHubPath = @"https://raw.github.com//mihaelamj/uicolor-html/master/images/";
+    NSString *readmePath = [MMJColorImagesWithReadme makeColorImagesForCategory:categoryName directory:directory colorsSource:colorCodesSource imageSize:imageSize gitHubPath:gitHubPath colorsDictionary:htmlColors];
+    NSLog(@"readme file written to /n%@", readmePath);
 }
 
 - (void)generateCrayola
 {
+    NSString *categoryName = @"Crayola";
+    NSString *directory = @"Documents";
+    NSString *colorCodesSource = @"http://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors";
+    
     NSDictionary *crayolaColors = [MMJCrayolaColorParser crayolaColorsDictionary];
     
     NSString *filesPath = [MMJColorCategoryWriter
-                           makeColorCategoryFilesCategoryName:@"Crayola"
+                           makeColorCategoryFilesCategoryName:categoryName
                            colorsDictionary:crayolaColors
-                           directory:@"Documents"
-                           colorCodesSource:@"http://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors"];
-    
+                           directory:directory
+                           colorCodesSource:colorCodesSource];
     NSLog(@"files written to /n%@", filesPath);
+    
+    //make images and readme file
+    CGSize imageSize = CGSizeMake(150, 50);
+
 }
 
 - (void)generatePantone
 {
+    NSString *categoryName = @"Pantone";
+    NSString *directory = @"Documents";
+    NSString *colorCodesSource = @"http://www.umsiko.co.za/links/color.html";
+    
     NSDictionary *pantoneColors = [MMJGenericColorParser
-                                   genericColorsDictionaryWithFileName:@"Pantone"
+                                   genericColorsDictionaryWithFileName:categoryName
                                    fileType:@"txt"
                                    colorNameIndex:0
                                    colorHexCodeIndex:7];
     
     NSString *filesPath = [MMJColorCategoryWriter
-                           makeColorCategoryFilesCategoryName:@"Pantone"
-                           colorsDictionary:pantoneColors directory:@"Documents"
-                           colorCodesSource:@"http://www.umsiko.co.za/links/color.html"];
-    
+                           makeColorCategoryFilesCategoryName:categoryName
+                           colorsDictionary:pantoneColors directory:directory
+                           colorCodesSource:colorCodesSource];
     NSLog(@"files written to /n%@", filesPath);
+    
+    //make images and readme file
+    CGSize imageSize = CGSizeMake(150, 50);
 }
 
 - (void)generateCrayon
 {
+    NSString *categoryName = @"Crayon";
+    NSString *directory = @"Documents";
+    NSString *colorCodesSource = @"http://www.colourlovers.com/web/blog/2008/04/22/all-120-crayon-names-color-codes-and-fun-facts (spaces between color names removed by hand)";
+    
     NSDictionary *crayonColors = [MMJGenericColorParser genericColorsDictionaryWithFileName:@"Crayons" fileType:@"txt"];
     
     NSString *filesPath = [MMJColorCategoryWriter
-                           makeColorCategoryFilesCategoryName:@"Crayon"
+                           makeColorCategoryFilesCategoryName:categoryName
                            colorsDictionary:crayonColors
-                           directory:@"Documents"
-                           colorCodesSource:@"http://www.colourlovers.com/web/blog/2008/04/22/all-120-crayon-names-color-codes-and-fun-facts (spaces between color names removed by hand)"];
-    
+                           directory:directory
+                           colorCodesSource:colorCodesSource];
     NSLog(@"files written to /n%@", filesPath);
+    
+    //make images and readme file
+    CGSize imageSize = CGSizeMake(150, 50);
 }
 
 @end
