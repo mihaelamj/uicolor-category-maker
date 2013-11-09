@@ -52,17 +52,8 @@
 - (NSArray *)colorsForPalette:(NSString *)palette
 {
     NSArray *colors = [UIColor colorNamesWithPrefix:[NSString stringWithFormat:@"%@_", palette]];
-    return [self sortByName:colors];
+    return colors;
 }
 
-#pragma mark - Private
-
-- (NSArray *)sortByName:(NSArray *)colorsArray;
-{
-    NSArray *sortedArray = [colorsArray sortedArrayUsingComparator:^NSComparisonResult(id id1, id id2) {
-        return [(NSString *)id1 compare:(NSString *)id2];
-    }];
-    return sortedArray;
-}
 
 @end

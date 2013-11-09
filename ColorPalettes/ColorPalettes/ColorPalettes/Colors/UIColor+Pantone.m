@@ -12,939 +12,9 @@
 
 @implementation UIColor (Pantone)
 
-+(UIColor *)pantone_4715C_Color 
++(UIColor *)pantone_100C_Color 
 {
-	return [UIColor colorWithRed:155/255.0 green:110/255.0 blue:95/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5517C_Color 
-{
-	return [UIColor colorWithRed:191/255.0 green:203/255.0 blue:204/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_173C_Color 
-{
-	return [UIColor colorWithRed:216/255.0 green:69/255.0 blue:25/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_471C_Color 
-{
-	return [UIColor colorWithRed:183/255.0 green:83/255.0 blue:18/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_396C_Color 
-{
-	return [UIColor colorWithRed:221/255.0 green:223/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_694C_Color 
-{
-	return [UIColor colorWithRed:202/255.0 green:144/255.0 blue:156/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_541C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:60/255.0 blue:121/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1787C_Color 
-{
-	return [UIColor colorWithRed:249/255.0 green:66/255.0 blue:95/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_466C_Color 
-{
-	return [UIColor colorWithRed:202/255.0 green:179/255.0 blue:136/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_243C_Color 
-{
-	return [UIColor colorWithRed:232/255.0 green:183/255.0 blue:229/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_168C_Color 
-{
-	return [UIColor colorWithRed:111/255.0 green:48/255.0 blue:20/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_689C_Color 
-{
-	return [UIColor colorWithRed:149/255.0 green:65/255.0 blue:111/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1605C_Color 
-{
-	return [UIColor colorWithRed:162/255.0 green:74/255.0 blue:19/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_313C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:146/255.0 blue:199/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_611C_Color 
-{
-	return [UIColor colorWithRed:216/255.0 green:204/255.0 blue:70/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_238C_Color 
-{
-	return [UIColor colorWithRed:230/255.0 green:83/255.0 blue:188/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_536C_Color 
-{
-	return [UIColor colorWithRed:164/255.0 green:177/255.0 blue:205/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_4725C_Color 
-{
-	return [UIColor colorWithRed:178/255.0 green:141/255.0 blue:127/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5527C_Color 
-{
-	return [UIColor colorWithRed:204/255.0 green:212/255.0 blue:212/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_308C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:88/255.0 blue:131/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_606C_Color 
-{
-	return [UIColor colorWithRed:216/255.0 green:189/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1797C_Color 
-{
-	return [UIColor colorWithRed:208/255.0 green:36/255.0 blue:51/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1615C_Color 
-{
-	return [UIColor colorWithRed:133/255.0 green:60/255.0 blue:16/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_4735C_Color 
-{
-	return [UIColor colorWithRed:197/255.0 green:170/255.0 blue:160/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_273C_Color 
-{
-	return [UIColor colorWithRed:37/255.0 green:23/255.0 blue:122/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_571C_Color 
-{
-	return [UIColor colorWithRed:157/255.0 green:214/255.0 blue:207/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_198C_Color 
-{
-	return [UIColor colorWithRed:228/255.0 green:77/255.0 blue:111/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_496C_Color 
-{
-	return [UIColor colorWithRed:239/255.0 green:196/255.0 blue:206/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_120C_Color 
-{
-	return [UIColor colorWithRed:249/255.0 green:223/255.0 blue:121/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5115C_Color 
-{
-	return [UIColor colorWithRed:75/255.0 green:37/255.0 blue:62/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_343C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:83/255.0 blue:62/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_641C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:112/255.0 blue:178/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_268C_Color 
-{
-	return [UIColor colorWithRed:74/255.0 green:33/255.0 blue:126/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_566C_Color 
-{
-	return [UIColor colorWithRed:205/255.0 green:227/255.0 blue:226/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_115C_Color 
-{
-	return [UIColor colorWithRed:251/255.0 green:222/255.0 blue:74/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_413C_Color 
-{
-	return [UIColor colorWithRed:200/255.0 green:201/255.0 blue:195/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_338C_Color 
-{
-	return [UIColor colorWithRed:118/255.0 green:209/255.0 blue:189/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1625C_Color 
-{
-	return [UIColor colorWithRed:255/255.0 green:162/255.0 blue:139/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_636C_Color 
-{
-	return [UIColor colorWithRed:141/255.0 green:212/255.0 blue:233/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_711C_Color 
-{
-	return [UIColor colorWithRed:211/255.0 green:41/255.0 blue:57/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_4745C_Color 
-{
-	return [UIColor colorWithRed:212/255.0 green:190/255.0 blue:182/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_408C_Color 
-{
-	return [UIColor colorWithRed:165/255.0 green:153/255.0 blue:151/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_706C_Color 
-{
-	return [UIColor colorWithRed:245/255.0 green:199/255.0 blue:212/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5125C_Color 
-{
-	return [UIColor colorWithRed:112/255.0 green:65/255.0 blue:101/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1635C_Color 
-{
-	return [UIColor colorWithRed:255/255.0 green:142/255.0 blue:112/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_150C_Color 
-{
-	return [UIColor colorWithRed:255/255.0 green:169/255.0 blue:79/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_373C_Color 
-{
-	return [UIColor colorWithRed:205/255.0 green:233/255.0 blue:133/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_4755C_Color 
-{
-	return [UIColor colorWithRed:221/255.0 green:205/255.0 blue:199/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_298C_Color 
-{
-	return [UIColor colorWithRed:66/255.0 green:180/255.0 blue:230/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_671C_Color 
-{
-	return [UIColor colorWithRed:230/255.0 green:193/255.0 blue:219/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_220C_Color 
-{
-	return [UIColor colorWithRed:174/255.0 green:0/255.0 blue:85/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_443C_Color 
-{
-	return [UIColor colorWithRed:153/255.0 green:163/255.0 blue:166/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_145C_Color 
-{
-	return [UIColor colorWithRed:207/255.0 green:118/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5135C_Color 
-{
-	return [UIColor colorWithRed:136/255.0 green:94/255.0 blue:128/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_368C_Color 
-{
-	return [UIColor colorWithRed:98/255.0 green:189/255.0 blue:25/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_666C_Color 
-{
-	return [UIColor colorWithRed:163/255.0 green:146/255.0 blue:183/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_215C_Color 
-{
-	return [UIColor colorWithRed:170/255.0 green:16/255.0 blue:84/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_513C_Color 
-{
-	return [UIColor colorWithRed:149/255.0 green:40/255.0 blue:143/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_438C_Color 
-{
-	return [UIColor colorWithRed:81/255.0 green:62/255.0 blue:62/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_811C_Color 
-{
-	return [UIColor colorWithRed:255/255.0 green:119/255.0 blue:80/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1645C_Color 
-{
-	return [UIColor colorWithRed:255/255.0 green:108/255.0 blue:59/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_508C_Color 
-{
-	return [UIColor colorWithRed:226/255.0 green:171/255.0 blue:191/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_806C_Color 
-{
-	return [UIColor colorWithRed:255/255.0 green:28/255.0 blue:172/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5145C_Color 
-{
-	return [UIColor colorWithRed:161/255.0 green:126/255.0 blue:154/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_180C_Color 
-{
-	return [UIColor colorWithRed:192/255.0 green:54/255.0 blue:44/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_250C_Color 
-{
-	return [UIColor colorWithRed:227/255.0 green:192/255.0 blue:230/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1655C_Color 
-{
-	return [UIColor colorWithRed:255/255.0 green:82/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_175C_Color 
-{
-	return [UIColor colorWithRed:112/255.0 green:50/255.0 blue:34/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_398C_Color 
-{
-	return [UIColor colorWithRed:171/255.0 green:162/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_473C_Color 
-{
-	return [UIColor colorWithRed:237/255.0 green:185/255.0 blue:150/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_696C_Color 
-{
-	return [UIColor colorWithRed:148/255.0 green:69/255.0 blue:84/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_320C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:151/255.0 blue:172/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_543C_Color 
-{
-	return [UIColor colorWithRed:147/255.0 green:185/255.0 blue:220/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_245C_Color 
-{
-	return [UIColor colorWithRed:223/255.0 green:129/255.0 blue:214/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_468C_Color 
-{
-	return [UIColor colorWithRed:224/255.0 green:212/255.0 blue:187/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5155C_Color 
-{
-	return [UIColor colorWithRed:192/255.0 green:166/255.0 blue:189/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_315C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:102/255.0 blue:133/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_613C_Color 
-{
-	return [UIColor colorWithRed:179/255.0 green:157/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_538C_Color 
-{
-	return [UIColor colorWithRed:210/255.0 green:215/255.0 blue:228/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1665C_Color 
-{
-	return [UIColor colorWithRed:229/255.0 green:72/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_608C_Color 
-{
-	return [UIColor colorWithRed:233/255.0 green:230/255.0 blue:180/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_280C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:38/255.0 blue:127/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5463C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:40/255.0 blue:48/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5165C_Color 
-{
-	return [UIColor colorWithRed:214/255.0 green:197/255.0 blue:211/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_350C_Color 
-{
-	return [UIColor colorWithRed:24/255.0 green:71/255.0 blue:44/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_275C_Color 
-{
-	return [UIColor colorWithRed:29/255.0 green:17/255.0 blue:87/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_573C_Color 
-{
-	return [UIColor colorWithRed:193/255.0 green:226/255.0 blue:222/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_498C_Color 
-{
-	return [UIColor colorWithRed:104/255.0 green:50/255.0 blue:46/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1675C_Color 
-{
-	return [UIColor colorWithRed:168/255.0 green:60/255.0 blue:15/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_122C_Color 
-{
-	return [UIColor colorWithRed:253/255.0 green:212/255.0 blue:79/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_420C_Color 
-{
-	return [UIColor colorWithRed:204/255.0 green:204/255.0 blue:204/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_345C_Color 
-{
-	return [UIColor colorWithRed:137/255.0 green:213/255.0 blue:175/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_643C_Color 
-{
-	return [UIColor colorWithRed:197/255.0 green:210/255.0 blue:227/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_117C_Color 
-{
-	return [UIColor colorWithRed:206/255.0 green:157/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_415C_Color 
-{
-	return [UIColor colorWithRed:157/255.0 green:157/255.0 blue:150/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5175C_Color 
-{
-	return [UIColor colorWithRed:224/255.0 green:213/255.0 blue:222/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5473C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:98/255.0 blue:110/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_638C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:178/255.0 blue:222/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_713C_Color 
-{
-	return [UIColor colorWithRed:251/255.0 green:195/255.0 blue:153/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_708C_Color 
-{
-	return [UIColor colorWithRed:245/255.0 green:144/255.0 blue:166/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1685C_Color 
-{
-	return [UIColor colorWithRed:134/255.0 green:53/255.0 blue:20/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_380C_Color 
-{
-	return [UIColor colorWithRed:211/255.0 green:225/255.0 blue:60/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5185C_Color 
-{
-	return [UIColor colorWithRed:69/255.0 green:41/255.0 blue:59/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5483C_Color 
-{
-	return [UIColor colorWithRed:79/255.0 green:141/255.0 blue:151/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_152C_Color 
-{
-	return [UIColor colorWithRed:231/255.0 green:111/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_450C_Color 
-{
-	return [UIColor colorWithRed:81/255.0 green:72/255.0 blue:38/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_375C_Color 
-{
-	return [UIColor colorWithRed:135/255.0 green:211/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_673C_Color 
-{
-	return [UIColor colorWithRed:218/255.0 green:137/255.0 blue:190/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_520C_Color 
-{
-	return [UIColor colorWithRed:104/255.0 green:47/255.0 blue:115/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_222C_Color 
-{
-	return [UIColor colorWithRed:108/255.0 green:25/255.0 blue:63/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_445C_Color 
-{
-	return [UIColor colorWithRed:79/255.0 green:85/255.0 blue:89/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_147C_Color 
-{
-	return [UIColor colorWithRed:113/255.0 green:88/255.0 blue:33/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_668C_Color 
-{
-	return [UIColor colorWithRed:98/255.0 green:74/255.0 blue:126/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_217C_Color 
-{
-	return [UIColor colorWithRed:236/255.0 green:187/255.0 blue:221/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_515C_Color 
-{
-	return [UIColor colorWithRed:223/255.0 green:165/255.0 blue:214/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_813C_Color 
-{
-	return [UIColor colorWithRed:234/255.0 green:18/255.0 blue:175/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5195C_Color 
-{
-	return [UIColor colorWithRed:94/255.0 green:58/255.0 blue:81/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5493C_Color 
-{
-	return [UIColor colorWithRed:129/255.0 green:173/255.0 blue:181/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_808C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:174/255.0 blue:151/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1765C_Color 
-{
-	return [UIColor colorWithRed:254/255.0 green:157/255.0 blue:176/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2567C_Color 
-{
-	return [UIColor colorWithRed:187/255.0 green:153/255.0 blue:218/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3308C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:66/255.0 blue:54/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_182C_Color 
-{
-	return [UIColor colorWithRed:248/255.0 green:184/255.0 blue:203/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_480C_Color 
-{
-	return [UIColor colorWithRed:200/255.0 green:169/255.0 blue:154/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3245C_Color 
-{
-	return [UIColor colorWithRed:123/255.0 green:221/255.0 blue:216/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_252C_Color 
-{
-	return [UIColor colorWithRed:202/255.0 green:101/255.0 blue:209/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_550C_Color 
-{
-	return [UIColor colorWithRed:133/255.0 green:176/255.0 blue:198/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_475C_Color 
-{
-	return [UIColor colorWithRed:240/255.0 green:208/255.0 blue:187/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_177C_Color 
-{
-	return [UIColor colorWithRed:255/255.0 green:129/255.0 blue:140/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_698C_Color 
-{
-	return [UIColor colorWithRed:237/255.0 green:207/255.0 blue:215/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_322C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:111/255.0 blue:122/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_620C_Color 
-{
-	return [UIColor colorWithRed:136/255.0 green:120/255.0 blue:17/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_545C_Color 
-{
-	return [UIColor colorWithRed:191/255.0 green:211/255.0 blue:230/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1775C_Color 
-{
-	return [UIColor colorWithRed:255/255.0 green:133/255.0 blue:154/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2577C_Color 
-{
-	return [UIColor colorWithRed:162/255.0 green:118/255.0 blue:204/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_247C_Color 
-{
-	return [UIColor colorWithRed:179/255.0 green:0/255.0 blue:157/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_317C_Color 
-{
-	return [UIColor colorWithRed:191/255.0 green:229/255.0 blue:234/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_615C_Color 
-{
-	return [UIColor colorWithRed:221/255.0 green:219/255.0 blue:177/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3255C_Color 
-{
-	return [UIColor colorWithRed:50/255.0 green:212/255.0 blue:203/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1785C_Color 
-{
-	return [UIColor colorWithRed:249/255.0 green:69/255.0 blue:91/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2587C_Color 
-{
-	return [UIColor colorWithRed:131/255.0 green:72/255.0 blue:181/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_282C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:32/255.0 blue:78/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_580C_Color 
-{
-	return [UIColor colorWithRed:207/255.0 green:221/255.0 blue:187/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3265C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:194/255.0 blue:182/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_352C_Color 
-{
-	return [UIColor colorWithRed:135/255.0 green:224/255.0 blue:176/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_277C_Color 
-{
-	return [UIColor colorWithRed:169/255.0 green:199/255.0 blue:236/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_575C_Color 
-{
-	return [UIColor colorWithRed:86/255.0 green:115/255.0 blue:46/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_650C_Color 
-{
-	return [UIColor colorWithRed:194/255.0 green:205/255.0 blue:224/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_124C_Color 
-{
-	return [UIColor colorWithRed:235/255.0 green:171/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_422C_Color 
-{
-	return [UIColor colorWithRed:169/255.0 green:170/255.0 blue:171/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_347C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:149/255.0 blue:67/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_645C_Color 
-{
-	return [UIColor colorWithRed:116/255.0 green:152/255.0 blue:192/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_720C_Color 
-{
-	return [UIColor colorWithRed:236/255.0 green:195/255.0 blue:165/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1795C_Color 
-{
-	return [UIColor colorWithRed:216/255.0 green:31/255.0 blue:42/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2597C_Color 
-{
-	return [UIColor colorWithRed:89/255.0 green:5/255.0 blue:141/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_119C_Color 
-{
-	return [UIColor colorWithRed:138/255.0 green:118/255.0 blue:26/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_417C_Color 
-{
-	return [UIColor colorWithRed:110/255.0 green:111/255.0 blue:100/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_715C_Color 
-{
-	return [UIColor colorWithRed:249/255.0 green:150/255.0 blue:74/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3275C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:176/255.0 blue:157/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5535C_Color 
-{
-	return [UIColor colorWithRed:27/255.0 green:57/255.0 blue:48/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1807C_Color 
-{
-	return [UIColor colorWithRed:161/255.0 green:40/255.0 blue:48/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_382C_Color 
-{
-	return [UIColor colorWithRed:185/255.0 green:211/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_680C_Color 
-{
-	return [UIColor colorWithRed:203/255.0 green:151/255.0 blue:183/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_154C_Color 
-{
-	return [UIColor colorWithRed:153/255.0 green:84/255.0 blue:9/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_452C_Color 
-{
-	return [UIColor colorWithRed:181/255.0 green:178/255.0 blue:146/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_377C_Color 
-{
-	return [UIColor colorWithRed:103/255.0 green:144/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3285C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:147/255.0 blue:132/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5545C_Color 
-{
-	return [UIColor colorWithRed:74/255.0 green:109/255.0 blue:98/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5605C_Color 
-{
-	return [UIColor colorWithRed:25/255.0 green:48/255.0 blue:37/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_675C_Color 
-{
-	return [UIColor colorWithRed:182/255.0 green:42/255.0 blue:121/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_522C_Color 
-{
-	return [UIColor colorWithRed:189/255.0 green:158/255.0 blue:202/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_224C_Color 
-{
-	return [UIColor colorWithRed:239/255.0 green:106/255.0 blue:191/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_447C_Color 
-{
-	return [UIColor colorWithRed:50/255.0 green:53/255.0 blue:50/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_149C_Color 
-{
-	return [UIColor colorWithRed:254/255.0 green:198/255.0 blue:136/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1817C_Color 
-{
-	return [UIColor colorWithRed:94/255.0 green:39/255.0 blue:40/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_219C_Color 
-{
-	return [UIColor colorWithRed:224/255.0 green:33/255.0 blue:138/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_517C_Color 
-{
-	return [UIColor colorWithRed:235/255.0 green:202/255.0 blue:227/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3295C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:124/255.0 blue:111/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5555C_Color 
-{
-	return [UIColor colorWithRed:110/255.0 green:141/255.0 blue:130/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5615C_Color 
-{
-	return [UIColor colorWithRed:90/255.0 green:112/255.0 blue:96/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_184C_Color 
-{
-	return [UIColor colorWithRed:248/255.0 green:93/255.0 blue:126/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_482C_Color 
-{
-	return [UIColor colorWithRed:221/255.0 green:206/255.0 blue:196/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_254C_Color 
-{
-	return [UIColor colorWithRed:150/255.0 green:35/255.0 blue:153/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_552C_Color 
-{
-	return [UIColor colorWithRed:185/255.0 green:208/255.0 blue:220/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_477C_Color 
-{
-	return [UIColor colorWithRed:94/255.0 green:47/255.0 blue:36/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1345C_Color 
-{
-	return [UIColor colorWithRed:251/255.0 green:207/255.0 blue:141/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_179C_Color 
-{
-	return [UIColor colorWithRed:226/255.0 green:56/255.0 blue:40/255.0 alpha:255/255.0];
+	return [UIColor colorWithRed:243/255.0 green:237/255.0 blue:134/255.0 alpha:255/255.0];
 };
 
 +(UIColor *)pantone_101C_Color 
@@ -952,294 +22,9 @@
 	return [UIColor colorWithRed:245/255.0 green:236/255.0 blue:98/255.0 alpha:255/255.0];
 };
 
-+(UIColor *)pantone_5625C_Color 
++(UIColor *)pantone_102C_Color 
 {
-	return [UIColor colorWithRed:108/255.0 green:128/255.0 blue:114/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_324C_Color 
-{
-	return [UIColor colorWithRed:152/255.0 green:217/255.0 blue:219/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5565C_Color 
-{
-	return [UIColor colorWithRed:143/255.0 green:168/255.0 blue:160/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_249C_Color 
-{
-	return [UIColor colorWithRed:123/255.0 green:34/255.0 blue:102/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_547C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:62/255.0 blue:81/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_622C_Color 
-{
-	return [UIColor colorWithRed:189/255.0 green:210/255.0 blue:204/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_319C_Color 
-{
-	return [UIColor colorWithRed:54/255.0 green:204/255.0 blue:218/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_617C_Color 
-{
-	return [UIColor colorWithRed:201/255.0 green:195/255.0 blue:127/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1355C_Color 
-{
-	return [UIColor colorWithRed:253/255.0 green:200/255.0 blue:125/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5635C_Color 
-{
-	return [UIColor colorWithRed:151/255.0 green:166/255.0 blue:155/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5575C_Color 
-{
-	return [UIColor colorWithRed:169/255.0 green:189/255.0 blue:182/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_284C_Color 
-{
-	return [UIColor colorWithRed:108/255.0 green:171/255.0 blue:231/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_582C_Color 
-{
-	return [UIColor colorWithRed:136/255.0 green:134/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_131C_Color 
-{
-	return [UIColor colorWithRed:212/255.0 green:145/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_354C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:171/255.0 blue:57/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_652C_Color 
-{
-	return [UIColor colorWithRed:111/255.0 green:141/255.0 blue:185/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_279C_Color 
-{
-	return [UIColor colorWithRed:65/255.0 green:137/255.0 blue:221/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_577C_Color 
-{
-	return [UIColor colorWithRed:178/255.0 green:200/255.0 blue:145/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1365C_Color 
-{
-	return [UIColor colorWithRed:255/255.0 green:183/255.0 blue:84/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_201C_Color 
-{
-	return [UIColor colorWithRed:158/255.0 green:27/255.0 blue:52/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_424C_Color 
-{
-	return [UIColor colorWithRed:118/255.0 green:122/255.0 blue:125/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_126C_Color 
-{
-	return [UIColor colorWithRed:161/255.0 green:124/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_349C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:98/255.0 blue:51/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_4485C_Color 
-{
-	return [UIColor colorWithRed:93/255.0 green:71/255.0 blue:24/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5585C_Color 
-{
-	return [UIColor colorWithRed:192/255.0 green:207/255.0 blue:203/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5645C_Color 
-{
-	return [UIColor colorWithRed:177/255.0 green:188/255.0 blue:181/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_647C_Color 
-{
-	return [UIColor colorWithRed:17/255.0 green:86/255.0 blue:140/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_722C_Color 
-{
-	return [UIColor colorWithRed:213/255.0 green:143/255.0 blue:89/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_419C_Color 
-{
-	return [UIColor colorWithRed:31/255.0 green:33/255.0 blue:28/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_717C_Color 
-{
-	return [UIColor colorWithRed:222/255.0 green:97/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1375C_Color 
-{
-	return [UIColor colorWithRed:255/255.0 green:154/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_4495C_Color 
-{
-	return [UIColor colorWithRed:131/255.0 green:110/255.0 blue:44/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_161C_Color 
-{
-	return [UIColor colorWithRed:97/255.0 green:53/255.0 blue:23/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5595C_Color 
-{
-	return [UIColor colorWithRed:211/255.0 green:222/255.0 blue:219/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_384C_Color 
-{
-	return [UIColor colorWithRed:139/255.0 green:144/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5655C_Color 
-{
-	return [UIColor colorWithRed:189/255.0 green:197/255.0 blue:191/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_682C_Color 
-{
-	return [UIColor colorWithRed:156/255.0 green:72/255.0 blue:120/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_231C_Color 
-{
-	return [UIColor colorWithRed:245/255.0 green:117/255.0 blue:201/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_454C_Color 
-{
-	return [UIColor colorWithRed:213/255.0 green:211/255.0 blue:191/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_156C_Color 
-{
-	return [UIColor colorWithRed:239/255.0 green:193/255.0 blue:138/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_379C_Color 
-{
-	return [UIColor colorWithRed:221/255.0 green:229/255.0 blue:108/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_677C_Color 
-{
-	return [UIColor colorWithRed:229/255.0 green:209/255.0 blue:223/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_301C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:82/255.0 blue:155/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_226C_Color 
-{
-	return [UIColor colorWithRed:214/255.0 green:0/255.0 blue:119/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_524C_Color 
-{
-	return [UIColor colorWithRed:218/255.0 green:204/255.0 blue:225/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_449C_Color 
-{
-	return [UIColor colorWithRed:77/255.0 green:67/255.0 blue:37/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1385C_Color 
-{
-	return [UIColor colorWithRed:214/255.0 green:117/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5665C_Color 
-{
-	return [UIColor colorWithRed:205/255.0 green:211/255.0 blue:205/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_519C_Color 
-{
-	return [UIColor colorWithRed:90/255.0 green:45/255.0 blue:95/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_191C_Color 
-{
-	return [UIColor colorWithRed:242/255.0 green:63/255.0 blue:114/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1395C_Color 
-{
-	return [UIColor colorWithRed:158/255.0 green:98/255.0 blue:9/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_261C_Color 
-{
-	return [UIColor colorWithRed:89/255.0 green:30/255.0 blue:85/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_186C_Color 
-{
-	return [UIColor colorWithRed:210/255.0 green:16/255.0 blue:52/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_484C_Color 
-{
-	return [UIColor colorWithRed:159/255.0 green:45/255.0 blue:32/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_331C_Color 
-{
-	return [UIColor colorWithRed:178/255.0 green:231/255.0 blue:223/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_256C_Color 
-{
-	return [UIColor colorWithRed:217/255.0 green:191/255.0 blue:224/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_554C_Color 
-{
-	return [UIColor colorWithRed:36/255.0 green:96/255.0 blue:74/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_479C_Color 
-{
-	return [UIColor colorWithRed:173/255.0 green:128/255.0 blue:108/255.0 alpha:255/255.0];
+	return [UIColor colorWithRed:250/255.0 green:230/255.0 blue:0/255.0 alpha:255/255.0];
 };
 
 +(UIColor *)pantone_103C_Color 
@@ -1247,304 +32,9 @@
 	return [UIColor colorWithRed:202/255.0 green:173/255.0 blue:0/255.0 alpha:255/255.0];
 };
 
-+(UIColor *)pantone_401C_Color 
++(UIColor *)pantone_104C_Color 
 {
-	return [UIColor colorWithRed:189/255.0 green:184/255.0 blue:177/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_326C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:175/255.0 blue:173/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_624C_Color 
-{
-	return [UIColor colorWithRed:120/255.0 green:160/255.0 blue:149/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_549C_Color 
-{
-	return [UIColor colorWithRed:91/255.0 green:151/255.0 blue:177/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_619C_Color 
-{
-	return [UIColor colorWithRed:156/255.0 green:142/255.0 blue:42/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5205C_Color 
-{
-	return [UIColor colorWithRed:139/255.0 green:104/255.0 blue:125/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5503C_Color 
-{
-	return [UIColor colorWithRed:161/255.0 green:195/255.0 blue:201/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_291C_Color 
-{
-	return [UIColor colorWithRed:164/255.0 green:206/255.0 blue:236/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_361C_Color 
-{
-	return [UIColor colorWithRed:18/255.0 green:173/255.0 blue:43/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_286C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:53/255.0 blue:173/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_584C_Color 
-{
-	return [UIColor colorWithRed:203/255.0 green:211/255.0 blue:76/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_133C_Color 
-{
-	return [UIColor colorWithRed:113/255.0 green:89/255.0 blue:19/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_431C_Color 
-{
-	return [UIColor colorWithRed:97/255.0 green:106/255.0 blue:116/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_356C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:114/255.0 blue:41/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5215C_Color 
-{
-	return [UIColor colorWithRed:177/255.0 green:149/255.0 blue:166/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5513C_Color 
-{
-	return [UIColor colorWithRed:190/255.0 green:213/255.0 blue:217/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_579C_Color 
-{
-	return [UIColor colorWithRed:197/255.0 green:213/255.0 blue:169/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_654C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:48/255.0 blue:102/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_203C_Color 
-{
-	return [UIColor colorWithRed:235/255.0 green:173/255.0 blue:205/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_501C_Color 
-{
-	return [UIColor colorWithRed:222/255.0 green:172/255.0 blue:183/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_128C_Color 
-{
-	return [UIColor colorWithRed:242/255.0 green:214/255.0 blue:94/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_426C_Color 
-{
-	return [UIColor colorWithRed:33/255.0 green:36/255.0 blue:36/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_649C_Color 
-{
-	return [UIColor colorWithRed:212/255.0 green:220/255.0 blue:232/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_724C_Color 
-{
-	return [UIColor colorWithRed:154/255.0 green:75/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_719C_Color 
-{
-	return [UIColor colorWithRed:239/255.0 green:207/255.0 blue:184/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5225C_Color 
-{
-	return [UIColor colorWithRed:198/255.0 green:176/255.0 blue:190/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5523C_Color 
-{
-	return [UIColor colorWithRed:207/255.0 green:222/255.0 blue:225/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_391C_Color 
-{
-	return [UIColor colorWithRed:149/255.0 green:146/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_163C_Color 
-{
-	return [UIColor colorWithRed:255/255.0 green:156/255.0 blue:113/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_461C_Color 
-{
-	return [UIColor colorWithRed:231/255.0 green:227/255.0 blue:181/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_386C_Color 
-{
-	return [UIColor colorWithRed:229/255.0 green:233/255.0 blue:110/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_684C_Color 
-{
-	return [UIColor colorWithRed:229/255.0 green:202/255.0 blue:217/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_531C_Color 
-{
-	return [UIColor colorWithRed:215/255.0 green:196/255.0 blue:231/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_233C_Color 
-{
-	return [UIColor colorWithRed:201/255.0 green:0/255.0 blue:129/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_456C_Color 
-{
-	return [UIColor colorWithRed:151/255.0 green:127/255.0 blue:9/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_158C_Color 
-{
-	return [UIColor colorWithRed:233/255.0 green:107/255.0 blue:16/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_679C_Color 
-{
-	return [UIColor colorWithRed:222/255.0 green:189/255.0 blue:212/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5235C_Color 
-{
-	return [UIColor colorWithRed:212/255.0 green:196/255.0 blue:206/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_303C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:52/255.0 blue:77/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_601C_Color 
-{
-	return [UIColor colorWithRed:238/255.0 green:234/255.0 blue:165/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_228C_Color 
-{
-	return [UIColor colorWithRed:138/255.0 green:7/255.0 blue:83/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_526C_Color 
-{
-	return [UIColor colorWithRed:97/255.0 green:32/255.0 blue:127/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1805C_Color 
-{
-	return [UIColor colorWithRed:176/255.0 green:35/255.0 blue:42/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2607C_Color 
-{
-	return [UIColor colorWithRed:79/255.0 green:2/255.0 blue:124/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2905C_Color 
-{
-	return [UIColor colorWithRed:146/255.0 green:201/255.0 blue:235/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_193C_Color 
-{
-	return [UIColor colorWithRed:195/255.0 green:12/255.0 blue:62/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5245C_Color 
-{
-	return [UIColor colorWithRed:223/255.0 green:212/255.0 blue:219/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_491C_Color 
-{
-	return [UIColor colorWithRed:119/255.0 green:43/255.0 blue:47/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_263C_Color 
-{
-	return [UIColor colorWithRed:216/255.0 green:203/255.0 blue:235/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_561C_Color 
-{
-	return [UIColor colorWithRed:15/255.0 green:98/255.0 blue:89/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_486C_Color 
-{
-	return [UIColor colorWithRed:236/255.0 green:147/255.0 blue:132/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1815C_Color 
-{
-	return [UIColor colorWithRed:124/255.0 green:33/255.0 blue:30/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2617C_Color 
-{
-	return [UIColor colorWithRed:75/255.0 green:11/255.0 blue:113/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_188C_Color 
-{
-	return [UIColor colorWithRed:124/255.0 green:34/255.0 blue:48/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2915C_Color 
-{
-	return [UIColor colorWithRed:98/255.0 green:180/255.0 blue:232/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_110C_Color 
-{
-	return [UIColor colorWithRed:219/255.0 green:174/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_333C_Color 
-{
-	return [UIColor colorWithRed:67/255.0 green:217/255.0 blue:199/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_258C_Color 
-{
-	return [UIColor colorWithRed:146/255.0 green:73/255.0 blue:158/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_556C_Color 
-{
-	return [UIColor colorWithRed:116/255.0 green:161/255.0 blue:142/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_631C_Color 
-{
-	return [UIColor colorWithRed:72/255.0 green:184/255.0 blue:210/255.0 alpha:255/255.0];
+	return [UIColor colorWithRed:172/255.0 green:150/255.0 blue:0/255.0 alpha:255/255.0];
 };
 
 +(UIColor *)pantone_105C_Color 
@@ -1552,354 +42,9 @@
 	return [UIColor colorWithRed:129/255.0 green:114/255.0 blue:20/255.0 alpha:255/255.0];
 };
 
-+(UIColor *)pantone_403C_Color 
++(UIColor *)pantone_106C_Color 
 {
-	return [UIColor colorWithRed:152/255.0 green:143/255.0 blue:134/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_328C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:113/255.0 blue:104/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5255C_Color 
-{
-	return [UIColor colorWithRed:42/255.0 green:37/255.0 blue:75/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_626C_Color 
-{
-	return [UIColor colorWithRed:31/255.0 green:86/255.0 blue:71/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_701C_Color 
-{
-	return [UIColor colorWithRed:229/255.0 green:141/255.0 blue:162/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2925C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:146/255.0 blue:221/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2627C_Color 
-{
-	return [UIColor colorWithRed:67/255.0 green:18/255.0 blue:95/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5747C_Color 
-{
-	return [UIColor colorWithRed:64/255.0 green:70/255.0 blue:22/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_293C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:71/255.0 blue:182/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3305C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:74/255.0 blue:65/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5265C_Color 
-{
-	return [UIColor colorWithRed:67/255.0 green:59/255.0 blue:103/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3242C_Color 
-{
-	return [UIColor colorWithRed:117/255.0 green:217/255.0 blue:216/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_140C_Color 
-{
-	return [UIColor colorWithRed:122/255.0 green:86/255.0 blue:15/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_363C_Color 
-{
-	return [UIColor colorWithRed:47/255.0 green:137/255.0 blue:39/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_661C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:53/255.0 blue:150/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_288C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:48/255.0 blue:130/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_586C_Color 
-{
-	return [UIColor colorWithRed:221/255.0 green:225/255.0 blue:138/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_210C_Color 
-{
-	return [UIColor colorWithRed:250/255.0 green:159/255.0 blue:204/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_433C_Color 
-{
-	return [UIColor colorWithRed:33/255.0 green:41/255.0 blue:48/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2935C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:91/255.0 blue:195/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_135C_Color 
-{
-	return [UIColor colorWithRed:254/255.0 green:200/255.0 blue:90/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_358C_Color 
-{
-	return [UIColor colorWithRed:165/255.0 green:219/255.0 blue:146/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5757C_Color 
-{
-	return [UIColor colorWithRed:111/255.0 green:115/255.0 blue:45/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_656C_Color 
-{
-	return [UIColor colorWithRed:212/255.0 green:221/255.0 blue:237/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_731C_Color 
-{
-	return [UIColor colorWithRed:121/255.0 green:63/255.0 blue:13/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_205C_Color 
-{
-	return [UIColor colorWithRed:227/255.0 green:69/255.0 blue:133/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_503C_Color 
-{
-	return [UIColor colorWithRed:233/255.0 green:204/255.0 blue:210/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_428C_Color 
-{
-	return [UIColor colorWithRed:195/255.0 green:200/255.0 blue:205/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_726C_Color 
-{
-	return [UIColor colorWithRed:232/255.0 green:206/255.0 blue:187/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_801C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:167/255.0 blue:216/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5275C_Color 
-{
-	return [UIColor colorWithRed:87/255.0 green:82/255.0 blue:126/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3252C_Color 
-{
-	return [UIColor colorWithRed:65/255.0 green:210/255.0 blue:210/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2945C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:83/255.0 blue:165/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_170C_Color 
-{
-	return [UIColor colorWithRed:255/255.0 green:137/255.0 blue:123/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5767C_Color 
-{
-	return [UIColor colorWithRed:141/255.0 green:145/255.0 blue:80/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_393C_Color 
-{
-	return [UIColor colorWithRed:237/255.0 green:235/255.0 blue:143/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_691C_Color 
-{
-	return [UIColor colorWithRed:231/255.0 green:205/255.0 blue:210/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_240C_Color 
-{
-	return [UIColor colorWithRed:196/255.0 green:30/255.0 blue:153/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5285C_Color 
-{
-	return [UIColor colorWithRed:133/255.0 green:129/255.0 blue:164/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3262C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:186/255.0 blue:185/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_165C_Color 
-{
-	return [UIColor colorWithRed:255/255.0 green:95/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_388C_Color 
-{
-	return [UIColor colorWithRed:215/255.0 green:227/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_463C_Color 
-{
-	return [UIColor colorWithRed:109/255.0 green:73/255.0 blue:33/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_310C_Color 
-{
-	return [UIColor colorWithRed:102/255.0 green:207/255.0 blue:230/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_686C_Color 
-{
-	return [UIColor colorWithRed:219/255.0 green:174/255.0 blue:198/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_533C_Color 
-{
-	return [UIColor colorWithRed:37/255.0 green:51/255.0 blue:85/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_235C_Color 
-{
-	return [UIColor colorWithRed:137/255.0 green:8/255.0 blue:87/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_458C_Color 
-{
-	return [UIColor colorWithRed:219/255.0 green:202/255.0 blue:103/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2955C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:59/255.0 blue:111/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_305C_Color 
-{
-	return [UIColor colorWithRed:83/255.0 green:202/255.0 blue:235/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5777C_Color 
-{
-	return [UIColor colorWithRed:167/255.0 green:171/255.0 blue:116/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_528C_Color 
-{
-	return [UIColor colorWithRed:167/255.0 green:116/255.0 blue:205/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_603C_Color 
-{
-	return [UIColor colorWithRed:237/255.0 green:226/255.0 blue:94/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5295C_Color 
-{
-	return [UIColor colorWithRed:170/255.0 green:167/255.0 blue:193/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3272C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:161/255.0 blue:156/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_270C_Color 
-{
-	return [UIColor colorWithRed:173/255.0 green:172/255.0 blue:220/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2965C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:49/255.0 blue:81/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5787C_Color 
-{
-	return [UIColor colorWithRed:193/255.0 green:196/255.0 blue:154/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_340C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:148/255.0 blue:96/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_4505C_Color 
-{
-	return [UIColor colorWithRed:155/255.0 green:137/255.0 blue:72/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_265C_Color 
-{
-	return [UIColor colorWithRed:141/255.0 green:101/255.0 blue:210/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_563C_Color 
-{
-	return [UIColor colorWithRed:114/255.0 green:184/255.0 blue:180/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_488C_Color 
-{
-	return [UIColor colorWithRed:236/255.0 green:187/255.0 blue:175/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3282C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:132/255.0 blue:128/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_112C_Color 
-{
-	return [UIColor colorWithRed:153/255.0 green:128/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_410C_Color 
-{
-	return [UIColor colorWithRed:123/255.0 green:110/255.0 blue:106/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_335C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:123/255.0 blue:99/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_633C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:124/255.0 blue:164/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_558C_Color 
-{
-	return [UIColor colorWithRed:172/255.0 green:199/255.0 blue:189/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2975C_Color 
-{
-	return [UIColor colorWithRed:165/255.0 green:217/255.0 blue:236/255.0 alpha:255/255.0];
+	return [UIColor colorWithRed:246/255.0 green:231/255.0 blue:97/255.0 alpha:255/255.0];
 };
 
 +(UIColor *)pantone_107C_Color 
@@ -1907,319 +52,9 @@
 	return [UIColor colorWithRed:250/255.0 green:226/255.0 blue:47/255.0 alpha:255/255.0];
 };
 
-+(UIColor *)pantone_405C_Color 
++(UIColor *)pantone_108C_Color 
 {
-	return [UIColor colorWithRed:100/255.0 green:90/255.0 blue:80/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_628C_Color 
-{
-	return [UIColor colorWithRed:200/255.0 green:226/255.0 blue:232/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5797C_Color 
-{
-	return [UIColor colorWithRed:206/255.0 green:209/255.0 blue:179/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_703C_Color 
-{
-	return [UIColor colorWithRed:186/255.0 green:57/255.0 blue:78/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_4515C_Color 
-{
-	return [UIColor colorWithRed:181/255.0 green:165/255.0 blue:112/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3292C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:90/255.0 blue:83/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_370C_Color 
-{
-	return [UIColor colorWithRed:79/255.0 green:138/255.0 blue:16/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_295C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:45/255.0 blue:98/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2985C_Color 
-{
-	return [UIColor colorWithRed:64/255.0 green:189/255.0 blue:232/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1405C_Color 
-{
-	return [UIColor colorWithRed:108/255.0 green:71/255.0 blue:19/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_142C_Color 
-{
-	return [UIColor colorWithRed:241/255.0 green:187/255.0 blue:70/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_440C_Color 
-{
-	return [UIColor colorWithRed:57/255.0 green:46/255.0 blue:44/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2563C_Color 
-{
-	return [UIColor colorWithRed:199/255.0 green:157/255.0 blue:216/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_4525C_Color 
-{
-	return [UIColor colorWithRed:197/255.0 green:186/255.0 blue:142/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_365C_Color 
-{
-	return [UIColor colorWithRed:204/255.0 green:229/255.0 blue:162/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_663C_Color 
-{
-	return [UIColor colorWithRed:222/255.0 green:216/255.0 blue:230/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_510C_Color 
-{
-	return [UIColor colorWithRed:233/255.0 green:194/255.0 blue:209/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_212C_Color 
-{
-	return [UIColor colorWithRed:243/255.0 green:78/255.0 blue:154/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_435C_Color 
-{
-	return [UIColor colorWithRed:200/255.0 green:186/255.0 blue:192/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_137C_Color 
-{
-	return [UIColor colorWithRed:255/255.0 green:159/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_658C_Color 
-{
-	return [UIColor colorWithRed:161/255.0 green:187/255.0 blue:228/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_207C_Color 
-{
-	return [UIColor colorWithRed:177/255.0 green:0/255.0 blue:66/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_505C_Color 
-{
-	return [UIColor colorWithRed:110/255.0 green:38/255.0 blue:57/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2995C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:162/255.0 blue:225/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1895C_Color 
-{
-	return [UIColor colorWithRed:243/255.0 green:188/255.0 blue:212/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_728C_Color 
-{
-	return [UIColor colorWithRed:213/255.0 green:170/255.0 blue:136/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_803C_Color 
-{
-	return [UIColor colorWithRed:255/255.0 green:232/255.0 blue:5/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2573C_Color 
-{
-	return [UIColor colorWithRed:178/255.0 green:121/255.0 blue:200/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3375C_Color 
-{
-	return [UIColor colorWithRed:129/255.0 green:224/255.0 blue:199/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_4535C_Color 
-{
-	return [UIColor colorWithRed:212/255.0 green:204/255.0 blue:170/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_172C_Color 
-{
-	return [UIColor colorWithRed:253/255.0 green:71/255.0 blue:3/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_470C_Color 
-{
-	return [UIColor colorWithRed:155/255.0 green:77/255.0 blue:27/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_395C_Color 
-{
-	return [UIColor colorWithRed:228/255.0 green:228/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_693C_Color 
-{
-	return [UIColor colorWithRed:217/255.0 green:167/255.0 blue:177/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_540C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:47/255.0 blue:93/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_242C_Color 
-{
-	return [UIColor colorWithRed:122/255.0 green:26/255.0 blue:87/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_465C_Color 
-{
-	return [UIColor colorWithRed:185/255.0 green:156/255.0 blue:107/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_167C_Color 
-{
-	return [UIColor colorWithRed:194/255.0 green:81/255.0 blue:15/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_688C_Color 
-{
-	return [UIColor colorWithRed:180/255.0 green:107/255.0 blue:147/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2583C_Color 
-{
-	return [UIColor colorWithRed:153/255.0 green:80/255.0 blue:178/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_4545C_Color 
-{
-	return [UIColor colorWithRed:222/255.0 green:217/255.0 blue:194/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3385C_Color 
-{
-	return [UIColor colorWithRed:59/255.0 green:214/255.0 blue:178/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_535C_Color 
-{
-	return [UIColor colorWithRed:149/255.0 green:161/255.0 blue:195/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_312C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:167/255.0 blue:212/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_237C_Color 
-{
-	return [UIColor colorWithRed:238/255.0 green:134/255.0 blue:211/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_610C_Color 
-{
-	return [UIColor colorWithRed:226/255.0 green:217/255.0 blue:115/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_307C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:112/255.0 blue:178/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_605C_Color 
-{
-	return [UIColor colorWithRed:224/255.0 green:202/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2593C_Color 
-{
-	return [UIColor colorWithRed:126/255.0 green:43/255.0 blue:151/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3395C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:197/255.0 blue:144/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_272C_Color 
-{
-	return [UIColor colorWithRed:121/255.0 green:115/255.0 blue:194/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_570C_Color 
-{
-	return [UIColor colorWithRed:118/255.0 green:198/255.0 blue:190/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_197C_Color 
-{
-	return [UIColor colorWithRed:235/255.0 green:155/255.0 blue:178/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_495C_Color 
-{
-	return [UIColor colorWithRed:237/255.0 green:184/255.0 blue:197/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_342C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:106/255.0 blue:78/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_640C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:133/255.0 blue:194/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_267C_Color 
-{
-	return [UIColor colorWithRed:79/255.0 green:31/255.0 blue:145/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_565C_Color 
-{
-	return [UIColor colorWithRed:185/255.0 green:220/255.0 blue:218/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_114C_Color 
-{
-	return [UIColor colorWithRed:250/255.0 green:224/255.0 blue:81/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_412C_Color 
-{
-	return [UIColor colorWithRed:55/255.0 green:43/255.0 blue:39/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_337C_Color 
-{
-	return [UIColor colorWithRed:148/255.0 green:216/255.0 blue:200/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_635C_Color 
-{
-	return [UIColor colorWithRed:173/255.0 green:221/255.0 blue:235/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_710C_Color 
-{
-	return [UIColor colorWithRed:229/255.0 green:70/255.0 blue:97/255.0 alpha:255/255.0];
+	return [UIColor colorWithRed:254/255.0 green:219/255.0 blue:0/255.0 alpha:255/255.0];
 };
 
 +(UIColor *)pantone_109C_Color 
@@ -2227,1814 +62,9 @@
 	return [UIColor colorWithRed:255/255.0 green:209/255.0 blue:0/255.0 alpha:255/255.0];
 };
 
-+(UIColor *)pantone_705C_Color 
++(UIColor *)pantone_110C_Color 
 {
-	return [UIColor colorWithRed:242/255.0 green:214/255.0 blue:222/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_372C_Color 
-{
-	return [UIColor colorWithRed:215/255.0 green:233/255.0 blue:161/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_670C_Color 
-{
-	return [UIColor colorWithRed:234/255.0 green:212/255.0 blue:228/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_297C_Color 
-{
-	return [UIColor colorWithRed:120/255.0 green:199/255.0 blue:235/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_442C_Color 
-{
-	return [UIColor colorWithRed:179/255.0 green:188/255.0 blue:192/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_144C_Color 
-{
-	return [UIColor colorWithRed:237/255.0 green:128/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_367C_Color 
-{
-	return [UIColor colorWithRed:164/255.0 green:216/255.0 blue:103/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_665C_Color 
-{
-	return [UIColor colorWithRed:197/255.0 green:187/255.0 blue:211/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_214C_Color 
-{
-	return [UIColor colorWithRed:208/255.0 green:0/255.0 blue:99/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_512C_Color 
-{
-	return [UIColor colorWithRed:126/255.0 green:34/255.0 blue:113/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_139C_Color 
-{
-	return [UIColor colorWithRed:182/255.0 green:113/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_437C_Color 
-{
-	return [UIColor colorWithRed:132/255.0 green:110/255.0 blue:116/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_810C_Color 
-{
-	return [UIColor colorWithRed:255/255.0 green:206/255.0 blue:9/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2562C_Color 
-{
-	return [UIColor colorWithRed:207/255.0 green:165/255.0 blue:228/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_209C_Color 
-{
-	return [UIColor colorWithRed:117/255.0 green:38/255.0 blue:65/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_507C_Color 
-{
-	return [UIColor colorWithRed:211/255.0 green:141/255.0 blue:166/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3005C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:118/255.0 blue:204/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_805C_Color 
-{
-	return [UIColor colorWithRed:255/255.0 green:88/255.0 blue:94/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2635C_Color 
-{
-	return [UIColor colorWithRed:191/255.0 green:175/255.0 blue:228/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_174C_Color 
-{
-	return [UIColor colorWithRed:154/255.0 green:52/255.0 blue:22/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_472C_Color 
-{
-	return [UIColor colorWithRed:228/255.0 green:153/255.0 blue:105/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2572C_Color 
-{
-	return [UIColor colorWithRed:192/255.0 green:132/255.0 blue:220/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_397C_Color 
-{
-	return [UIColor colorWithRed:190/255.0 green:184/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_695C_Color 
-{
-	return [UIColor colorWithRed:176/255.0 green:104/255.0 blue:118/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3015C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:96/255.0 blue:161/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_542C_Color 
-{
-	return [UIColor colorWithRed:89/255.0 green:152/255.0 blue:201/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_244C_Color 
-{
-	return [UIColor colorWithRed:230/255.0 green:162/255.0 blue:224/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_467C_Color 
-{
-	return [UIColor colorWithRed:213/255.0 green:196/255.0 blue:161/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_169C_Color 
-{
-	return [UIColor colorWithRed:255/255.0 green:182/255.0 blue:177/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_314C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:127/255.0 blue:172/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2708C_Color 
-{
-	return [UIColor colorWithRed:177/255.0 green:197/255.0 blue:234/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_239C_Color 
-{
-	return [UIColor colorWithRed:224/255.0 green:50/255.0 blue:175/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_537C_Color 
-{
-	return [UIColor colorWithRed:189/255.0 green:198/255.0 blue:218/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_612C_Color 
-{
-	return [UIColor colorWithRed:196/255.0 green:179/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2645C_Color 
-{
-	return [UIColor colorWithRed:170/255.0 green:148/255.0 blue:222/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1485C_Color 
-{
-	return [UIColor colorWithRed:255/255.0 green:181/255.0 blue:123/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_309C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:57/255.0 blue:71/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2582C_Color 
-{
-	return [UIColor colorWithRed:162/255.0 green:76/255.0 blue:200/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_607C_Color 
-{
-	return [UIColor colorWithRed:235/255.0 green:233/255.0 blue:195/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3025C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:73/255.0 blue:110/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2718C_Color 
-{
-	return [UIColor colorWithRed:84/255.0 green:126/255.0 blue:217/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2655C_Color 
-{
-	return [UIColor colorWithRed:145/255.0 green:115/255.0 blue:211/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1495C_Color 
-{
-	return [UIColor colorWithRed:255/255.0 green:150/255.0 blue:59/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_497C_Color 
-{
-	return [UIColor colorWithRed:78/255.0 green:42/255.0 blue:40/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_274C_Color 
-{
-	return [UIColor colorWithRed:33/255.0 green:18/255.0 blue:101/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_199C_Color 
-{
-	return [UIColor colorWithRed:219/255.0 green:12/255.0 blue:65/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2592C_Color 
-{
-	return [UIColor colorWithRed:144/255.0 green:22/255.0 blue:178/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_121C_Color 
-{
-	return [UIColor colorWithRed:251/255.0 green:219/255.0 blue:110/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_344C_Color 
-{
-	return [UIColor colorWithRed:166/255.0 green:222/255.0 blue:193/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3035C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:58/255.0 blue:79/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_269C_Color 
-{
-	return [UIColor colorWithRed:69/255.0 green:38/255.0 blue:99/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_567C_Color 
-{
-	return [UIColor colorWithRed:24/255.0 green:69/255.0 blue:59/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_572C_Color 
-{
-	return [UIColor colorWithRed:180/255.0 green:222/255.0 blue:219/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_642C_Color 
-{
-	return [UIColor colorWithRed:206/255.0 green:217/255.0 blue:231/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_116C_Color 
-{
-	return [UIColor colorWithRed:255/255.0 green:206/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_414C_Color 
-{
-	return [UIColor colorWithRed:181/255.0 green:182/255.0 blue:176/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_339C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:176/255.0 blue:139/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2728C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:71/255.0 blue:190/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_637C_Color 
-{
-	return [UIColor colorWithRed:91/255.0 green:200/255.0 blue:231/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_712C_Color 
-{
-	return [UIColor colorWithRed:250/255.0 green:205/255.0 blue:174/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2665C_Color 
-{
-	return [UIColor colorWithRed:122/255.0 green:82/255.0 blue:199/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_409C_Color 
-{
-	return [UIColor colorWithRed:148/255.0 green:134/255.0 blue:131/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_707C_Color 
-{
-	return [UIColor colorWithRed:245/255.0 green:176/255.0 blue:193/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5305C_Color 
-{
-	return [UIColor colorWithRed:193/255.0 green:190/255.0 blue:209/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2738C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:18/255.0 blue:157/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_151C_Color 
-{
-	return [UIColor colorWithRed:255/255.0 green:115/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_374C_Color 
-{
-	return [UIColor colorWithRed:186/255.0 green:229/255.0 blue:95/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_672C_Color 
-{
-	return [UIColor colorWithRed:225/255.0 green:167/255.0 blue:207/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_299C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:160/255.0 blue:226/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_221C_Color 
-{
-	return [UIColor colorWithRed:150/255.0 green:0/255.0 blue:75/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_444C_Color 
-{
-	return [UIColor colorWithRed:123/255.0 green:133/255.0 blue:138/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_146C_Color 
-{
-	return [UIColor colorWithRed:159/255.0 green:96/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_369C_Color 
-{
-	return [UIColor colorWithRed:79/255.0 green:166/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_667C_Color 
-{
-	return [UIColor colorWithRed:124/255.0 green:100/255.0 blue:149/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5315C_Color 
-{
-	return [UIColor colorWithRed:212/255.0 green:212/255.0 blue:224/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_216C_Color 
-{
-	return [UIColor colorWithRed:122/255.0 green:29/255.0 blue:66/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_514C_Color 
-{
-	return [UIColor colorWithRed:211/255.0 green:133/255.0 blue:200/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_439C_Color 
-{
-	return [UIColor colorWithRed:68/255.0 green:53/255.0 blue:53/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_812C_Color 
-{
-	return [UIColor colorWithRed:255/255.0 green:52/255.0 blue:133/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2748C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:26/255.0 blue:123/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_509C_Color 
-{
-	return [UIColor colorWithRed:231/255.0 green:185/255.0 blue:202/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_807C_Color 
-{
-	return [UIColor colorWithRed:215/255.0 green:8/255.0 blue:178/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2685C_Color 
-{
-	return [UIColor colorWithRed:59/255.0 green:0/255.0 blue:132/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5807C_Color 
-{
-	return [UIColor colorWithRed:217/255.0 green:220/255.0 blue:197/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_181C_Color 
-{
-	return [UIColor colorWithRed:121/255.0 green:39/255.0 blue:32/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3302C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:66/255.0 blue:60/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_251C_Color 
-{
-	return [UIColor colorWithRed:217/255.0 green:156/255.0 blue:225/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_474C_Color 
-{
-	return [UIColor colorWithRed:238/255.0 green:197/255.0 blue:169/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_176C_Color 
-{
-	return [UIColor colorWithRed:255/255.0 green:172/255.0 blue:185/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_399C_Color 
-{
-	return [UIColor colorWithRed:153/255.0 green:141/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2758C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:29/255.0 blue:104/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_697C_Color 
-{
-	return [UIColor colorWithRed:129/255.0 green:51/255.0 blue:61/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_321C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:129/255.0 blue:147/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2695C_Color 
-{
-	return [UIColor colorWithRed:56/255.0 green:29/255.0 blue:89/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_544C_Color 
-{
-	return [UIColor colorWithRed:177/255.0 green:203/255.0 blue:229/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_246C_Color 
-{
-	return [UIColor colorWithRed:199/255.0 green:11/255.0 blue:172/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_469C_Color 
-{
-	return [UIColor colorWithRed:97/255.0 green:52/255.0 blue:24/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_316C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:70/255.0 blue:80/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_614C_Color 
-{
-	return [UIColor colorWithRed:227/255.0 green:225/255.0 blue:193/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_539C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:42/255.0 blue:70/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2768C_Color 
-{
-	return [UIColor colorWithRed:3/255.0 green:30/255.0 blue:81/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1905C_Color 
-{
-	return [UIColor colorWithRed:245/255.0 green:155/255.0 blue:189/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2707C_Color 
-{
-	return [UIColor colorWithRed:189/255.0 green:208/255.0 blue:238/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_609C_Color 
-{
-	return [UIColor colorWithRed:231/255.0 green:226/255.0 blue:154/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_281C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:37/255.0 blue:105/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_351C_Color 
-{
-	return [UIColor colorWithRed:167/255.0 green:230/255.0 blue:196/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_276C_Color 
-{
-	return [UIColor colorWithRed:36/255.0 green:26/255.0 blue:68/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_574C_Color 
-{
-	return [UIColor colorWithRed:64/255.0 green:79/255.0 blue:36/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_499C_Color 
-{
-	return [UIColor colorWithRed:118/255.0 green:57/255.0 blue:49/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1915C_Color 
-{
-	return [UIColor colorWithRed:242/255.0 green:85/255.0 blue:138/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2717C_Color 
-{
-	return [UIColor colorWithRed:161/255.0 green:189/255.0 blue:234/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_123C_Color 
-{
-	return [UIColor colorWithRed:255/255.0 green:199/255.0 blue:38/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_346C_Color 
-{
-	return [UIColor colorWithRed:94/255.0 green:201/255.0 blue:152/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_421C_Color 
-{
-	return [UIColor colorWithRed:186/255.0 green:187/255.0 blue:188/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_4975C_Color 
-{
-	return [UIColor colorWithRed:68/255.0 green:30/255.0 blue:31/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_569C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:132/255.0 blue:120/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_644C_Color 
-{
-	return [UIColor colorWithRed:151/255.0 green:177/255.0 blue:208/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_118C_Color 
-{
-	return [UIColor colorWithRed:179/255.0 green:138/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_416C_Color 
-{
-	return [UIColor colorWithRed:135/255.0 green:136/255.0 blue:127/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_639C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:154/255.0 blue:207/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_714C_Color 
-{
-	return [UIColor colorWithRed:253/255.0 green:177/255.0 blue:121/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_709C_Color 
-{
-	return [UIColor colorWithRed:239/255.0 green:103/255.0 blue:130/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1925C_Color 
-{
-	return [UIColor colorWithRed:228/255.0 green:0/255.0 blue:80/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2727C_Color 
-{
-	return [UIColor colorWithRed:56/255.0 green:120/255.0 blue:219/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_381C_Color 
-{
-	return [UIColor colorWithRed:200/255.0 green:219/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_4985C_Color 
-{
-	return [UIColor colorWithRed:133/255.0 green:74/255.0 blue:80/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2603C_Color 
-{
-	return [UIColor colorWithRed:104/255.0 green:23/255.0 blue:127/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3405C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:174/255.0 blue:104/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_153C_Color 
-{
-	return [UIColor colorWithRed:192/255.0 green:102/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_451C_Color 
-{
-	return [UIColor colorWithRed:159/255.0 green:155/255.0 blue:116/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_376C_Color 
-{
-	return [UIColor colorWithRed:118/255.0 green:185/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_674C_Color 
-{
-	return [UIColor colorWithRed:206/255.0 green:98/255.0 blue:164/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_521C_Color 
-{
-	return [UIColor colorWithRed:173/255.0 green:133/255.0 blue:186/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_223C_Color 
-{
-	return [UIColor colorWithRed:242/255.0 green:147/255.0 blue:209/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_446C_Color 
-{
-	return [UIColor colorWithRed:61/255.0 green:66/255.0 blue:66/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1935C_Color 
-{
-	return [UIColor colorWithRed:203/255.0 green:4/255.0 blue:71/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_148C_Color 
-{
-	return [UIColor colorWithRed:251/255.0 green:208/255.0 blue:157/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_669C_Color 
-{
-	return [UIColor colorWithRed:67/255.0 green:44/255.0 blue:95/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_4995C_Color 
-{
-	return [UIColor colorWithRed:161/255.0 green:105/255.0 blue:113/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_218C_Color 
-{
-	return [UIColor colorWithRed:232/255.0 green:111/255.0 blue:184/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_516C_Color 
-{
-	return [UIColor colorWithRed:231/255.0 green:186/255.0 blue:223/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2613C_Color 
-{
-	return [UIColor colorWithRed:97/255.0 green:23/255.0 blue:116/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3415C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:119/255.0 blue:75/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_814C_Color 
-{
-	return [UIColor colorWithRed:126/255.0 green:96/255.0 blue:206/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_809C_Color 
-{
-	return [UIColor colorWithRed:225/255.0 green:228/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1945C_Color 
-{
-	return [UIColor colorWithRed:170/255.0 green:17/255.0 blue:63/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2747C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:35/255.0 blue:126/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_183C_Color 
-{
-	return [UIColor colorWithRed:252/255.0 green:141/255.0 blue:169/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_481C_Color 
-{
-	return [UIColor colorWithRed:213/255.0 green:189/255.0 blue:176/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2623C_Color 
-{
-	return [UIColor colorWithRed:88/255.0 green:25/255.0 blue:99/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3425C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:102/255.0 blue:68/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_253C_Color 
-{
-	return [UIColor colorWithRed:169/255.0 green:27/255.0 blue:176/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_476C_Color 
-{
-	return [UIColor colorWithRed:81/255.0 green:49/255.0 blue:39/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_178C_Color 
-{
-	return [UIColor colorWithRed:255/255.0 green:91/255.0 blue:96/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_551C_Color 
-{
-	return [UIColor colorWithRed:159/255.0 green:193/255.0 blue:211/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_100C_Color 
-{
-	return [UIColor colorWithRed:243/255.0 green:237/255.0 blue:134/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5743C_Color 
-{
-	return [UIColor colorWithRed:62/255.0 green:71/255.0 blue:35/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_323C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:96/255.0 blue:104/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_621C_Color 
-{
-	return [UIColor colorWithRed:210/255.0 green:223/255.0 blue:220/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_546C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:52/255.0 blue:64/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_248C_Color 
-{
-	return [UIColor colorWithRed:158/255.0 green:3/255.0 blue:137/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_699C_Color 
-{
-	return [UIColor colorWithRed:240/255.0 green:194/255.0 blue:205/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1955C_Color 
-{
-	return [UIColor colorWithRed:147/255.0 green:23/255.0 blue:59/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2757C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:32/255.0 blue:101/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_318C_Color 
-{
-	return [UIColor colorWithRed:142/255.0 green:219/255.0 blue:229/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_616C_Color 
-{
-	return [UIColor colorWithRed:215/255.0 green:210/255.0 blue:157/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3435C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:71/255.0 blue:49/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5753C_Color 
-{
-	return [UIColor colorWithRed:94/255.0 green:102/255.0 blue:57/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5395C_Color 
-{
-	return [UIColor colorWithRed:2/255.0 green:37/255.0 blue:58/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_283C_Color 
-{
-	return [UIColor colorWithRed:147/255.0 green:191/255.0 blue:235/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_581C_Color 
-{
-	return [UIColor colorWithRed:96/255.0 green:90/255.0 blue:18/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2767C_Color 
-{
-	return [UIColor colorWithRed:11/255.0 green:35/255.0 blue:69/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2706C_Color 
-{
-	return [UIColor colorWithRed:196/255.0 green:203/255.0 blue:234/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_130C_Color 
-{
-	return [UIColor colorWithRed:241/255.0 green:171/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_353C_Color 
-{
-	return [UIColor colorWithRed:106/255.0 green:220/255.0 blue:162/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_651C_Color 
-{
-	return [UIColor colorWithRed:153/255.0 green:174/255.0 blue:206/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_278C_Color 
-{
-	return [UIColor colorWithRed:140/255.0 green:180/255.0 blue:232/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_576C_Color 
-{
-	return [UIColor colorWithRed:102/255.0 green:142/255.0 blue:60/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_200C_Color 
-{
-	return [UIColor colorWithRed:193/255.0 green:4/255.0 blue:53/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5763C_Color 
-{
-	return [UIColor colorWithRed:110/255.0 green:118/255.0 blue:73/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_423C_Color 
-{
-	return [UIColor colorWithRed:147/255.0 green:148/255.0 blue:149/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_125C_Color 
-{
-	return [UIColor colorWithRed:187/255.0 green:137/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_348C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:126/255.0 blue:58/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_646C_Color 
-{
-	return [UIColor colorWithRed:87/255.0 green:129/255.0 blue:174/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_721C_Color 
-{
-	return [UIColor colorWithRed:229/255.0 green:174/255.0 blue:134/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_418C_Color 
-{
-	return [UIColor colorWithRed:90/255.0 green:91/255.0 blue:81/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_716C_Color 
-{
-	return [UIColor colorWithRed:241/255.0 green:124/255.0 blue:14/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2716C_Color 
-{
-	return [UIColor colorWithRed:148/255.0 green:161/255.0 blue:226/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5773C_Color 
-{
-	return [UIColor colorWithRed:147/255.0 green:152/255.0 blue:113/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_160C_Color 
-{
-	return [UIColor colorWithRed:162/255.0 green:78/255.0 blue:18/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_383C_Color 
-{
-	return [UIColor colorWithRed:159/255.0 green:170/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_681C_Color 
-{
-	return [UIColor colorWithRed:184/255.0 green:116/255.0 blue:158/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_230C_Color 
-{
-	return [UIColor colorWithRed:247/255.0 green:167/255.0 blue:219/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_453C_Color 
-{
-	return [UIColor colorWithRed:200/255.0 green:197/255.0 blue:172/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2726C_Color 
-{
-	return [UIColor colorWithRed:69/255.0 green:85/255.0 blue:199/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1505C_Color 
-{
-	return [UIColor colorWithRed:255/255.0 green:114/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_155C_Color 
-{
-	return [UIColor colorWithRed:236/255.0 green:214/255.0 blue:175/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_378C_Color 
-{
-	return [UIColor colorWithRed:77/255.0 green:90/255.0 blue:18/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2365C_Color 
-{
-	return [UIColor colorWithRed:239/255.0 green:195/255.0 blue:228/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_4625C_Color 
-{
-	return [UIColor colorWithRed:78/255.0 green:38/255.0 blue:20/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_523C_Color 
-{
-	return [UIColor colorWithRed:203/255.0 green:178/255.0 blue:213/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2602C_Color 
-{
-	return [UIColor colorWithRed:125/255.0 green:9/255.0 blue:150/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_448C_Color 
-{
-	return [UIColor colorWithRed:71/255.0 green:62/255.0 blue:38/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_300C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:103/255.0 blue:198/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_225C_Color 
-{
-	return [UIColor colorWithRed:229/255.0 green:35/255.0 blue:157/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5783C_Color 
-{
-	return [UIColor colorWithRed:173/255.0 green:178/255.0 blue:145/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_676C_Color 
-{
-	return [UIColor colorWithRed:163/255.0 green:0/255.0 blue:89/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5005C_Color 
-{
-	return [UIColor colorWithRed:183/255.0 green:132/255.0 blue:140/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_518C_Color 
-{
-	return [UIColor colorWithRed:75/255.0 green:42/255.0 blue:70/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2736C_Color 
-{
-	return [UIColor colorWithRed:30/255.0 green:34/255.0 blue:174/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_190C_Color 
-{
-	return [UIColor colorWithRed:248/255.0 green:119/255.0 blue:158/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2375C_Color 
-{
-	return [UIColor colorWithRed:226/255.0 green:112/255.0 blue:205/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_4635C_Color 
-{
-	return [UIColor colorWithRed:144/255.0 green:90/255.0 blue:51/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2612C_Color 
-{
-	return [UIColor colorWithRed:106/255.0 green:26/255.0 blue:122/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5793C_Color 
-{
-	return [UIColor colorWithRed:189/255.0 green:194/255.0 blue:169/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_260C_Color 
-{
-	return [UIColor colorWithRed:95/255.0 green:29/255.0 blue:95/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_185C_Color 
-{
-	return [UIColor colorWithRed:234/255.0 green:4/255.0 blue:55/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_483C_Color 
-{
-	return [UIColor colorWithRed:106/255.0 green:46/255.0 blue:34/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5015C_Color 
-{
-	return [UIColor colorWithRed:209/255.0 green:169/255.0 blue:176/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_330C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:82/255.0 blue:77/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_255C_Color 
-{
-	return [UIColor colorWithRed:112/255.0 green:38/255.0 blue:108/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_553C_Color 
-{
-	return [UIColor colorWithRed:33/255.0 green:66/255.0 blue:50/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_478C_Color 
-{
-	return [UIColor colorWithRed:114/255.0 green:54/255.0 blue:41/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2746C_Color 
-{
-	return [UIColor colorWithRed:26/255.0 green:28/255.0 blue:150/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1525C_Color 
-{
-	return [UIColor colorWithRed:202/255.0 green:78/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_102C_Color 
-{
-	return [UIColor colorWithRed:250/255.0 green:230/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_325C_Color 
-{
-	return [UIColor colorWithRed:71/255.0 green:199/255.0 blue:199/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2385C_Color 
-{
-	return [UIColor colorWithRed:215/255.0 green:51/255.0 blue:180/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_4645C_Color 
-{
-	return [UIColor colorWithRed:177/255.0 green:127/255.0 blue:92/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2622C_Color 
-{
-	return [UIColor colorWithRed:87/255.0 green:36/255.0 blue:88/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_400C_Color 
-{
-	return [UIColor colorWithRed:205/255.0 green:201/255.0 blue:196/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_548C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:65/255.0 blue:89/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_623C_Color 
-{
-	return [UIColor colorWithRed:158/255.0 green:188/255.0 blue:179/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_618C_Color 
-{
-	return [UIColor colorWithRed:180/255.0 green:168/255.0 blue:81/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5025C_Color 
-{
-	return [UIColor colorWithRed:219/255.0 green:188/255.0 blue:193/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2756C_Color 
-{
-	return [UIColor colorWithRed:21/255.0 green:29/255.0 blue:113/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_290C_Color 
-{
-	return [UIColor colorWithRed:190/255.0 green:217/255.0 blue:237/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1535C_Color 
-{
-	return [UIColor colorWithRed:147/255.0 green:63/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2395C_Color 
-{
-	return [UIColor colorWithRed:196/255.0 green:0/255.0 blue:152/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_4655C_Color 
-{
-	return [UIColor colorWithRed:192/255.0 green:148/255.0 blue:119/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_360C_Color 
-{
-	return [UIColor colorWithRed:85/255.0 green:190/255.0 blue:71/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5815C_Color 
-{
-	return [UIColor colorWithRed:75/255.0 green:69/255.0 blue:22/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_285C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:119/255.0 blue:212/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_583C_Color 
-{
-	return [UIColor colorWithRed:171/255.0 green:180/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5035C_Color 
-{
-	return [UIColor colorWithRed:227/255.0 green:203/255.0 blue:208/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_132C_Color 
-{
-	return [UIColor colorWithRed:166/255.0 green:122/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_355C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:149/255.0 blue:48/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_430C_Color 
-{
-	return [UIColor colorWithRed:134/255.0 green:143/255.0 blue:152/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_578C_Color 
-{
-	return [UIColor colorWithRed:189/255.0 green:208/255.0 blue:160/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_653C_Color 
-{
-	return [UIColor colorWithRed:42/255.0 green:86/255.0 blue:143/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_500C_Color 
-{
-	return [UIColor colorWithRed:200/255.0 green:134/255.0 blue:145/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2766C_Color 
-{
-	return [UIColor colorWithRed:21/255.0 green:28/255.0 blue:85/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_127C_Color 
-{
-	return [UIColor colorWithRed:239/255.0 green:223/255.0 blue:133/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_425C_Color 
-{
-	return [UIColor colorWithRed:86/255.0 green:89/255.0 blue:92/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2705C_Color 
-{
-	return [UIColor colorWithRed:162/255.0 green:159/255.0 blue:224/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1545C_Color 
-{
-	return [UIColor colorWithRed:81/255.0 green:38/255.0 blue:11/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_202C_Color 
-{
-	return [UIColor colorWithRed:137/255.0 green:32/255.0 blue:52/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_4665C_Color 
-{
-	return [UIColor colorWithRed:209/255.0 green:174/255.0 blue:151/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5467C_Color 
-{
-	return [UIColor colorWithRed:24/255.0 green:53/255.0 blue:51/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5825C_Color 
-{
-	return [UIColor colorWithRed:125/255.0 green:118/255.0 blue:47/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_648C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:43/255.0 blue:95/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_718C_Color 
-{
-	return [UIColor colorWithRed:207/255.0 green:82/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_723C_Color 
-{
-	return [UIColor colorWithRed:192/255.0 green:114/255.0 blue:47/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_390C_Color 
-{
-	return [UIColor colorWithRed:178/255.0 green:188/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1555C_Color 
-{
-	return [UIColor colorWithRed:255/255.0 green:191/255.0 blue:160/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2715C_Color 
-{
-	return [UIColor colorWithRed:133/255.0 green:128/255.0 blue:216/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_162C_Color 
-{
-	return [UIColor colorWithRed:253/255.0 green:195/255.0 blue:170/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_460C_Color 
-{
-	return [UIColor colorWithRed:229/255.0 green:219/255.0 blue:151/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_4675C_Color 
-{
-	return [UIColor colorWithRed:221/255.0 green:194/255.0 blue:176/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_385C_Color 
-{
-	return [UIColor colorWithRed:110/255.0 green:106/255.0 blue:18/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5477C_Color 
-{
-	return [UIColor colorWithRed:60/255.0 green:91/255.0 blue:89/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5835C_Color 
-{
-	return [UIColor colorWithRed:157/255.0 green:151/255.0 blue:84/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_683C_Color 
-{
-	return [UIColor colorWithRed:124/255.0 green:34/255.0 blue:80/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_530C_Color 
-{
-	return [UIColor colorWithRed:207/255.0 green:177/255.0 blue:227/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_232C_Color 
-{
-	return [UIColor colorWithRed:239/255.0 green:64/255.0 blue:176/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_455C_Color 
-{
-	return [UIColor colorWithRed:101/255.0 green:84/255.0 blue:21/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_157C_Color 
-{
-	return [UIColor colorWithRed:237/255.0 green:155/255.0 blue:79/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_678C_Color 
-{
-	return [UIColor colorWithRed:226/255.0 green:201/255.0 blue:218/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_302C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:67/255.0 blue:110/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_600C_Color 
-{
-	return [UIColor colorWithRed:238/255.0 green:235/255.0 blue:182/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_227C_Color 
-{
-	return [UIColor colorWithRed:174/255.0 green:0/255.0 blue:95/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_525C_Color 
-{
-	return [UIColor colorWithRed:81/255.0 green:38/255.0 blue:90/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2725C_Color 
-{
-	return [UIColor colorWithRed:94/255.0 green:83/255.0 blue:199/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1565C_Color 
-{
-	return [UIColor colorWithRed:255/255.0 green:169/255.0 blue:125/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_4685C_Color 
-{
-	return [UIColor colorWithRed:228/255.0 green:210/255.0 blue:197/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5487C_Color 
-{
-	return [UIColor colorWithRed:98/255.0 green:125/255.0 blue:124/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5845C_Color 
-{
-	return [UIColor colorWithRed:173/255.0 green:168/255.0 blue:107/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3105C_Color 
-{
-	return [UIColor colorWithRed:111/255.0 green:210/255.0 blue:228/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_192C_Color 
-{
-	return [UIColor colorWithRed:233/255.0 green:6/255.0 blue:73/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_490C_Color 
-{
-	return [UIColor colorWithRed:90/255.0 green:39/255.0 blue:42/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_262C_Color 
-{
-	return [UIColor colorWithRed:79/255.0 green:34/255.0 blue:72/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2735C_Color 
-{
-	return [UIColor colorWithRed:40/255.0 green:0/255.0 blue:146/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_485C_Color 
-{
-	return [UIColor colorWithRed:220/255.0 green:36/255.0 blue:31/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1575C_Color 
-{
-	return [UIColor colorWithRed:255/255.0 green:134/255.0 blue:66/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_187C_Color 
-{
-	return [UIColor colorWithRed:179/255.0 green:27/255.0 blue:52/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_4695C_Color 
-{
-	return [UIColor colorWithRed:83/255.0 green:40/255.0 blue:33/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5497C_Color 
-{
-	return [UIColor colorWithRed:141/255.0 green:160/255.0 blue:159/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_332C_Color 
-{
-	return [UIColor colorWithRed:159/255.0 green:228/255.0 blue:219/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_560C_Color 
-{
-	return [UIColor colorWithRed:34/255.0 green:72/255.0 blue:63/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_257C_Color 
-{
-	return [UIColor colorWithRed:203/255.0 green:164/255.0 blue:212/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3115C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:196/255.0 blue:220/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_555C_Color 
-{
-	return [UIColor colorWithRed:19/255.0 green:105/255.0 blue:78/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5855C_Color 
-{
-	return [UIColor colorWithRed:199/255.0 green:195/255.0 blue:151/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_630C_Color 
-{
-	return [UIColor colorWithRed:130/255.0 green:203/255.0 blue:221/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_104C_Color 
-{
-	return [UIColor colorWithRed:172/255.0 green:150/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_402C_Color 
-{
-	return [UIColor colorWithRed:173/255.0 green:165/255.0 blue:157/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_327C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:133/255.0 blue:121/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_625C_Color 
-{
-	return [UIColor colorWithRed:81/255.0 green:130/255.0 blue:116/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_700C_Color 
-{
-	return [UIColor colorWithRed:236/255.0 green:169/255.0 blue:185/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2745C_Color 
-{
-	return [UIColor colorWithRed:34/255.0 green:0/255.0 blue:122/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1585C_Color 
-{
-	return [UIColor colorWithRed:255/255.0 green:105/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5865C_Color 
-{
-	return [UIColor colorWithRed:211/255.0 green:207/255.0 blue:172/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3125C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:174/255.0 blue:206/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_292C_Color 
-{
-	return [UIColor colorWithRed:106/255.0 green:178/255.0 blue:231/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_362C_Color 
-{
-	return [UIColor colorWithRed:40/255.0 green:151/255.0 blue:40/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_660C_Color 
-{
-	return [UIColor colorWithRed:41/255.0 green:109/255.0 blue:193/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_287C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:55/255.0 blue:152/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_585C_Color 
-{
-	return [UIColor colorWithRed:216/255.0 green:219/255.0 blue:111/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2755C_Color 
-{
-	return [UIColor colorWithRed:27/255.0 green:0/255.0 blue:105/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1595C_Color 
-{
-	return [UIColor colorWithRed:218/255.0 green:92/255.0 blue:5/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_432C_Color 
-{
-	return [UIColor colorWithRed:65/255.0 green:75/255.0 blue:86/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_134C_Color 
-{
-	return [UIColor colorWithRed:248/255.0 green:213/255.0 blue:131/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_357C_Color 
-{
-	return [UIColor colorWithRed:15/255.0 green:77/255.0 blue:42/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5875C_Color 
-{
-	return [UIColor colorWithRed:217/255.0 green:215/255.0 blue:185/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_655C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:34/255.0 blue:82/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3135C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:146/255.0 blue:186/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_730C_Color 
-{
-	return [UIColor colorWithRed:172/255.0 green:112/255.0 blue:61/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_204C_Color 
-{
-	return [UIColor colorWithRed:232/255.0 green:123/255.0 blue:172/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_502C_Color 
-{
-	return [UIColor colorWithRed:229/255.0 green:191/255.0 blue:199/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_129C_Color 
-{
-	return [UIColor colorWithRed:241/255.0 green:205/255.0 blue:68/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_427C_Color 
-{
-	return [UIColor colorWithRed:210/255.0 green:214/255.0 blue:217/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_725C_Color 
-{
-	return [UIColor colorWithRed:132/255.0 green:59/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2765C_Color 
-{
-	return [UIColor colorWithRed:27/255.0 green:12/255.0 blue:85/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3145C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:122/255.0 blue:151/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5405C_Color 
-{
-	return [UIColor colorWithRed:62/255.0 green:100/255.0 blue:126/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_392C_Color 
-{
-	return [UIColor colorWithRed:127/255.0 green:120/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_690C_Color 
-{
-	return [UIColor colorWithRed:109/255.0 green:35/255.0 blue:72/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_164C_Color 
-{
-	return [UIColor colorWithRed:255/255.0 green:126/255.0 blue:67/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_462C_Color 
-{
-	return [UIColor colorWithRed:86/255.0 green:63/255.0 blue:35/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_387C_Color 
-{
-	return [UIColor colorWithRed:222/255.0 green:230/255.0 blue:58/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_685C_Color 
-{
-	return [UIColor colorWithRed:225/255.0 green:188/255.0 blue:208/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_532C_Color 
-{
-	return [UIColor colorWithRed:38/255.0 green:42/255.0 blue:57/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3935C_Color 
-{
-	return [UIColor colorWithRed:240/255.0 green:235/255.0 blue:122/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_457C_Color 
-{
-	return [UIColor colorWithRed:178/255.0 green:146/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_234C_Color 
-{
-	return [UIColor colorWithRed:166/255.0 green:0/255.0 blue:107/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_159C_Color 
-{
-	return [UIColor colorWithRed:205/255.0 green:88/255.0 blue:6/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_304C_Color 
-{
-	return [UIColor colorWithRed:162/255.0 green:219/255.0 blue:235/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3155C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:102/255.0 blue:124/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_229C_Color 
-{
-	return [UIColor colorWithRed:106/255.0 green:29/255.0 blue:68/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_527C_Color 
-{
-	return [UIColor colorWithRed:110/255.0 green:32/255.0 blue:160/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5415C_Color 
-{
-	return [UIColor colorWithRed:88/255.0 green:121/255.0 blue:147/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_602C_Color 
-{
-	return [UIColor colorWithRed:238/255.0 green:232/255.0 blue:141/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3945C_Color 
-{
-	return [UIColor colorWithRed:239/255.0 green:230/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1205C_Color 
-{
-	return [UIColor colorWithRed:243/255.0 green:226/255.0 blue:167/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_194C_Color 
-{
-	return [UIColor colorWithRed:156/255.0 green:30/255.0 blue:61/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_492C_Color 
-{
-	return [UIColor colorWithRed:145/255.0 green:53/255.0 blue:59/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3165C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:79/255.0 blue:93/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5425C_Color 
-{
-	return [UIColor colorWithRed:124/255.0 green:152/255.0 blue:174/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_264C_Color 
-{
-	return [UIColor colorWithRed:188/255.0 green:168/255.0 blue:230/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_562C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:119/255.0 blue:112/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_487C_Color 
-{
-	return [UIColor colorWithRed:236/255.0 green:171/255.0 blue:157/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_189C_Color 
-{
-	return [UIColor colorWithRed:248/255.0 green:161/255.0 blue:190/255.0 alpha:255/255.0];
+	return [UIColor colorWithRed:219/255.0 green:174/255.0 blue:0/255.0 alpha:255/255.0];
 };
 
 +(UIColor *)pantone_111C_Color 
@@ -4042,359 +72,9 @@
 	return [UIColor colorWithRed:175/255.0 green:143/255.0 blue:0/255.0 alpha:255/255.0];
 };
 
-+(UIColor *)pantone_334C_Color 
++(UIColor *)pantone_112C_Color 
 {
-	return [UIColor colorWithRed:0/255.0 green:152/255.0 blue:120/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_632C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:158/255.0 blue:192/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_259C_Color 
-{
-	return [UIColor colorWithRed:108/255.0 green:27/255.0 blue:114/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3955C_Color 
-{
-	return [UIColor colorWithRed:236/255.0 green:225/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_557C_Color 
-{
-	return [UIColor colorWithRed:152/255.0 green:186/255.0 blue:172/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_106C_Color 
-{
-	return [UIColor colorWithRed:246/255.0 green:231/255.0 blue:97/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_404C_Color 
-{
-	return [UIColor colorWithRed:124/255.0 green:115/255.0 blue:105/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_329C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:98/255.0 blue:90/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1215C_Color 
-{
-	return [UIColor colorWithRed:245/255.0 green:221/255.0 blue:146/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_627C_Color 
-{
-	return [UIColor colorWithRed:3/255.0 green:45/255.0 blue:35/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5435C_Color 
-{
-	return [UIColor colorWithRed:165/255.0 green:184/255.0 blue:201/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_702C_Color 
-{
-	return [UIColor colorWithRed:213/255.0 green:100/255.0 blue:124/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3965C_Color 
-{
-	return [UIColor colorWithRed:233/255.0 green:220/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_294C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:53/255.0 blue:128/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3248C_Color 
-{
-	return [UIColor colorWithRed:123/255.0 green:210/255.0 blue:200/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1225C_Color 
-{
-	return [UIColor colorWithRed:253/255.0 green:199/255.0 blue:69/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_141C_Color 
-{
-	return [UIColor colorWithRed:239/255.0 green:200/255.0 blue:104/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5803C_Color 
-{
-	return [UIColor colorWithRed:206/255.0 green:210/255.0 blue:191/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5445C_Color 
-{
-	return [UIColor colorWithRed:188/255.0 green:202/255.0 blue:214/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_364C_Color 
-{
-	return [UIColor colorWithRed:49/255.0 green:112/255.0 blue:35/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_289C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:35/255.0 blue:76/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_587C_Color 
-{
-	return [UIColor colorWithRed:226/255.0 green:229/255.0 blue:159/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_662C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:34/255.0 blue:128/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_211C_Color 
-{
-	return [UIColor colorWithRed:249/255.0 green:125/255.0 blue:184/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_434C_Color 
-{
-	return [UIColor colorWithRed:211/255.0 green:201/255.0 blue:206/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_136C_Color 
-{
-	return [UIColor colorWithRed:255/255.0 green:188/255.0 blue:58/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_359C_Color 
-{
-	return [UIColor colorWithRed:159/255.0 green:217/255.0 blue:139/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_657C_Color 
-{
-	return [UIColor colorWithRed:191/255.0 green:208/255.0 blue:234/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_732C_Color 
-{
-	return [UIColor colorWithRed:100/255.0 green:48/255.0 blue:10/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3975C_Color 
-{
-	return [UIColor colorWithRed:187/255.0 green:168/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_206C_Color 
-{
-	return [UIColor colorWithRed:215/255.0 green:0/255.0 blue:77/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_504C_Color 
-{
-	return [UIColor colorWithRed:78/255.0 green:32/255.0 blue:41/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3258C_Color 
-{
-	return [UIColor colorWithRed:67/255.0 green:196/255.0 blue:183/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_429C_Color 
-{
-	return [UIColor colorWithRed:168/255.0 green:173/255.0 blue:180/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1235C_Color 
-{
-	return [UIColor colorWithRed:255/255.0 green:179/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_727C_Color 
-{
-	return [UIColor colorWithRed:225/255.0 green:190/255.0 blue:164/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_802C_Color 
-{
-	return [UIColor colorWithRed:91/255.0 green:221/255.0 blue:69/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_5455C_Color 
-{
-	return [UIColor colorWithRed:204/255.0 green:214/255.0 blue:224/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1788C_Color 
-{
-	return [UIColor colorWithRed:240/255.0 green:34/255.0 blue:51/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_171C_Color 
-{
-	return [UIColor colorWithRed:255/255.0 green:97/255.0 blue:65/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_394C_Color 
-{
-	return [UIColor colorWithRed:233/255.0 green:231/255.0 blue:63/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3985C_Color 
-{
-	return [UIColor colorWithRed:155/255.0 green:137/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_692C_Color 
-{
-	return [UIColor colorWithRed:226/255.0 green:193/255.0 blue:200/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3268C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:169/255.0 blue:148/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2405C_Color 
-{
-	return [UIColor colorWithRed:167/255.0 green:0/255.0 blue:132/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1245C_Color 
-{
-	return [UIColor colorWithRed:198/255.0 green:146/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_464C_Color 
-{
-	return [UIColor colorWithRed:133/255.0 green:87/255.0 blue:35/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_241C_Color 
-{
-	return [UIColor colorWithRed:172/255.0 green:4/255.0 blue:129/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_166C_Color 
-{
-	return [UIColor colorWithRed:229/255.0 green:83/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_389C_Color 
-{
-	return [UIColor colorWithRed:198/255.0 green:219/255.0 blue:0/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_687C_Color 
-{
-	return [UIColor colorWithRed:198/255.0 green:134/255.0 blue:169/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_311C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:194/255.0 blue:227/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_534C_Color 
-{
-	return [UIColor colorWithRed:41/255.0 green:63/255.0 blue:111/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_236C_Color 
-{
-	return [UIColor colorWithRed:242/255.0 green:176/255.0 blue:223/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_459C_Color 
-{
-	return [UIColor colorWithRed:223/255.0 green:210/255.0 blue:124/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_306C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:181/255.0 blue:230/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_604C_Color 
-{
-	return [UIColor colorWithRed:234/255.0 green:219/255.0 blue:27/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_529C_Color 
-{
-	return [UIColor colorWithRed:198/255.0 green:164/255.0 blue:225/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3995C_Color 
-{
-	return [UIColor colorWithRed:106/255.0 green:91/255.0 blue:7/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3278C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:153/255.0 blue:122/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2415C_Color 
-{
-	return [UIColor colorWithRed:151/255.0 green:0/255.0 blue:118/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1255C_Color 
-{
-	return [UIColor colorWithRed:170/255.0 green:128/255.0 blue:14/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_271C_Color 
-{
-	return [UIColor colorWithRed:148/255.0 green:144/255.0 blue:210/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_196C_Color 
-{
-	return [UIColor colorWithRed:235/255.0 green:198/255.0 blue:211/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_494C_Color 
-{
-	return [UIColor colorWithRed:231/255.0 green:167/255.0 blue:182/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_341C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:120/255.0 blue:86/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_3288C_Color 
-{
-	return [UIColor colorWithRed:0/255.0 green:126/255.0 blue:100/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_1265C_Color 
-{
-	return [UIColor colorWithRed:131/255.0 green:101/255.0 blue:20/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_489C_Color 
-{
-	return [UIColor colorWithRed:235/255.0 green:205/255.0 blue:195/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_266C_Color 
-{
-	return [UIColor colorWithRed:103/255.0 green:50/255.0 blue:186/255.0 alpha:255/255.0];
-};
-
-+(UIColor *)pantone_2425C_Color 
-{
-	return [UIColor colorWithRed:130/255.0 green:0/255.0 blue:99/255.0 alpha:255/255.0];
+	return [UIColor colorWithRed:153/255.0 green:128/255.0 blue:0/255.0 alpha:255/255.0];
 };
 
 +(UIColor *)pantone_113C_Color 
@@ -4402,109 +82,184 @@
 	return [UIColor colorWithRed:250/255.0 green:225/255.0 blue:90/255.0 alpha:255/255.0];
 };
 
-+(UIColor *)pantone_411C_Color 
++(UIColor *)pantone_114C_Color 
 {
-	return [UIColor colorWithRed:98/255.0 green:82/255.0 blue:78/255.0 alpha:255/255.0];
+	return [UIColor colorWithRed:250/255.0 green:224/255.0 blue:81/255.0 alpha:255/255.0];
 };
 
-+(UIColor *)pantone_336C_Color 
++(UIColor *)pantone_115C_Color 
 {
-	return [UIColor colorWithRed:0/255.0 green:102/255.0 blue:81/255.0 alpha:255/255.0];
+	return [UIColor colorWithRed:251/255.0 green:222/255.0 blue:74/255.0 alpha:255/255.0];
 };
 
-+(UIColor *)pantone_564C_Color 
++(UIColor *)pantone_116C_Color 
 {
-	return [UIColor colorWithRed:152/255.0 green:204/255.0 blue:201/255.0 alpha:255/255.0];
+	return [UIColor colorWithRed:255/255.0 green:206/255.0 blue:0/255.0 alpha:255/255.0];
 };
 
-+(UIColor *)pantone_559C_Color 
++(UIColor *)pantone_117C_Color 
 {
-	return [UIColor colorWithRed:192/255.0 green:212/255.0 blue:205/255.0 alpha:255/255.0];
+	return [UIColor colorWithRed:206/255.0 green:157/255.0 blue:0/255.0 alpha:255/255.0];
 };
 
-+(UIColor *)pantone_634C_Color 
++(UIColor *)pantone_118C_Color 
 {
-	return [UIColor colorWithRed:0/255.0 green:98/255.0 blue:140/255.0 alpha:255/255.0];
+	return [UIColor colorWithRed:179/255.0 green:138/255.0 blue:0/255.0 alpha:255/255.0];
 };
 
-+(UIColor *)pantone_108C_Color 
++(UIColor *)pantone_119C_Color 
 {
-	return [UIColor colorWithRed:254/255.0 green:219/255.0 blue:0/255.0 alpha:255/255.0];
+	return [UIColor colorWithRed:138/255.0 green:118/255.0 blue:26/255.0 alpha:255/255.0];
 };
 
-+(UIColor *)pantone_406C_Color 
++(UIColor *)pantone_1205C_Color 
 {
-	return [UIColor colorWithRed:202/255.0 green:196/255.0 blue:194/255.0 alpha:255/255.0];
+	return [UIColor colorWithRed:243/255.0 green:226/255.0 blue:167/255.0 alpha:255/255.0];
 };
 
-+(UIColor *)pantone_629C_Color 
++(UIColor *)pantone_120C_Color 
 {
-	return [UIColor colorWithRed:170/255.0 green:218/255.0 blue:229/255.0 alpha:255/255.0];
+	return [UIColor colorWithRed:249/255.0 green:223/255.0 blue:121/255.0 alpha:255/255.0];
 };
 
-+(UIColor *)pantone_704C_Color 
++(UIColor *)pantone_1215C_Color 
 {
-	return [UIColor colorWithRed:162/255.0 green:38/255.0 blue:48/255.0 alpha:255/255.0];
+	return [UIColor colorWithRed:245/255.0 green:221/255.0 blue:146/255.0 alpha:255/255.0];
 };
 
-+(UIColor *)pantone_3298C_Color 
++(UIColor *)pantone_121C_Color 
 {
-	return [UIColor colorWithRed:0/255.0 green:103/255.0 blue:82/255.0 alpha:255/255.0];
+	return [UIColor colorWithRed:251/255.0 green:219/255.0 blue:110/255.0 alpha:255/255.0];
 };
 
-+(UIColor *)pantone_371C_Color 
++(UIColor *)pantone_1225C_Color 
 {
-	return [UIColor colorWithRed:74/255.0 green:96/255.0 blue:28/255.0 alpha:255/255.0];
+	return [UIColor colorWithRed:253/255.0 green:199/255.0 blue:69/255.0 alpha:255/255.0];
 };
 
-+(UIColor *)pantone_296C_Color 
++(UIColor *)pantone_122C_Color 
 {
-	return [UIColor colorWithRed:0/255.0 green:39/255.0 blue:64/255.0 alpha:255/255.0];
+	return [UIColor colorWithRed:253/255.0 green:212/255.0 blue:79/255.0 alpha:255/255.0];
 };
 
-+(UIColor *)pantone_1767C_Color 
++(UIColor *)pantone_1235C_Color 
 {
-	return [UIColor colorWithRed:250/255.0 green:175/255.0 blue:194/255.0 alpha:255/255.0];
+	return [UIColor colorWithRed:255/255.0 green:179/255.0 blue:0/255.0 alpha:255/255.0];
 };
 
-+(UIColor *)pantone_441C_Color 
++(UIColor *)pantone_123C_Color 
 {
-	return [UIColor colorWithRed:203/255.0 green:209/255.0 blue:212/255.0 alpha:255/255.0];
+	return [UIColor colorWithRed:255/255.0 green:199/255.0 blue:38/255.0 alpha:255/255.0];
 };
 
-+(UIColor *)pantone_143C_Color 
++(UIColor *)pantone_1245C_Color 
 {
-	return [UIColor colorWithRed:239/255.0 green:170/255.0 blue:35/255.0 alpha:255/255.0];
+	return [UIColor colorWithRed:198/255.0 green:146/255.0 blue:0/255.0 alpha:255/255.0];
 };
 
-+(UIColor *)pantone_366C_Color 
++(UIColor *)pantone_124C_Color 
 {
-	return [UIColor colorWithRed:188/255.0 green:225/255.0 blue:141/255.0 alpha:255/255.0];
+	return [UIColor colorWithRed:235/255.0 green:171/255.0 blue:0/255.0 alpha:255/255.0];
 };
 
-+(UIColor *)pantone_664C_Color 
++(UIColor *)pantone_1255C_Color 
 {
-	return [UIColor colorWithRed:215/255.0 green:208/255.0 blue:224/255.0 alpha:255/255.0];
+	return [UIColor colorWithRed:170/255.0 green:128/255.0 blue:14/255.0 alpha:255/255.0];
 };
 
-+(UIColor *)pantone_511C_Color 
++(UIColor *)pantone_125C_Color 
 {
-	return [UIColor colorWithRed:96/255.0 green:36/255.0 blue:78/255.0 alpha:255/255.0];
+	return [UIColor colorWithRed:187/255.0 green:137/255.0 blue:0/255.0 alpha:255/255.0];
 };
 
-+(UIColor *)pantone_4705C_Color 
++(UIColor *)pantone_1265C_Color 
 {
-	return [UIColor colorWithRed:127/255.0 green:76/255.0 blue:62/255.0 alpha:255/255.0];
+	return [UIColor colorWithRed:131/255.0 green:101/255.0 blue:20/255.0 alpha:255/255.0];
 };
 
-+(UIColor *)pantone_436C_Color 
++(UIColor *)pantone_126C_Color 
 {
-	return [UIColor colorWithRed:183/255.0 green:166/255.0 blue:173/255.0 alpha:255/255.0];
+	return [UIColor colorWithRed:161/255.0 green:124/255.0 blue:0/255.0 alpha:255/255.0];
 };
 
-+(UIColor *)pantone_213C_Color 
++(UIColor *)pantone_127C_Color 
 {
-	return [UIColor colorWithRed:230/255.0 green:21/255.0 blue:119/255.0 alpha:255/255.0];
+	return [UIColor colorWithRed:239/255.0 green:223/255.0 blue:133/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_128C_Color 
+{
+	return [UIColor colorWithRed:242/255.0 green:214/255.0 blue:94/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_129C_Color 
+{
+	return [UIColor colorWithRed:241/255.0 green:205/255.0 blue:68/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_130C_Color 
+{
+	return [UIColor colorWithRed:241/255.0 green:171/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_131C_Color 
+{
+	return [UIColor colorWithRed:212/255.0 green:145/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_132C_Color 
+{
+	return [UIColor colorWithRed:166/255.0 green:122/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_133C_Color 
+{
+	return [UIColor colorWithRed:113/255.0 green:89/255.0 blue:19/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1345C_Color 
+{
+	return [UIColor colorWithRed:251/255.0 green:207/255.0 blue:141/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_134C_Color 
+{
+	return [UIColor colorWithRed:248/255.0 green:213/255.0 blue:131/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1355C_Color 
+{
+	return [UIColor colorWithRed:253/255.0 green:200/255.0 blue:125/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_135C_Color 
+{
+	return [UIColor colorWithRed:254/255.0 green:200/255.0 blue:90/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1365C_Color 
+{
+	return [UIColor colorWithRed:255/255.0 green:183/255.0 blue:84/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_136C_Color 
+{
+	return [UIColor colorWithRed:255/255.0 green:188/255.0 blue:58/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1375C_Color 
+{
+	return [UIColor colorWithRed:255/255.0 green:154/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_137C_Color 
+{
+	return [UIColor colorWithRed:255/255.0 green:159/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1385C_Color 
+{
+	return [UIColor colorWithRed:214/255.0 green:117/255.0 blue:0/255.0 alpha:255/255.0];
 };
 
 +(UIColor *)pantone_138C_Color 
@@ -4512,14 +267,554 @@
 	return [UIColor colorWithRed:228/255.0 green:127/255.0 blue:0/255.0 alpha:255/255.0];
 };
 
-+(UIColor *)pantone_5507C_Color 
++(UIColor *)pantone_1395C_Color 
 {
-	return [UIColor colorWithRed:170/255.0 green:184/255.0 blue:185/255.0 alpha:255/255.0];
+	return [UIColor colorWithRed:158/255.0 green:98/255.0 blue:9/255.0 alpha:255/255.0];
 };
 
-+(UIColor *)pantone_659C_Color 
++(UIColor *)pantone_139C_Color 
 {
-	return [UIColor colorWithRed:110/255.0 green:150/255.0 blue:213/255.0 alpha:255/255.0];
+	return [UIColor colorWithRed:182/255.0 green:113/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1405C_Color 
+{
+	return [UIColor colorWithRed:108/255.0 green:71/255.0 blue:19/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_140C_Color 
+{
+	return [UIColor colorWithRed:122/255.0 green:86/255.0 blue:15/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_141C_Color 
+{
+	return [UIColor colorWithRed:239/255.0 green:200/255.0 blue:104/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_142C_Color 
+{
+	return [UIColor colorWithRed:241/255.0 green:187/255.0 blue:70/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_143C_Color 
+{
+	return [UIColor colorWithRed:239/255.0 green:170/255.0 blue:35/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_144C_Color 
+{
+	return [UIColor colorWithRed:237/255.0 green:128/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_145C_Color 
+{
+	return [UIColor colorWithRed:207/255.0 green:118/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_146C_Color 
+{
+	return [UIColor colorWithRed:159/255.0 green:96/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_147C_Color 
+{
+	return [UIColor colorWithRed:113/255.0 green:88/255.0 blue:33/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1485C_Color 
+{
+	return [UIColor colorWithRed:255/255.0 green:181/255.0 blue:123/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_148C_Color 
+{
+	return [UIColor colorWithRed:251/255.0 green:208/255.0 blue:157/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1495C_Color 
+{
+	return [UIColor colorWithRed:255/255.0 green:150/255.0 blue:59/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_149C_Color 
+{
+	return [UIColor colorWithRed:254/255.0 green:198/255.0 blue:136/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1505C_Color 
+{
+	return [UIColor colorWithRed:255/255.0 green:114/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_150C_Color 
+{
+	return [UIColor colorWithRed:255/255.0 green:169/255.0 blue:79/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_151C_Color 
+{
+	return [UIColor colorWithRed:255/255.0 green:115/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1525C_Color 
+{
+	return [UIColor colorWithRed:202/255.0 green:78/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_152C_Color 
+{
+	return [UIColor colorWithRed:231/255.0 green:111/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1535C_Color 
+{
+	return [UIColor colorWithRed:147/255.0 green:63/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_153C_Color 
+{
+	return [UIColor colorWithRed:192/255.0 green:102/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1545C_Color 
+{
+	return [UIColor colorWithRed:81/255.0 green:38/255.0 blue:11/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_154C_Color 
+{
+	return [UIColor colorWithRed:153/255.0 green:84/255.0 blue:9/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1555C_Color 
+{
+	return [UIColor colorWithRed:255/255.0 green:191/255.0 blue:160/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_155C_Color 
+{
+	return [UIColor colorWithRed:236/255.0 green:214/255.0 blue:175/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1565C_Color 
+{
+	return [UIColor colorWithRed:255/255.0 green:169/255.0 blue:125/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_156C_Color 
+{
+	return [UIColor colorWithRed:239/255.0 green:193/255.0 blue:138/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1575C_Color 
+{
+	return [UIColor colorWithRed:255/255.0 green:134/255.0 blue:66/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_157C_Color 
+{
+	return [UIColor colorWithRed:237/255.0 green:155/255.0 blue:79/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1585C_Color 
+{
+	return [UIColor colorWithRed:255/255.0 green:105/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_158C_Color 
+{
+	return [UIColor colorWithRed:233/255.0 green:107/255.0 blue:16/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1595C_Color 
+{
+	return [UIColor colorWithRed:218/255.0 green:92/255.0 blue:5/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_159C_Color 
+{
+	return [UIColor colorWithRed:205/255.0 green:88/255.0 blue:6/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1605C_Color 
+{
+	return [UIColor colorWithRed:162/255.0 green:74/255.0 blue:19/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_160C_Color 
+{
+	return [UIColor colorWithRed:162/255.0 green:78/255.0 blue:18/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1615C_Color 
+{
+	return [UIColor colorWithRed:133/255.0 green:60/255.0 blue:16/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_161C_Color 
+{
+	return [UIColor colorWithRed:97/255.0 green:53/255.0 blue:23/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1625C_Color 
+{
+	return [UIColor colorWithRed:255/255.0 green:162/255.0 blue:139/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_162C_Color 
+{
+	return [UIColor colorWithRed:253/255.0 green:195/255.0 blue:170/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1635C_Color 
+{
+	return [UIColor colorWithRed:255/255.0 green:142/255.0 blue:112/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_163C_Color 
+{
+	return [UIColor colorWithRed:255/255.0 green:156/255.0 blue:113/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1645C_Color 
+{
+	return [UIColor colorWithRed:255/255.0 green:108/255.0 blue:59/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_164C_Color 
+{
+	return [UIColor colorWithRed:255/255.0 green:126/255.0 blue:67/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1655C_Color 
+{
+	return [UIColor colorWithRed:255/255.0 green:82/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_165C_Color 
+{
+	return [UIColor colorWithRed:255/255.0 green:95/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1665C_Color 
+{
+	return [UIColor colorWithRed:229/255.0 green:72/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_166C_Color 
+{
+	return [UIColor colorWithRed:229/255.0 green:83/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1675C_Color 
+{
+	return [UIColor colorWithRed:168/255.0 green:60/255.0 blue:15/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_167C_Color 
+{
+	return [UIColor colorWithRed:194/255.0 green:81/255.0 blue:15/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1685C_Color 
+{
+	return [UIColor colorWithRed:134/255.0 green:53/255.0 blue:20/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_168C_Color 
+{
+	return [UIColor colorWithRed:111/255.0 green:48/255.0 blue:20/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_169C_Color 
+{
+	return [UIColor colorWithRed:255/255.0 green:182/255.0 blue:177/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_170C_Color 
+{
+	return [UIColor colorWithRed:255/255.0 green:137/255.0 blue:123/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_171C_Color 
+{
+	return [UIColor colorWithRed:255/255.0 green:97/255.0 blue:65/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_172C_Color 
+{
+	return [UIColor colorWithRed:253/255.0 green:71/255.0 blue:3/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_173C_Color 
+{
+	return [UIColor colorWithRed:216/255.0 green:69/255.0 blue:25/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_174C_Color 
+{
+	return [UIColor colorWithRed:154/255.0 green:52/255.0 blue:22/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_175C_Color 
+{
+	return [UIColor colorWithRed:112/255.0 green:50/255.0 blue:34/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1765C_Color 
+{
+	return [UIColor colorWithRed:254/255.0 green:157/255.0 blue:176/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1767C_Color 
+{
+	return [UIColor colorWithRed:250/255.0 green:175/255.0 blue:194/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_176C_Color 
+{
+	return [UIColor colorWithRed:255/255.0 green:172/255.0 blue:185/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1775C_Color 
+{
+	return [UIColor colorWithRed:255/255.0 green:133/255.0 blue:154/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1777C_Color 
+{
+	return [UIColor colorWithRed:251/255.0 green:101/255.0 blue:129/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_177C_Color 
+{
+	return [UIColor colorWithRed:255/255.0 green:129/255.0 blue:140/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1785C_Color 
+{
+	return [UIColor colorWithRed:249/255.0 green:69/255.0 blue:91/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1787C_Color 
+{
+	return [UIColor colorWithRed:249/255.0 green:66/255.0 blue:95/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1788C_Color 
+{
+	return [UIColor colorWithRed:240/255.0 green:34/255.0 blue:51/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_178C_Color 
+{
+	return [UIColor colorWithRed:255/255.0 green:91/255.0 blue:96/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1795C_Color 
+{
+	return [UIColor colorWithRed:216/255.0 green:31/255.0 blue:42/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1797C_Color 
+{
+	return [UIColor colorWithRed:208/255.0 green:36/255.0 blue:51/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_179C_Color 
+{
+	return [UIColor colorWithRed:226/255.0 green:56/255.0 blue:40/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1805C_Color 
+{
+	return [UIColor colorWithRed:176/255.0 green:35/255.0 blue:42/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1807C_Color 
+{
+	return [UIColor colorWithRed:161/255.0 green:40/255.0 blue:48/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_180C_Color 
+{
+	return [UIColor colorWithRed:192/255.0 green:54/255.0 blue:44/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1815C_Color 
+{
+	return [UIColor colorWithRed:124/255.0 green:33/255.0 blue:30/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1817C_Color 
+{
+	return [UIColor colorWithRed:94/255.0 green:39/255.0 blue:40/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_181C_Color 
+{
+	return [UIColor colorWithRed:121/255.0 green:39/255.0 blue:32/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_182C_Color 
+{
+	return [UIColor colorWithRed:248/255.0 green:184/255.0 blue:203/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_183C_Color 
+{
+	return [UIColor colorWithRed:252/255.0 green:141/255.0 blue:169/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_184C_Color 
+{
+	return [UIColor colorWithRed:248/255.0 green:93/255.0 blue:126/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_185C_Color 
+{
+	return [UIColor colorWithRed:234/255.0 green:4/255.0 blue:55/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_186C_Color 
+{
+	return [UIColor colorWithRed:210/255.0 green:16/255.0 blue:52/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_187C_Color 
+{
+	return [UIColor colorWithRed:179/255.0 green:27/255.0 blue:52/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_188C_Color 
+{
+	return [UIColor colorWithRed:124/255.0 green:34/255.0 blue:48/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1895C_Color 
+{
+	return [UIColor colorWithRed:243/255.0 green:188/255.0 blue:212/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_189C_Color 
+{
+	return [UIColor colorWithRed:248/255.0 green:161/255.0 blue:190/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1905C_Color 
+{
+	return [UIColor colorWithRed:245/255.0 green:155/255.0 blue:189/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_190C_Color 
+{
+	return [UIColor colorWithRed:248/255.0 green:119/255.0 blue:158/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1915C_Color 
+{
+	return [UIColor colorWithRed:242/255.0 green:85/255.0 blue:138/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_191C_Color 
+{
+	return [UIColor colorWithRed:242/255.0 green:63/255.0 blue:114/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1925C_Color 
+{
+	return [UIColor colorWithRed:228/255.0 green:0/255.0 blue:80/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_192C_Color 
+{
+	return [UIColor colorWithRed:233/255.0 green:6/255.0 blue:73/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1935C_Color 
+{
+	return [UIColor colorWithRed:203/255.0 green:4/255.0 blue:71/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_193C_Color 
+{
+	return [UIColor colorWithRed:195/255.0 green:12/255.0 blue:62/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1945C_Color 
+{
+	return [UIColor colorWithRed:170/255.0 green:17/255.0 blue:63/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_194C_Color 
+{
+	return [UIColor colorWithRed:156/255.0 green:30/255.0 blue:61/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_1955C_Color 
+{
+	return [UIColor colorWithRed:147/255.0 green:23/255.0 blue:59/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_196C_Color 
+{
+	return [UIColor colorWithRed:235/255.0 green:198/255.0 blue:211/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_197C_Color 
+{
+	return [UIColor colorWithRed:235/255.0 green:155/255.0 blue:178/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_198C_Color 
+{
+	return [UIColor colorWithRed:228/255.0 green:77/255.0 blue:111/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_199C_Color 
+{
+	return [UIColor colorWithRed:219/255.0 green:12/255.0 blue:65/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_200C_Color 
+{
+	return [UIColor colorWithRed:193/255.0 green:4/255.0 blue:53/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_201C_Color 
+{
+	return [UIColor colorWithRed:158/255.0 green:27/255.0 blue:52/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_202C_Color 
+{
+	return [UIColor colorWithRed:137/255.0 green:32/255.0 blue:52/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_203C_Color 
+{
+	return [UIColor colorWithRed:235/255.0 green:173/255.0 blue:205/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_204C_Color 
+{
+	return [UIColor colorWithRed:232/255.0 green:123/255.0 blue:172/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_205C_Color 
+{
+	return [UIColor colorWithRed:227/255.0 green:69/255.0 blue:133/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_206C_Color 
+{
+	return [UIColor colorWithRed:215/255.0 green:0/255.0 blue:77/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_207C_Color 
+{
+	return [UIColor colorWithRed:177/255.0 green:0/255.0 blue:66/255.0 alpha:255/255.0];
 };
 
 +(UIColor *)pantone_208C_Color 
@@ -4527,9 +822,3639 @@
 	return [UIColor colorWithRed:144/255.0 green:33/255.0 blue:71/255.0 alpha:255/255.0];
 };
 
++(UIColor *)pantone_209C_Color 
+{
+	return [UIColor colorWithRed:117/255.0 green:38/255.0 blue:65/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_210C_Color 
+{
+	return [UIColor colorWithRed:250/255.0 green:159/255.0 blue:204/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_211C_Color 
+{
+	return [UIColor colorWithRed:249/255.0 green:125/255.0 blue:184/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_212C_Color 
+{
+	return [UIColor colorWithRed:243/255.0 green:78/255.0 blue:154/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_213C_Color 
+{
+	return [UIColor colorWithRed:230/255.0 green:21/255.0 blue:119/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_214C_Color 
+{
+	return [UIColor colorWithRed:208/255.0 green:0/255.0 blue:99/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_215C_Color 
+{
+	return [UIColor colorWithRed:170/255.0 green:16/255.0 blue:84/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_216C_Color 
+{
+	return [UIColor colorWithRed:122/255.0 green:29/255.0 blue:66/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_217C_Color 
+{
+	return [UIColor colorWithRed:236/255.0 green:187/255.0 blue:221/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_218C_Color 
+{
+	return [UIColor colorWithRed:232/255.0 green:111/255.0 blue:184/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_219C_Color 
+{
+	return [UIColor colorWithRed:224/255.0 green:33/255.0 blue:138/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_220C_Color 
+{
+	return [UIColor colorWithRed:174/255.0 green:0/255.0 blue:85/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_221C_Color 
+{
+	return [UIColor colorWithRed:150/255.0 green:0/255.0 blue:75/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_222C_Color 
+{
+	return [UIColor colorWithRed:108/255.0 green:25/255.0 blue:63/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_223C_Color 
+{
+	return [UIColor colorWithRed:242/255.0 green:147/255.0 blue:209/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_224C_Color 
+{
+	return [UIColor colorWithRed:239/255.0 green:106/255.0 blue:191/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_225C_Color 
+{
+	return [UIColor colorWithRed:229/255.0 green:35/255.0 blue:157/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_226C_Color 
+{
+	return [UIColor colorWithRed:214/255.0 green:0/255.0 blue:119/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_227C_Color 
+{
+	return [UIColor colorWithRed:174/255.0 green:0/255.0 blue:95/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_228C_Color 
+{
+	return [UIColor colorWithRed:138/255.0 green:7/255.0 blue:83/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_229C_Color 
+{
+	return [UIColor colorWithRed:106/255.0 green:29/255.0 blue:68/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_230C_Color 
+{
+	return [UIColor colorWithRed:247/255.0 green:167/255.0 blue:219/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_231C_Color 
+{
+	return [UIColor colorWithRed:245/255.0 green:117/255.0 blue:201/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_232C_Color 
+{
+	return [UIColor colorWithRed:239/255.0 green:64/255.0 blue:176/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_233C_Color 
+{
+	return [UIColor colorWithRed:201/255.0 green:0/255.0 blue:129/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_234C_Color 
+{
+	return [UIColor colorWithRed:166/255.0 green:0/255.0 blue:107/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_235C_Color 
+{
+	return [UIColor colorWithRed:137/255.0 green:8/255.0 blue:87/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2365C_Color 
+{
+	return [UIColor colorWithRed:239/255.0 green:195/255.0 blue:228/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_236C_Color 
+{
+	return [UIColor colorWithRed:242/255.0 green:176/255.0 blue:223/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2375C_Color 
+{
+	return [UIColor colorWithRed:226/255.0 green:112/255.0 blue:205/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_237C_Color 
+{
+	return [UIColor colorWithRed:238/255.0 green:134/255.0 blue:211/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2385C_Color 
+{
+	return [UIColor colorWithRed:215/255.0 green:51/255.0 blue:180/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_238C_Color 
+{
+	return [UIColor colorWithRed:230/255.0 green:83/255.0 blue:188/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2395C_Color 
+{
+	return [UIColor colorWithRed:196/255.0 green:0/255.0 blue:152/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_239C_Color 
+{
+	return [UIColor colorWithRed:224/255.0 green:50/255.0 blue:175/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2405C_Color 
+{
+	return [UIColor colorWithRed:167/255.0 green:0/255.0 blue:132/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_240C_Color 
+{
+	return [UIColor colorWithRed:196/255.0 green:30/255.0 blue:153/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2415C_Color 
+{
+	return [UIColor colorWithRed:151/255.0 green:0/255.0 blue:118/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_241C_Color 
+{
+	return [UIColor colorWithRed:172/255.0 green:4/255.0 blue:129/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2425C_Color 
+{
+	return [UIColor colorWithRed:130/255.0 green:0/255.0 blue:99/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_242C_Color 
+{
+	return [UIColor colorWithRed:122/255.0 green:26/255.0 blue:87/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_243C_Color 
+{
+	return [UIColor colorWithRed:232/255.0 green:183/255.0 blue:229/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_244C_Color 
+{
+	return [UIColor colorWithRed:230/255.0 green:162/255.0 blue:224/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_245C_Color 
+{
+	return [UIColor colorWithRed:223/255.0 green:129/255.0 blue:214/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_246C_Color 
+{
+	return [UIColor colorWithRed:199/255.0 green:11/255.0 blue:172/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_247C_Color 
+{
+	return [UIColor colorWithRed:179/255.0 green:0/255.0 blue:157/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_248C_Color 
+{
+	return [UIColor colorWithRed:158/255.0 green:3/255.0 blue:137/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_249C_Color 
+{
+	return [UIColor colorWithRed:123/255.0 green:34/255.0 blue:102/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_250C_Color 
+{
+	return [UIColor colorWithRed:227/255.0 green:192/255.0 blue:230/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_251C_Color 
+{
+	return [UIColor colorWithRed:217/255.0 green:156/255.0 blue:225/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_252C_Color 
+{
+	return [UIColor colorWithRed:202/255.0 green:101/255.0 blue:209/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_253C_Color 
+{
+	return [UIColor colorWithRed:169/255.0 green:27/255.0 blue:176/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_254C_Color 
+{
+	return [UIColor colorWithRed:150/255.0 green:35/255.0 blue:153/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_255C_Color 
+{
+	return [UIColor colorWithRed:112/255.0 green:38/255.0 blue:108/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2562C_Color 
+{
+	return [UIColor colorWithRed:207/255.0 green:165/255.0 blue:228/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2563C_Color 
+{
+	return [UIColor colorWithRed:199/255.0 green:157/255.0 blue:216/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2567C_Color 
+{
+	return [UIColor colorWithRed:187/255.0 green:153/255.0 blue:218/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_256C_Color 
+{
+	return [UIColor colorWithRed:217/255.0 green:191/255.0 blue:224/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2572C_Color 
+{
+	return [UIColor colorWithRed:192/255.0 green:132/255.0 blue:220/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2573C_Color 
+{
+	return [UIColor colorWithRed:178/255.0 green:121/255.0 blue:200/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2577C_Color 
+{
+	return [UIColor colorWithRed:162/255.0 green:118/255.0 blue:204/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_257C_Color 
+{
+	return [UIColor colorWithRed:203/255.0 green:164/255.0 blue:212/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2582C_Color 
+{
+	return [UIColor colorWithRed:162/255.0 green:76/255.0 blue:200/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2583C_Color 
+{
+	return [UIColor colorWithRed:153/255.0 green:80/255.0 blue:178/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2587C_Color 
+{
+	return [UIColor colorWithRed:131/255.0 green:72/255.0 blue:181/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_258C_Color 
+{
+	return [UIColor colorWithRed:146/255.0 green:73/255.0 blue:158/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2592C_Color 
+{
+	return [UIColor colorWithRed:144/255.0 green:22/255.0 blue:178/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2593C_Color 
+{
+	return [UIColor colorWithRed:126/255.0 green:43/255.0 blue:151/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2597C_Color 
+{
+	return [UIColor colorWithRed:89/255.0 green:5/255.0 blue:141/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_259C_Color 
+{
+	return [UIColor colorWithRed:108/255.0 green:27/255.0 blue:114/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2602C_Color 
+{
+	return [UIColor colorWithRed:125/255.0 green:9/255.0 blue:150/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2603C_Color 
+{
+	return [UIColor colorWithRed:104/255.0 green:23/255.0 blue:127/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2607C_Color 
+{
+	return [UIColor colorWithRed:79/255.0 green:2/255.0 blue:124/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_260C_Color 
+{
+	return [UIColor colorWithRed:95/255.0 green:29/255.0 blue:95/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2612C_Color 
+{
+	return [UIColor colorWithRed:106/255.0 green:26/255.0 blue:122/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2613C_Color 
+{
+	return [UIColor colorWithRed:97/255.0 green:23/255.0 blue:116/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2617C_Color 
+{
+	return [UIColor colorWithRed:75/255.0 green:11/255.0 blue:113/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_261C_Color 
+{
+	return [UIColor colorWithRed:89/255.0 green:30/255.0 blue:85/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2622C_Color 
+{
+	return [UIColor colorWithRed:87/255.0 green:36/255.0 blue:88/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2623C_Color 
+{
+	return [UIColor colorWithRed:88/255.0 green:25/255.0 blue:99/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2627C_Color 
+{
+	return [UIColor colorWithRed:67/255.0 green:18/255.0 blue:95/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_262C_Color 
+{
+	return [UIColor colorWithRed:79/255.0 green:34/255.0 blue:72/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2635C_Color 
+{
+	return [UIColor colorWithRed:191/255.0 green:175/255.0 blue:228/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_263C_Color 
+{
+	return [UIColor colorWithRed:216/255.0 green:203/255.0 blue:235/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2645C_Color 
+{
+	return [UIColor colorWithRed:170/255.0 green:148/255.0 blue:222/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_264C_Color 
+{
+	return [UIColor colorWithRed:188/255.0 green:168/255.0 blue:230/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2655C_Color 
+{
+	return [UIColor colorWithRed:145/255.0 green:115/255.0 blue:211/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_265C_Color 
+{
+	return [UIColor colorWithRed:141/255.0 green:101/255.0 blue:210/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2665C_Color 
+{
+	return [UIColor colorWithRed:122/255.0 green:82/255.0 blue:199/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_266C_Color 
+{
+	return [UIColor colorWithRed:103/255.0 green:50/255.0 blue:186/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_267C_Color 
+{
+	return [UIColor colorWithRed:79/255.0 green:31/255.0 blue:145/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2685C_Color 
+{
+	return [UIColor colorWithRed:59/255.0 green:0/255.0 blue:132/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_268C_Color 
+{
+	return [UIColor colorWithRed:74/255.0 green:33/255.0 blue:126/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2695C_Color 
+{
+	return [UIColor colorWithRed:56/255.0 green:29/255.0 blue:89/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_269C_Color 
+{
+	return [UIColor colorWithRed:69/255.0 green:38/255.0 blue:99/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2705C_Color 
+{
+	return [UIColor colorWithRed:162/255.0 green:159/255.0 blue:224/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2706C_Color 
+{
+	return [UIColor colorWithRed:196/255.0 green:203/255.0 blue:234/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2707C_Color 
+{
+	return [UIColor colorWithRed:189/255.0 green:208/255.0 blue:238/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2708C_Color 
+{
+	return [UIColor colorWithRed:177/255.0 green:197/255.0 blue:234/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_270C_Color 
+{
+	return [UIColor colorWithRed:173/255.0 green:172/255.0 blue:220/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2715C_Color 
+{
+	return [UIColor colorWithRed:133/255.0 green:128/255.0 blue:216/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2716C_Color 
+{
+	return [UIColor colorWithRed:148/255.0 green:161/255.0 blue:226/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2717C_Color 
+{
+	return [UIColor colorWithRed:161/255.0 green:189/255.0 blue:234/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2718C_Color 
+{
+	return [UIColor colorWithRed:84/255.0 green:126/255.0 blue:217/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_271C_Color 
+{
+	return [UIColor colorWithRed:148/255.0 green:144/255.0 blue:210/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2725C_Color 
+{
+	return [UIColor colorWithRed:94/255.0 green:83/255.0 blue:199/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2726C_Color 
+{
+	return [UIColor colorWithRed:69/255.0 green:85/255.0 blue:199/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2727C_Color 
+{
+	return [UIColor colorWithRed:56/255.0 green:120/255.0 blue:219/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2728C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:71/255.0 blue:190/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_272C_Color 
+{
+	return [UIColor colorWithRed:121/255.0 green:115/255.0 blue:194/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2735C_Color 
+{
+	return [UIColor colorWithRed:40/255.0 green:0/255.0 blue:146/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2736C_Color 
+{
+	return [UIColor colorWithRed:30/255.0 green:34/255.0 blue:174/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2738C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:18/255.0 blue:157/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_273C_Color 
+{
+	return [UIColor colorWithRed:37/255.0 green:23/255.0 blue:122/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2745C_Color 
+{
+	return [UIColor colorWithRed:34/255.0 green:0/255.0 blue:122/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2746C_Color 
+{
+	return [UIColor colorWithRed:26/255.0 green:28/255.0 blue:150/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2747C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:35/255.0 blue:126/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2748C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:26/255.0 blue:123/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_274C_Color 
+{
+	return [UIColor colorWithRed:33/255.0 green:18/255.0 blue:101/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2755C_Color 
+{
+	return [UIColor colorWithRed:27/255.0 green:0/255.0 blue:105/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2756C_Color 
+{
+	return [UIColor colorWithRed:21/255.0 green:29/255.0 blue:113/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2757C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:32/255.0 blue:101/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2758C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:29/255.0 blue:104/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_275C_Color 
+{
+	return [UIColor colorWithRed:29/255.0 green:17/255.0 blue:87/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2765C_Color 
+{
+	return [UIColor colorWithRed:27/255.0 green:12/255.0 blue:85/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2766C_Color 
+{
+	return [UIColor colorWithRed:21/255.0 green:28/255.0 blue:85/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2767C_Color 
+{
+	return [UIColor colorWithRed:11/255.0 green:35/255.0 blue:69/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2768C_Color 
+{
+	return [UIColor colorWithRed:3/255.0 green:30/255.0 blue:81/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_276C_Color 
+{
+	return [UIColor colorWithRed:36/255.0 green:26/255.0 blue:68/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_277C_Color 
+{
+	return [UIColor colorWithRed:169/255.0 green:199/255.0 blue:236/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_278C_Color 
+{
+	return [UIColor colorWithRed:140/255.0 green:180/255.0 blue:232/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_279C_Color 
+{
+	return [UIColor colorWithRed:65/255.0 green:137/255.0 blue:221/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_280C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:38/255.0 blue:127/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_281C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:37/255.0 blue:105/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_282C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:32/255.0 blue:78/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_283C_Color 
+{
+	return [UIColor colorWithRed:147/255.0 green:191/255.0 blue:235/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_284C_Color 
+{
+	return [UIColor colorWithRed:108/255.0 green:171/255.0 blue:231/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_285C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:119/255.0 blue:212/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_286C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:53/255.0 blue:173/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_287C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:55/255.0 blue:152/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_288C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:48/255.0 blue:130/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_289C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:35/255.0 blue:76/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2905C_Color 
+{
+	return [UIColor colorWithRed:146/255.0 green:201/255.0 blue:235/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_290C_Color 
+{
+	return [UIColor colorWithRed:190/255.0 green:217/255.0 blue:237/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2915C_Color 
+{
+	return [UIColor colorWithRed:98/255.0 green:180/255.0 blue:232/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_291C_Color 
+{
+	return [UIColor colorWithRed:164/255.0 green:206/255.0 blue:236/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2925C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:146/255.0 blue:221/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_292C_Color 
+{
+	return [UIColor colorWithRed:106/255.0 green:178/255.0 blue:231/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2935C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:91/255.0 blue:195/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_293C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:71/255.0 blue:182/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2945C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:83/255.0 blue:165/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_294C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:53/255.0 blue:128/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2955C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:59/255.0 blue:111/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_295C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:45/255.0 blue:98/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2965C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:49/255.0 blue:81/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_296C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:39/255.0 blue:64/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2975C_Color 
+{
+	return [UIColor colorWithRed:165/255.0 green:217/255.0 blue:236/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_297C_Color 
+{
+	return [UIColor colorWithRed:120/255.0 green:199/255.0 blue:235/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2985C_Color 
+{
+	return [UIColor colorWithRed:64/255.0 green:189/255.0 blue:232/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_298C_Color 
+{
+	return [UIColor colorWithRed:66/255.0 green:180/255.0 blue:230/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_2995C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:162/255.0 blue:225/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_299C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:160/255.0 blue:226/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3005C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:118/255.0 blue:204/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_300C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:103/255.0 blue:198/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3015C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:96/255.0 blue:161/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_301C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:82/255.0 blue:155/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3025C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:73/255.0 blue:110/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_302C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:67/255.0 blue:110/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3035C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:58/255.0 blue:79/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_303C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:52/255.0 blue:77/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_304C_Color 
+{
+	return [UIColor colorWithRed:162/255.0 green:219/255.0 blue:235/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_305C_Color 
+{
+	return [UIColor colorWithRed:83/255.0 green:202/255.0 blue:235/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_306C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:181/255.0 blue:230/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_307C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:112/255.0 blue:178/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_308C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:88/255.0 blue:131/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_309C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:57/255.0 blue:71/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3105C_Color 
+{
+	return [UIColor colorWithRed:111/255.0 green:210/255.0 blue:228/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_310C_Color 
+{
+	return [UIColor colorWithRed:102/255.0 green:207/255.0 blue:230/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3115C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:196/255.0 blue:220/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_311C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:194/255.0 blue:227/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3125C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:174/255.0 blue:206/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_312C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:167/255.0 blue:212/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3135C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:146/255.0 blue:186/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_313C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:146/255.0 blue:199/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3145C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:122/255.0 blue:151/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_314C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:127/255.0 blue:172/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3155C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:102/255.0 blue:124/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_315C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:102/255.0 blue:133/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3165C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:79/255.0 blue:93/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_316C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:70/255.0 blue:80/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_317C_Color 
+{
+	return [UIColor colorWithRed:191/255.0 green:229/255.0 blue:234/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_318C_Color 
+{
+	return [UIColor colorWithRed:142/255.0 green:219/255.0 blue:229/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_319C_Color 
+{
+	return [UIColor colorWithRed:54/255.0 green:204/255.0 blue:218/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_320C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:151/255.0 blue:172/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_321C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:129/255.0 blue:147/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_322C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:111/255.0 blue:122/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_323C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:96/255.0 blue:104/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3242C_Color 
+{
+	return [UIColor colorWithRed:117/255.0 green:217/255.0 blue:216/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3245C_Color 
+{
+	return [UIColor colorWithRed:123/255.0 green:221/255.0 blue:216/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3248C_Color 
+{
+	return [UIColor colorWithRed:123/255.0 green:210/255.0 blue:200/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_324C_Color 
+{
+	return [UIColor colorWithRed:152/255.0 green:217/255.0 blue:219/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3252C_Color 
+{
+	return [UIColor colorWithRed:65/255.0 green:210/255.0 blue:210/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3255C_Color 
+{
+	return [UIColor colorWithRed:50/255.0 green:212/255.0 blue:203/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3258C_Color 
+{
+	return [UIColor colorWithRed:67/255.0 green:196/255.0 blue:183/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_325C_Color 
+{
+	return [UIColor colorWithRed:71/255.0 green:199/255.0 blue:199/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3262C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:186/255.0 blue:185/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3265C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:194/255.0 blue:182/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3268C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:169/255.0 blue:148/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_326C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:175/255.0 blue:173/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3272C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:161/255.0 blue:156/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3275C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:176/255.0 blue:157/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3278C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:153/255.0 blue:122/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_327C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:133/255.0 blue:121/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3282C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:132/255.0 blue:128/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3285C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:147/255.0 blue:132/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3288C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:126/255.0 blue:100/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_328C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:113/255.0 blue:104/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3292C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:90/255.0 blue:83/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3295C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:124/255.0 blue:111/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3298C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:103/255.0 blue:82/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_329C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:98/255.0 blue:90/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3302C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:66/255.0 blue:60/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3305C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:74/255.0 blue:65/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3308C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:66/255.0 blue:54/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_330C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:82/255.0 blue:77/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_331C_Color 
+{
+	return [UIColor colorWithRed:178/255.0 green:231/255.0 blue:223/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_332C_Color 
+{
+	return [UIColor colorWithRed:159/255.0 green:228/255.0 blue:219/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_333C_Color 
+{
+	return [UIColor colorWithRed:67/255.0 green:217/255.0 blue:199/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_334C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:152/255.0 blue:120/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_335C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:123/255.0 blue:99/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_336C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:102/255.0 blue:81/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3375C_Color 
+{
+	return [UIColor colorWithRed:129/255.0 green:224/255.0 blue:199/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_337C_Color 
+{
+	return [UIColor colorWithRed:148/255.0 green:216/255.0 blue:200/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3385C_Color 
+{
+	return [UIColor colorWithRed:59/255.0 green:214/255.0 blue:178/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_338C_Color 
+{
+	return [UIColor colorWithRed:118/255.0 green:209/255.0 blue:189/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3395C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:197/255.0 blue:144/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_339C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:176/255.0 blue:139/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3405C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:174/255.0 blue:104/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_340C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:148/255.0 blue:96/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3415C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:119/255.0 blue:75/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_341C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:120/255.0 blue:86/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3425C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:102/255.0 blue:68/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_342C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:106/255.0 blue:78/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3435C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:71/255.0 blue:49/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_343C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:83/255.0 blue:62/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_344C_Color 
+{
+	return [UIColor colorWithRed:166/255.0 green:222/255.0 blue:193/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_345C_Color 
+{
+	return [UIColor colorWithRed:137/255.0 green:213/255.0 blue:175/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_346C_Color 
+{
+	return [UIColor colorWithRed:94/255.0 green:201/255.0 blue:152/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_347C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:149/255.0 blue:67/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_348C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:126/255.0 blue:58/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_349C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:98/255.0 blue:51/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_350C_Color 
+{
+	return [UIColor colorWithRed:24/255.0 green:71/255.0 blue:44/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_351C_Color 
+{
+	return [UIColor colorWithRed:167/255.0 green:230/255.0 blue:196/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_352C_Color 
+{
+	return [UIColor colorWithRed:135/255.0 green:224/255.0 blue:176/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_353C_Color 
+{
+	return [UIColor colorWithRed:106/255.0 green:220/255.0 blue:162/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_354C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:171/255.0 blue:57/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_355C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:149/255.0 blue:48/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_356C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:114/255.0 blue:41/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_357C_Color 
+{
+	return [UIColor colorWithRed:15/255.0 green:77/255.0 blue:42/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_358C_Color 
+{
+	return [UIColor colorWithRed:165/255.0 green:219/255.0 blue:146/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_359C_Color 
+{
+	return [UIColor colorWithRed:159/255.0 green:217/255.0 blue:139/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_360C_Color 
+{
+	return [UIColor colorWithRed:85/255.0 green:190/255.0 blue:71/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_361C_Color 
+{
+	return [UIColor colorWithRed:18/255.0 green:173/255.0 blue:43/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_362C_Color 
+{
+	return [UIColor colorWithRed:40/255.0 green:151/255.0 blue:40/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_363C_Color 
+{
+	return [UIColor colorWithRed:47/255.0 green:137/255.0 blue:39/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_364C_Color 
+{
+	return [UIColor colorWithRed:49/255.0 green:112/255.0 blue:35/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_365C_Color 
+{
+	return [UIColor colorWithRed:204/255.0 green:229/255.0 blue:162/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_366C_Color 
+{
+	return [UIColor colorWithRed:188/255.0 green:225/255.0 blue:141/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_367C_Color 
+{
+	return [UIColor colorWithRed:164/255.0 green:216/255.0 blue:103/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_368C_Color 
+{
+	return [UIColor colorWithRed:98/255.0 green:189/255.0 blue:25/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_369C_Color 
+{
+	return [UIColor colorWithRed:79/255.0 green:166/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_370C_Color 
+{
+	return [UIColor colorWithRed:79/255.0 green:138/255.0 blue:16/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_371C_Color 
+{
+	return [UIColor colorWithRed:74/255.0 green:96/255.0 blue:28/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_372C_Color 
+{
+	return [UIColor colorWithRed:215/255.0 green:233/255.0 blue:161/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_373C_Color 
+{
+	return [UIColor colorWithRed:205/255.0 green:233/255.0 blue:133/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_374C_Color 
+{
+	return [UIColor colorWithRed:186/255.0 green:229/255.0 blue:95/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_375C_Color 
+{
+	return [UIColor colorWithRed:135/255.0 green:211/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_376C_Color 
+{
+	return [UIColor colorWithRed:118/255.0 green:185/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_377C_Color 
+{
+	return [UIColor colorWithRed:103/255.0 green:144/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_378C_Color 
+{
+	return [UIColor colorWithRed:77/255.0 green:90/255.0 blue:18/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_379C_Color 
+{
+	return [UIColor colorWithRed:221/255.0 green:229/255.0 blue:108/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_380C_Color 
+{
+	return [UIColor colorWithRed:211/255.0 green:225/255.0 blue:60/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_381C_Color 
+{
+	return [UIColor colorWithRed:200/255.0 green:219/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_382C_Color 
+{
+	return [UIColor colorWithRed:185/255.0 green:211/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_383C_Color 
+{
+	return [UIColor colorWithRed:159/255.0 green:170/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_384C_Color 
+{
+	return [UIColor colorWithRed:139/255.0 green:144/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_385C_Color 
+{
+	return [UIColor colorWithRed:110/255.0 green:106/255.0 blue:18/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_386C_Color 
+{
+	return [UIColor colorWithRed:229/255.0 green:233/255.0 blue:110/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_387C_Color 
+{
+	return [UIColor colorWithRed:222/255.0 green:230/255.0 blue:58/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_388C_Color 
+{
+	return [UIColor colorWithRed:215/255.0 green:227/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_389C_Color 
+{
+	return [UIColor colorWithRed:198/255.0 green:219/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_390C_Color 
+{
+	return [UIColor colorWithRed:178/255.0 green:188/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_391C_Color 
+{
+	return [UIColor colorWithRed:149/255.0 green:146/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_392C_Color 
+{
+	return [UIColor colorWithRed:127/255.0 green:120/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3935C_Color 
+{
+	return [UIColor colorWithRed:240/255.0 green:235/255.0 blue:122/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_393C_Color 
+{
+	return [UIColor colorWithRed:237/255.0 green:235/255.0 blue:143/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3945C_Color 
+{
+	return [UIColor colorWithRed:239/255.0 green:230/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_394C_Color 
+{
+	return [UIColor colorWithRed:233/255.0 green:231/255.0 blue:63/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3955C_Color 
+{
+	return [UIColor colorWithRed:236/255.0 green:225/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_395C_Color 
+{
+	return [UIColor colorWithRed:228/255.0 green:228/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3965C_Color 
+{
+	return [UIColor colorWithRed:233/255.0 green:220/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_396C_Color 
+{
+	return [UIColor colorWithRed:221/255.0 green:223/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3975C_Color 
+{
+	return [UIColor colorWithRed:187/255.0 green:168/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_397C_Color 
+{
+	return [UIColor colorWithRed:190/255.0 green:184/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3985C_Color 
+{
+	return [UIColor colorWithRed:155/255.0 green:137/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_398C_Color 
+{
+	return [UIColor colorWithRed:171/255.0 green:162/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_3995C_Color 
+{
+	return [UIColor colorWithRed:106/255.0 green:91/255.0 blue:7/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_399C_Color 
+{
+	return [UIColor colorWithRed:153/255.0 green:141/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_400C_Color 
+{
+	return [UIColor colorWithRed:205/255.0 green:201/255.0 blue:196/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_401C_Color 
+{
+	return [UIColor colorWithRed:189/255.0 green:184/255.0 blue:177/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_402C_Color 
+{
+	return [UIColor colorWithRed:173/255.0 green:165/255.0 blue:157/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_403C_Color 
+{
+	return [UIColor colorWithRed:152/255.0 green:143/255.0 blue:134/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_404C_Color 
+{
+	return [UIColor colorWithRed:124/255.0 green:115/255.0 blue:105/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_405C_Color 
+{
+	return [UIColor colorWithRed:100/255.0 green:90/255.0 blue:80/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_406C_Color 
+{
+	return [UIColor colorWithRed:202/255.0 green:196/255.0 blue:194/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_408C_Color 
+{
+	return [UIColor colorWithRed:165/255.0 green:153/255.0 blue:151/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_409C_Color 
+{
+	return [UIColor colorWithRed:148/255.0 green:134/255.0 blue:131/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_410C_Color 
+{
+	return [UIColor colorWithRed:123/255.0 green:110/255.0 blue:106/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_411C_Color 
+{
+	return [UIColor colorWithRed:98/255.0 green:82/255.0 blue:78/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_412C_Color 
+{
+	return [UIColor colorWithRed:55/255.0 green:43/255.0 blue:39/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_413C_Color 
+{
+	return [UIColor colorWithRed:200/255.0 green:201/255.0 blue:195/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_414C_Color 
+{
+	return [UIColor colorWithRed:181/255.0 green:182/255.0 blue:176/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_415C_Color 
+{
+	return [UIColor colorWithRed:157/255.0 green:157/255.0 blue:150/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_416C_Color 
+{
+	return [UIColor colorWithRed:135/255.0 green:136/255.0 blue:127/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_417C_Color 
+{
+	return [UIColor colorWithRed:110/255.0 green:111/255.0 blue:100/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_418C_Color 
+{
+	return [UIColor colorWithRed:90/255.0 green:91/255.0 blue:81/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_419C_Color 
+{
+	return [UIColor colorWithRed:31/255.0 green:33/255.0 blue:28/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_420C_Color 
+{
+	return [UIColor colorWithRed:204/255.0 green:204/255.0 blue:204/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_421C_Color 
+{
+	return [UIColor colorWithRed:186/255.0 green:187/255.0 blue:188/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_422C_Color 
+{
+	return [UIColor colorWithRed:169/255.0 green:170/255.0 blue:171/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_423C_Color 
+{
+	return [UIColor colorWithRed:147/255.0 green:148/255.0 blue:149/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_424C_Color 
+{
+	return [UIColor colorWithRed:118/255.0 green:122/255.0 blue:125/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_425C_Color 
+{
+	return [UIColor colorWithRed:86/255.0 green:89/255.0 blue:92/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_426C_Color 
+{
+	return [UIColor colorWithRed:33/255.0 green:36/255.0 blue:36/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_427C_Color 
+{
+	return [UIColor colorWithRed:210/255.0 green:214/255.0 blue:217/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_428C_Color 
+{
+	return [UIColor colorWithRed:195/255.0 green:200/255.0 blue:205/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_429C_Color 
+{
+	return [UIColor colorWithRed:168/255.0 green:173/255.0 blue:180/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_430C_Color 
+{
+	return [UIColor colorWithRed:134/255.0 green:143/255.0 blue:152/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_431C_Color 
+{
+	return [UIColor colorWithRed:97/255.0 green:106/255.0 blue:116/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_432C_Color 
+{
+	return [UIColor colorWithRed:65/255.0 green:75/255.0 blue:86/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_433C_Color 
+{
+	return [UIColor colorWithRed:33/255.0 green:41/255.0 blue:48/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_434C_Color 
+{
+	return [UIColor colorWithRed:211/255.0 green:201/255.0 blue:206/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_435C_Color 
+{
+	return [UIColor colorWithRed:200/255.0 green:186/255.0 blue:192/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_436C_Color 
+{
+	return [UIColor colorWithRed:183/255.0 green:166/255.0 blue:173/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_437C_Color 
+{
+	return [UIColor colorWithRed:132/255.0 green:110/255.0 blue:116/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_438C_Color 
+{
+	return [UIColor colorWithRed:81/255.0 green:62/255.0 blue:62/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_439C_Color 
+{
+	return [UIColor colorWithRed:68/255.0 green:53/255.0 blue:53/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_440C_Color 
+{
+	return [UIColor colorWithRed:57/255.0 green:46/255.0 blue:44/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_441C_Color 
+{
+	return [UIColor colorWithRed:203/255.0 green:209/255.0 blue:212/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_442C_Color 
+{
+	return [UIColor colorWithRed:179/255.0 green:188/255.0 blue:192/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_443C_Color 
+{
+	return [UIColor colorWithRed:153/255.0 green:163/255.0 blue:166/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_444C_Color 
+{
+	return [UIColor colorWithRed:123/255.0 green:133/255.0 blue:138/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_445C_Color 
+{
+	return [UIColor colorWithRed:79/255.0 green:85/255.0 blue:89/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_446C_Color 
+{
+	return [UIColor colorWithRed:61/255.0 green:66/255.0 blue:66/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_447C_Color 
+{
+	return [UIColor colorWithRed:50/255.0 green:53/255.0 blue:50/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_4485C_Color 
+{
+	return [UIColor colorWithRed:93/255.0 green:71/255.0 blue:24/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_448C_Color 
+{
+	return [UIColor colorWithRed:71/255.0 green:62/255.0 blue:38/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_4495C_Color 
+{
+	return [UIColor colorWithRed:131/255.0 green:110/255.0 blue:44/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_449C_Color 
+{
+	return [UIColor colorWithRed:77/255.0 green:67/255.0 blue:37/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_4505C_Color 
+{
+	return [UIColor colorWithRed:155/255.0 green:137/255.0 blue:72/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_450C_Color 
+{
+	return [UIColor colorWithRed:81/255.0 green:72/255.0 blue:38/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_4515C_Color 
+{
+	return [UIColor colorWithRed:181/255.0 green:165/255.0 blue:112/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_451C_Color 
+{
+	return [UIColor colorWithRed:159/255.0 green:155/255.0 blue:116/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_4525C_Color 
+{
+	return [UIColor colorWithRed:197/255.0 green:186/255.0 blue:142/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_452C_Color 
+{
+	return [UIColor colorWithRed:181/255.0 green:178/255.0 blue:146/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_4535C_Color 
+{
+	return [UIColor colorWithRed:212/255.0 green:204/255.0 blue:170/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_453C_Color 
+{
+	return [UIColor colorWithRed:200/255.0 green:197/255.0 blue:172/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_4545C_Color 
+{
+	return [UIColor colorWithRed:222/255.0 green:217/255.0 blue:194/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_454C_Color 
+{
+	return [UIColor colorWithRed:213/255.0 green:211/255.0 blue:191/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_455C_Color 
+{
+	return [UIColor colorWithRed:101/255.0 green:84/255.0 blue:21/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_456C_Color 
+{
+	return [UIColor colorWithRed:151/255.0 green:127/255.0 blue:9/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_457C_Color 
+{
+	return [UIColor colorWithRed:178/255.0 green:146/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_458C_Color 
+{
+	return [UIColor colorWithRed:219/255.0 green:202/255.0 blue:103/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_459C_Color 
+{
+	return [UIColor colorWithRed:223/255.0 green:210/255.0 blue:124/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_460C_Color 
+{
+	return [UIColor colorWithRed:229/255.0 green:219/255.0 blue:151/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_461C_Color 
+{
+	return [UIColor colorWithRed:231/255.0 green:227/255.0 blue:181/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_4625C_Color 
+{
+	return [UIColor colorWithRed:78/255.0 green:38/255.0 blue:20/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_462C_Color 
+{
+	return [UIColor colorWithRed:86/255.0 green:63/255.0 blue:35/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_4635C_Color 
+{
+	return [UIColor colorWithRed:144/255.0 green:90/255.0 blue:51/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_463C_Color 
+{
+	return [UIColor colorWithRed:109/255.0 green:73/255.0 blue:33/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_4645C_Color 
+{
+	return [UIColor colorWithRed:177/255.0 green:127/255.0 blue:92/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_464C_Color 
+{
+	return [UIColor colorWithRed:133/255.0 green:87/255.0 blue:35/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_4655C_Color 
+{
+	return [UIColor colorWithRed:192/255.0 green:148/255.0 blue:119/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_465C_Color 
+{
+	return [UIColor colorWithRed:185/255.0 green:156/255.0 blue:107/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_4665C_Color 
+{
+	return [UIColor colorWithRed:209/255.0 green:174/255.0 blue:151/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_466C_Color 
+{
+	return [UIColor colorWithRed:202/255.0 green:179/255.0 blue:136/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_4675C_Color 
+{
+	return [UIColor colorWithRed:221/255.0 green:194/255.0 blue:176/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_467C_Color 
+{
+	return [UIColor colorWithRed:213/255.0 green:196/255.0 blue:161/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_4685C_Color 
+{
+	return [UIColor colorWithRed:228/255.0 green:210/255.0 blue:197/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_468C_Color 
+{
+	return [UIColor colorWithRed:224/255.0 green:212/255.0 blue:187/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_4695C_Color 
+{
+	return [UIColor colorWithRed:83/255.0 green:40/255.0 blue:33/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_469C_Color 
+{
+	return [UIColor colorWithRed:97/255.0 green:52/255.0 blue:24/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_4705C_Color 
+{
+	return [UIColor colorWithRed:127/255.0 green:76/255.0 blue:62/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_470C_Color 
+{
+	return [UIColor colorWithRed:155/255.0 green:77/255.0 blue:27/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_4715C_Color 
+{
+	return [UIColor colorWithRed:155/255.0 green:110/255.0 blue:95/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_471C_Color 
+{
+	return [UIColor colorWithRed:183/255.0 green:83/255.0 blue:18/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_4725C_Color 
+{
+	return [UIColor colorWithRed:178/255.0 green:141/255.0 blue:127/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_472C_Color 
+{
+	return [UIColor colorWithRed:228/255.0 green:153/255.0 blue:105/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_4735C_Color 
+{
+	return [UIColor colorWithRed:197/255.0 green:170/255.0 blue:160/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_473C_Color 
+{
+	return [UIColor colorWithRed:237/255.0 green:185/255.0 blue:150/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_4745C_Color 
+{
+	return [UIColor colorWithRed:212/255.0 green:190/255.0 blue:182/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_474C_Color 
+{
+	return [UIColor colorWithRed:238/255.0 green:197/255.0 blue:169/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_4755C_Color 
+{
+	return [UIColor colorWithRed:221/255.0 green:205/255.0 blue:199/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_475C_Color 
+{
+	return [UIColor colorWithRed:240/255.0 green:208/255.0 blue:187/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_476C_Color 
+{
+	return [UIColor colorWithRed:81/255.0 green:49/255.0 blue:39/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_477C_Color 
+{
+	return [UIColor colorWithRed:94/255.0 green:47/255.0 blue:36/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_478C_Color 
+{
+	return [UIColor colorWithRed:114/255.0 green:54/255.0 blue:41/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_479C_Color 
+{
+	return [UIColor colorWithRed:173/255.0 green:128/255.0 blue:108/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_480C_Color 
+{
+	return [UIColor colorWithRed:200/255.0 green:169/255.0 blue:154/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_481C_Color 
+{
+	return [UIColor colorWithRed:213/255.0 green:189/255.0 blue:176/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_482C_Color 
+{
+	return [UIColor colorWithRed:221/255.0 green:206/255.0 blue:196/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_483C_Color 
+{
+	return [UIColor colorWithRed:106/255.0 green:46/255.0 blue:34/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_484C_Color 
+{
+	return [UIColor colorWithRed:159/255.0 green:45/255.0 blue:32/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_485C_Color 
+{
+	return [UIColor colorWithRed:220/255.0 green:36/255.0 blue:31/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_486C_Color 
+{
+	return [UIColor colorWithRed:236/255.0 green:147/255.0 blue:132/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_487C_Color 
+{
+	return [UIColor colorWithRed:236/255.0 green:171/255.0 blue:157/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_488C_Color 
+{
+	return [UIColor colorWithRed:236/255.0 green:187/255.0 blue:175/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_489C_Color 
+{
+	return [UIColor colorWithRed:235/255.0 green:205/255.0 blue:195/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_490C_Color 
+{
+	return [UIColor colorWithRed:90/255.0 green:39/255.0 blue:42/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_491C_Color 
+{
+	return [UIColor colorWithRed:119/255.0 green:43/255.0 blue:47/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_492C_Color 
+{
+	return [UIColor colorWithRed:145/255.0 green:53/255.0 blue:59/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_494C_Color 
+{
+	return [UIColor colorWithRed:231/255.0 green:167/255.0 blue:182/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_495C_Color 
+{
+	return [UIColor colorWithRed:237/255.0 green:184/255.0 blue:197/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_496C_Color 
+{
+	return [UIColor colorWithRed:239/255.0 green:196/255.0 blue:206/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_4975C_Color 
+{
+	return [UIColor colorWithRed:68/255.0 green:30/255.0 blue:31/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_497C_Color 
+{
+	return [UIColor colorWithRed:78/255.0 green:42/255.0 blue:40/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_4985C_Color 
+{
+	return [UIColor colorWithRed:133/255.0 green:74/255.0 blue:80/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_498C_Color 
+{
+	return [UIColor colorWithRed:104/255.0 green:50/255.0 blue:46/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_4995C_Color 
+{
+	return [UIColor colorWithRed:161/255.0 green:105/255.0 blue:113/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_499C_Color 
+{
+	return [UIColor colorWithRed:118/255.0 green:57/255.0 blue:49/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5005C_Color 
+{
+	return [UIColor colorWithRed:183/255.0 green:132/255.0 blue:140/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_500C_Color 
+{
+	return [UIColor colorWithRed:200/255.0 green:134/255.0 blue:145/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5015C_Color 
+{
+	return [UIColor colorWithRed:209/255.0 green:169/255.0 blue:176/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_501C_Color 
+{
+	return [UIColor colorWithRed:222/255.0 green:172/255.0 blue:183/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5025C_Color 
+{
+	return [UIColor colorWithRed:219/255.0 green:188/255.0 blue:193/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_502C_Color 
+{
+	return [UIColor colorWithRed:229/255.0 green:191/255.0 blue:199/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5035C_Color 
+{
+	return [UIColor colorWithRed:227/255.0 green:203/255.0 blue:208/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_503C_Color 
+{
+	return [UIColor colorWithRed:233/255.0 green:204/255.0 blue:210/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_504C_Color 
+{
+	return [UIColor colorWithRed:78/255.0 green:32/255.0 blue:41/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_505C_Color 
+{
+	return [UIColor colorWithRed:110/255.0 green:38/255.0 blue:57/255.0 alpha:255/255.0];
+};
+
 +(UIColor *)pantone_506C_Color 
 {
 	return [UIColor colorWithRed:126/255.0 green:43/255.0 blue:66/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_507C_Color 
+{
+	return [UIColor colorWithRed:211/255.0 green:141/255.0 blue:166/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_508C_Color 
+{
+	return [UIColor colorWithRed:226/255.0 green:171/255.0 blue:191/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_509C_Color 
+{
+	return [UIColor colorWithRed:231/255.0 green:185/255.0 blue:202/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_510C_Color 
+{
+	return [UIColor colorWithRed:233/255.0 green:194/255.0 blue:209/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5115C_Color 
+{
+	return [UIColor colorWithRed:75/255.0 green:37/255.0 blue:62/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_511C_Color 
+{
+	return [UIColor colorWithRed:96/255.0 green:36/255.0 blue:78/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5125C_Color 
+{
+	return [UIColor colorWithRed:112/255.0 green:65/255.0 blue:101/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_512C_Color 
+{
+	return [UIColor colorWithRed:126/255.0 green:34/255.0 blue:113/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5135C_Color 
+{
+	return [UIColor colorWithRed:136/255.0 green:94/255.0 blue:128/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_513C_Color 
+{
+	return [UIColor colorWithRed:149/255.0 green:40/255.0 blue:143/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5145C_Color 
+{
+	return [UIColor colorWithRed:161/255.0 green:126/255.0 blue:154/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_514C_Color 
+{
+	return [UIColor colorWithRed:211/255.0 green:133/255.0 blue:200/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5155C_Color 
+{
+	return [UIColor colorWithRed:192/255.0 green:166/255.0 blue:189/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_515C_Color 
+{
+	return [UIColor colorWithRed:223/255.0 green:165/255.0 blue:214/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5165C_Color 
+{
+	return [UIColor colorWithRed:214/255.0 green:197/255.0 blue:211/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_516C_Color 
+{
+	return [UIColor colorWithRed:231/255.0 green:186/255.0 blue:223/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5175C_Color 
+{
+	return [UIColor colorWithRed:224/255.0 green:213/255.0 blue:222/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_517C_Color 
+{
+	return [UIColor colorWithRed:235/255.0 green:202/255.0 blue:227/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5185C_Color 
+{
+	return [UIColor colorWithRed:69/255.0 green:41/255.0 blue:59/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_518C_Color 
+{
+	return [UIColor colorWithRed:75/255.0 green:42/255.0 blue:70/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5195C_Color 
+{
+	return [UIColor colorWithRed:94/255.0 green:58/255.0 blue:81/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_519C_Color 
+{
+	return [UIColor colorWithRed:90/255.0 green:45/255.0 blue:95/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5205C_Color 
+{
+	return [UIColor colorWithRed:139/255.0 green:104/255.0 blue:125/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_520C_Color 
+{
+	return [UIColor colorWithRed:104/255.0 green:47/255.0 blue:115/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5215C_Color 
+{
+	return [UIColor colorWithRed:177/255.0 green:149/255.0 blue:166/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_521C_Color 
+{
+	return [UIColor colorWithRed:173/255.0 green:133/255.0 blue:186/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5225C_Color 
+{
+	return [UIColor colorWithRed:198/255.0 green:176/255.0 blue:190/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_522C_Color 
+{
+	return [UIColor colorWithRed:189/255.0 green:158/255.0 blue:202/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5235C_Color 
+{
+	return [UIColor colorWithRed:212/255.0 green:196/255.0 blue:206/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_523C_Color 
+{
+	return [UIColor colorWithRed:203/255.0 green:178/255.0 blue:213/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5245C_Color 
+{
+	return [UIColor colorWithRed:223/255.0 green:212/255.0 blue:219/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_524C_Color 
+{
+	return [UIColor colorWithRed:218/255.0 green:204/255.0 blue:225/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5255C_Color 
+{
+	return [UIColor colorWithRed:42/255.0 green:37/255.0 blue:75/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_525C_Color 
+{
+	return [UIColor colorWithRed:81/255.0 green:38/255.0 blue:90/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5265C_Color 
+{
+	return [UIColor colorWithRed:67/255.0 green:59/255.0 blue:103/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_526C_Color 
+{
+	return [UIColor colorWithRed:97/255.0 green:32/255.0 blue:127/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5275C_Color 
+{
+	return [UIColor colorWithRed:87/255.0 green:82/255.0 blue:126/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_527C_Color 
+{
+	return [UIColor colorWithRed:110/255.0 green:32/255.0 blue:160/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5285C_Color 
+{
+	return [UIColor colorWithRed:133/255.0 green:129/255.0 blue:164/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_528C_Color 
+{
+	return [UIColor colorWithRed:167/255.0 green:116/255.0 blue:205/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5295C_Color 
+{
+	return [UIColor colorWithRed:170/255.0 green:167/255.0 blue:193/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_529C_Color 
+{
+	return [UIColor colorWithRed:198/255.0 green:164/255.0 blue:225/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5305C_Color 
+{
+	return [UIColor colorWithRed:193/255.0 green:190/255.0 blue:209/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_530C_Color 
+{
+	return [UIColor colorWithRed:207/255.0 green:177/255.0 blue:227/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5315C_Color 
+{
+	return [UIColor colorWithRed:212/255.0 green:212/255.0 blue:224/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_531C_Color 
+{
+	return [UIColor colorWithRed:215/255.0 green:196/255.0 blue:231/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_532C_Color 
+{
+	return [UIColor colorWithRed:38/255.0 green:42/255.0 blue:57/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_533C_Color 
+{
+	return [UIColor colorWithRed:37/255.0 green:51/255.0 blue:85/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_534C_Color 
+{
+	return [UIColor colorWithRed:41/255.0 green:63/255.0 blue:111/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_535C_Color 
+{
+	return [UIColor colorWithRed:149/255.0 green:161/255.0 blue:195/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_536C_Color 
+{
+	return [UIColor colorWithRed:164/255.0 green:177/255.0 blue:205/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_537C_Color 
+{
+	return [UIColor colorWithRed:189/255.0 green:198/255.0 blue:218/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_538C_Color 
+{
+	return [UIColor colorWithRed:210/255.0 green:215/255.0 blue:228/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5395C_Color 
+{
+	return [UIColor colorWithRed:2/255.0 green:37/255.0 blue:58/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_539C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:42/255.0 blue:70/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5405C_Color 
+{
+	return [UIColor colorWithRed:62/255.0 green:100/255.0 blue:126/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_540C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:47/255.0 blue:93/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5415C_Color 
+{
+	return [UIColor colorWithRed:88/255.0 green:121/255.0 blue:147/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_541C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:60/255.0 blue:121/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5425C_Color 
+{
+	return [UIColor colorWithRed:124/255.0 green:152/255.0 blue:174/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_542C_Color 
+{
+	return [UIColor colorWithRed:89/255.0 green:152/255.0 blue:201/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5435C_Color 
+{
+	return [UIColor colorWithRed:165/255.0 green:184/255.0 blue:201/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_543C_Color 
+{
+	return [UIColor colorWithRed:147/255.0 green:185/255.0 blue:220/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5445C_Color 
+{
+	return [UIColor colorWithRed:188/255.0 green:202/255.0 blue:214/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_544C_Color 
+{
+	return [UIColor colorWithRed:177/255.0 green:203/255.0 blue:229/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5455C_Color 
+{
+	return [UIColor colorWithRed:204/255.0 green:214/255.0 blue:224/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_545C_Color 
+{
+	return [UIColor colorWithRed:191/255.0 green:211/255.0 blue:230/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5463C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:40/255.0 blue:48/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5467C_Color 
+{
+	return [UIColor colorWithRed:24/255.0 green:53/255.0 blue:51/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_546C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:52/255.0 blue:64/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5473C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:98/255.0 blue:110/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5477C_Color 
+{
+	return [UIColor colorWithRed:60/255.0 green:91/255.0 blue:89/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_547C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:62/255.0 blue:81/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5483C_Color 
+{
+	return [UIColor colorWithRed:79/255.0 green:141/255.0 blue:151/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5487C_Color 
+{
+	return [UIColor colorWithRed:98/255.0 green:125/255.0 blue:124/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_548C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:65/255.0 blue:89/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5493C_Color 
+{
+	return [UIColor colorWithRed:129/255.0 green:173/255.0 blue:181/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5497C_Color 
+{
+	return [UIColor colorWithRed:141/255.0 green:160/255.0 blue:159/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_549C_Color 
+{
+	return [UIColor colorWithRed:91/255.0 green:151/255.0 blue:177/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5503C_Color 
+{
+	return [UIColor colorWithRed:161/255.0 green:195/255.0 blue:201/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5507C_Color 
+{
+	return [UIColor colorWithRed:170/255.0 green:184/255.0 blue:185/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_550C_Color 
+{
+	return [UIColor colorWithRed:133/255.0 green:176/255.0 blue:198/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5513C_Color 
+{
+	return [UIColor colorWithRed:190/255.0 green:213/255.0 blue:217/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5517C_Color 
+{
+	return [UIColor colorWithRed:191/255.0 green:203/255.0 blue:204/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_551C_Color 
+{
+	return [UIColor colorWithRed:159/255.0 green:193/255.0 blue:211/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5523C_Color 
+{
+	return [UIColor colorWithRed:207/255.0 green:222/255.0 blue:225/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5527C_Color 
+{
+	return [UIColor colorWithRed:204/255.0 green:212/255.0 blue:212/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_552C_Color 
+{
+	return [UIColor colorWithRed:185/255.0 green:208/255.0 blue:220/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5535C_Color 
+{
+	return [UIColor colorWithRed:27/255.0 green:57/255.0 blue:48/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_553C_Color 
+{
+	return [UIColor colorWithRed:33/255.0 green:66/255.0 blue:50/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5545C_Color 
+{
+	return [UIColor colorWithRed:74/255.0 green:109/255.0 blue:98/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_554C_Color 
+{
+	return [UIColor colorWithRed:36/255.0 green:96/255.0 blue:74/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5555C_Color 
+{
+	return [UIColor colorWithRed:110/255.0 green:141/255.0 blue:130/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_555C_Color 
+{
+	return [UIColor colorWithRed:19/255.0 green:105/255.0 blue:78/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5565C_Color 
+{
+	return [UIColor colorWithRed:143/255.0 green:168/255.0 blue:160/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_556C_Color 
+{
+	return [UIColor colorWithRed:116/255.0 green:161/255.0 blue:142/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5575C_Color 
+{
+	return [UIColor colorWithRed:169/255.0 green:189/255.0 blue:182/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_557C_Color 
+{
+	return [UIColor colorWithRed:152/255.0 green:186/255.0 blue:172/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5585C_Color 
+{
+	return [UIColor colorWithRed:192/255.0 green:207/255.0 blue:203/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_558C_Color 
+{
+	return [UIColor colorWithRed:172/255.0 green:199/255.0 blue:189/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5595C_Color 
+{
+	return [UIColor colorWithRed:211/255.0 green:222/255.0 blue:219/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_559C_Color 
+{
+	return [UIColor colorWithRed:192/255.0 green:212/255.0 blue:205/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5605C_Color 
+{
+	return [UIColor colorWithRed:25/255.0 green:48/255.0 blue:37/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_560C_Color 
+{
+	return [UIColor colorWithRed:34/255.0 green:72/255.0 blue:63/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5615C_Color 
+{
+	return [UIColor colorWithRed:90/255.0 green:112/255.0 blue:96/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_561C_Color 
+{
+	return [UIColor colorWithRed:15/255.0 green:98/255.0 blue:89/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5625C_Color 
+{
+	return [UIColor colorWithRed:108/255.0 green:128/255.0 blue:114/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_562C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:119/255.0 blue:112/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5635C_Color 
+{
+	return [UIColor colorWithRed:151/255.0 green:166/255.0 blue:155/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_563C_Color 
+{
+	return [UIColor colorWithRed:114/255.0 green:184/255.0 blue:180/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5645C_Color 
+{
+	return [UIColor colorWithRed:177/255.0 green:188/255.0 blue:181/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_564C_Color 
+{
+	return [UIColor colorWithRed:152/255.0 green:204/255.0 blue:201/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5655C_Color 
+{
+	return [UIColor colorWithRed:189/255.0 green:197/255.0 blue:191/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_565C_Color 
+{
+	return [UIColor colorWithRed:185/255.0 green:220/255.0 blue:218/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5665C_Color 
+{
+	return [UIColor colorWithRed:205/255.0 green:211/255.0 blue:205/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_566C_Color 
+{
+	return [UIColor colorWithRed:205/255.0 green:227/255.0 blue:226/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_567C_Color 
+{
+	return [UIColor colorWithRed:24/255.0 green:69/255.0 blue:59/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_569C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:132/255.0 blue:120/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_570C_Color 
+{
+	return [UIColor colorWithRed:118/255.0 green:198/255.0 blue:190/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_571C_Color 
+{
+	return [UIColor colorWithRed:157/255.0 green:214/255.0 blue:207/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_572C_Color 
+{
+	return [UIColor colorWithRed:180/255.0 green:222/255.0 blue:219/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_573C_Color 
+{
+	return [UIColor colorWithRed:193/255.0 green:226/255.0 blue:222/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5743C_Color 
+{
+	return [UIColor colorWithRed:62/255.0 green:71/255.0 blue:35/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5747C_Color 
+{
+	return [UIColor colorWithRed:64/255.0 green:70/255.0 blue:22/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_574C_Color 
+{
+	return [UIColor colorWithRed:64/255.0 green:79/255.0 blue:36/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5753C_Color 
+{
+	return [UIColor colorWithRed:94/255.0 green:102/255.0 blue:57/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5757C_Color 
+{
+	return [UIColor colorWithRed:111/255.0 green:115/255.0 blue:45/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_575C_Color 
+{
+	return [UIColor colorWithRed:86/255.0 green:115/255.0 blue:46/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5763C_Color 
+{
+	return [UIColor colorWithRed:110/255.0 green:118/255.0 blue:73/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5767C_Color 
+{
+	return [UIColor colorWithRed:141/255.0 green:145/255.0 blue:80/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_576C_Color 
+{
+	return [UIColor colorWithRed:102/255.0 green:142/255.0 blue:60/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5773C_Color 
+{
+	return [UIColor colorWithRed:147/255.0 green:152/255.0 blue:113/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5777C_Color 
+{
+	return [UIColor colorWithRed:167/255.0 green:171/255.0 blue:116/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_577C_Color 
+{
+	return [UIColor colorWithRed:178/255.0 green:200/255.0 blue:145/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5783C_Color 
+{
+	return [UIColor colorWithRed:173/255.0 green:178/255.0 blue:145/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5787C_Color 
+{
+	return [UIColor colorWithRed:193/255.0 green:196/255.0 blue:154/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_578C_Color 
+{
+	return [UIColor colorWithRed:189/255.0 green:208/255.0 blue:160/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5793C_Color 
+{
+	return [UIColor colorWithRed:189/255.0 green:194/255.0 blue:169/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5797C_Color 
+{
+	return [UIColor colorWithRed:206/255.0 green:209/255.0 blue:179/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_579C_Color 
+{
+	return [UIColor colorWithRed:197/255.0 green:213/255.0 blue:169/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5803C_Color 
+{
+	return [UIColor colorWithRed:206/255.0 green:210/255.0 blue:191/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5807C_Color 
+{
+	return [UIColor colorWithRed:217/255.0 green:220/255.0 blue:197/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_580C_Color 
+{
+	return [UIColor colorWithRed:207/255.0 green:221/255.0 blue:187/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5815C_Color 
+{
+	return [UIColor colorWithRed:75/255.0 green:69/255.0 blue:22/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_581C_Color 
+{
+	return [UIColor colorWithRed:96/255.0 green:90/255.0 blue:18/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5825C_Color 
+{
+	return [UIColor colorWithRed:125/255.0 green:118/255.0 blue:47/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_582C_Color 
+{
+	return [UIColor colorWithRed:136/255.0 green:134/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5835C_Color 
+{
+	return [UIColor colorWithRed:157/255.0 green:151/255.0 blue:84/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_583C_Color 
+{
+	return [UIColor colorWithRed:171/255.0 green:180/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5845C_Color 
+{
+	return [UIColor colorWithRed:173/255.0 green:168/255.0 blue:107/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_584C_Color 
+{
+	return [UIColor colorWithRed:203/255.0 green:211/255.0 blue:76/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5855C_Color 
+{
+	return [UIColor colorWithRed:199/255.0 green:195/255.0 blue:151/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_585C_Color 
+{
+	return [UIColor colorWithRed:216/255.0 green:219/255.0 blue:111/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5865C_Color 
+{
+	return [UIColor colorWithRed:211/255.0 green:207/255.0 blue:172/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_586C_Color 
+{
+	return [UIColor colorWithRed:221/255.0 green:225/255.0 blue:138/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_5875C_Color 
+{
+	return [UIColor colorWithRed:217/255.0 green:215/255.0 blue:185/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_587C_Color 
+{
+	return [UIColor colorWithRed:226/255.0 green:229/255.0 blue:159/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_600C_Color 
+{
+	return [UIColor colorWithRed:238/255.0 green:235/255.0 blue:182/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_601C_Color 
+{
+	return [UIColor colorWithRed:238/255.0 green:234/255.0 blue:165/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_602C_Color 
+{
+	return [UIColor colorWithRed:238/255.0 green:232/255.0 blue:141/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_603C_Color 
+{
+	return [UIColor colorWithRed:237/255.0 green:226/255.0 blue:94/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_604C_Color 
+{
+	return [UIColor colorWithRed:234/255.0 green:219/255.0 blue:27/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_605C_Color 
+{
+	return [UIColor colorWithRed:224/255.0 green:202/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_606C_Color 
+{
+	return [UIColor colorWithRed:216/255.0 green:189/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_607C_Color 
+{
+	return [UIColor colorWithRed:235/255.0 green:233/255.0 blue:195/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_608C_Color 
+{
+	return [UIColor colorWithRed:233/255.0 green:230/255.0 blue:180/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_609C_Color 
+{
+	return [UIColor colorWithRed:231/255.0 green:226/255.0 blue:154/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_610C_Color 
+{
+	return [UIColor colorWithRed:226/255.0 green:217/255.0 blue:115/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_611C_Color 
+{
+	return [UIColor colorWithRed:216/255.0 green:204/255.0 blue:70/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_612C_Color 
+{
+	return [UIColor colorWithRed:196/255.0 green:179/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_613C_Color 
+{
+	return [UIColor colorWithRed:179/255.0 green:157/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_614C_Color 
+{
+	return [UIColor colorWithRed:227/255.0 green:225/255.0 blue:193/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_615C_Color 
+{
+	return [UIColor colorWithRed:221/255.0 green:219/255.0 blue:177/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_616C_Color 
+{
+	return [UIColor colorWithRed:215/255.0 green:210/255.0 blue:157/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_617C_Color 
+{
+	return [UIColor colorWithRed:201/255.0 green:195/255.0 blue:127/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_618C_Color 
+{
+	return [UIColor colorWithRed:180/255.0 green:168/255.0 blue:81/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_619C_Color 
+{
+	return [UIColor colorWithRed:156/255.0 green:142/255.0 blue:42/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_620C_Color 
+{
+	return [UIColor colorWithRed:136/255.0 green:120/255.0 blue:17/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_621C_Color 
+{
+	return [UIColor colorWithRed:210/255.0 green:223/255.0 blue:220/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_622C_Color 
+{
+	return [UIColor colorWithRed:189/255.0 green:210/255.0 blue:204/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_623C_Color 
+{
+	return [UIColor colorWithRed:158/255.0 green:188/255.0 blue:179/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_624C_Color 
+{
+	return [UIColor colorWithRed:120/255.0 green:160/255.0 blue:149/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_625C_Color 
+{
+	return [UIColor colorWithRed:81/255.0 green:130/255.0 blue:116/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_626C_Color 
+{
+	return [UIColor colorWithRed:31/255.0 green:86/255.0 blue:71/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_627C_Color 
+{
+	return [UIColor colorWithRed:3/255.0 green:45/255.0 blue:35/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_628C_Color 
+{
+	return [UIColor colorWithRed:200/255.0 green:226/255.0 blue:232/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_629C_Color 
+{
+	return [UIColor colorWithRed:170/255.0 green:218/255.0 blue:229/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_630C_Color 
+{
+	return [UIColor colorWithRed:130/255.0 green:203/255.0 blue:221/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_631C_Color 
+{
+	return [UIColor colorWithRed:72/255.0 green:184/255.0 blue:210/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_632C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:158/255.0 blue:192/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_633C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:124/255.0 blue:164/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_634C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:98/255.0 blue:140/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_635C_Color 
+{
+	return [UIColor colorWithRed:173/255.0 green:221/255.0 blue:235/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_636C_Color 
+{
+	return [UIColor colorWithRed:141/255.0 green:212/255.0 blue:233/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_637C_Color 
+{
+	return [UIColor colorWithRed:91/255.0 green:200/255.0 blue:231/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_638C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:178/255.0 blue:222/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_639C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:154/255.0 blue:207/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_640C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:133/255.0 blue:194/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_641C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:112/255.0 blue:178/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_642C_Color 
+{
+	return [UIColor colorWithRed:206/255.0 green:217/255.0 blue:231/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_643C_Color 
+{
+	return [UIColor colorWithRed:197/255.0 green:210/255.0 blue:227/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_644C_Color 
+{
+	return [UIColor colorWithRed:151/255.0 green:177/255.0 blue:208/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_645C_Color 
+{
+	return [UIColor colorWithRed:116/255.0 green:152/255.0 blue:192/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_646C_Color 
+{
+	return [UIColor colorWithRed:87/255.0 green:129/255.0 blue:174/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_647C_Color 
+{
+	return [UIColor colorWithRed:17/255.0 green:86/255.0 blue:140/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_648C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:43/255.0 blue:95/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_649C_Color 
+{
+	return [UIColor colorWithRed:212/255.0 green:220/255.0 blue:232/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_650C_Color 
+{
+	return [UIColor colorWithRed:194/255.0 green:205/255.0 blue:224/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_651C_Color 
+{
+	return [UIColor colorWithRed:153/255.0 green:174/255.0 blue:206/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_652C_Color 
+{
+	return [UIColor colorWithRed:111/255.0 green:141/255.0 blue:185/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_653C_Color 
+{
+	return [UIColor colorWithRed:42/255.0 green:86/255.0 blue:143/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_654C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:48/255.0 blue:102/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_655C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:34/255.0 blue:82/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_656C_Color 
+{
+	return [UIColor colorWithRed:212/255.0 green:221/255.0 blue:237/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_657C_Color 
+{
+	return [UIColor colorWithRed:191/255.0 green:208/255.0 blue:234/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_658C_Color 
+{
+	return [UIColor colorWithRed:161/255.0 green:187/255.0 blue:228/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_659C_Color 
+{
+	return [UIColor colorWithRed:110/255.0 green:150/255.0 blue:213/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_660C_Color 
+{
+	return [UIColor colorWithRed:41/255.0 green:109/255.0 blue:193/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_661C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:53/255.0 blue:150/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_662C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:34/255.0 blue:128/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_663C_Color 
+{
+	return [UIColor colorWithRed:222/255.0 green:216/255.0 blue:230/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_664C_Color 
+{
+	return [UIColor colorWithRed:215/255.0 green:208/255.0 blue:224/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_665C_Color 
+{
+	return [UIColor colorWithRed:197/255.0 green:187/255.0 blue:211/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_666C_Color 
+{
+	return [UIColor colorWithRed:163/255.0 green:146/255.0 blue:183/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_667C_Color 
+{
+	return [UIColor colorWithRed:124/255.0 green:100/255.0 blue:149/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_668C_Color 
+{
+	return [UIColor colorWithRed:98/255.0 green:74/255.0 blue:126/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_669C_Color 
+{
+	return [UIColor colorWithRed:67/255.0 green:44/255.0 blue:95/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_670C_Color 
+{
+	return [UIColor colorWithRed:234/255.0 green:212/255.0 blue:228/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_671C_Color 
+{
+	return [UIColor colorWithRed:230/255.0 green:193/255.0 blue:219/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_672C_Color 
+{
+	return [UIColor colorWithRed:225/255.0 green:167/255.0 blue:207/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_673C_Color 
+{
+	return [UIColor colorWithRed:218/255.0 green:137/255.0 blue:190/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_674C_Color 
+{
+	return [UIColor colorWithRed:206/255.0 green:98/255.0 blue:164/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_675C_Color 
+{
+	return [UIColor colorWithRed:182/255.0 green:42/255.0 blue:121/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_676C_Color 
+{
+	return [UIColor colorWithRed:163/255.0 green:0/255.0 blue:89/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_677C_Color 
+{
+	return [UIColor colorWithRed:229/255.0 green:209/255.0 blue:223/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_678C_Color 
+{
+	return [UIColor colorWithRed:226/255.0 green:201/255.0 blue:218/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_679C_Color 
+{
+	return [UIColor colorWithRed:222/255.0 green:189/255.0 blue:212/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_680C_Color 
+{
+	return [UIColor colorWithRed:203/255.0 green:151/255.0 blue:183/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_681C_Color 
+{
+	return [UIColor colorWithRed:184/255.0 green:116/255.0 blue:158/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_682C_Color 
+{
+	return [UIColor colorWithRed:156/255.0 green:72/255.0 blue:120/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_683C_Color 
+{
+	return [UIColor colorWithRed:124/255.0 green:34/255.0 blue:80/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_684C_Color 
+{
+	return [UIColor colorWithRed:229/255.0 green:202/255.0 blue:217/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_685C_Color 
+{
+	return [UIColor colorWithRed:225/255.0 green:188/255.0 blue:208/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_686C_Color 
+{
+	return [UIColor colorWithRed:219/255.0 green:174/255.0 blue:198/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_687C_Color 
+{
+	return [UIColor colorWithRed:198/255.0 green:134/255.0 blue:169/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_688C_Color 
+{
+	return [UIColor colorWithRed:180/255.0 green:107/255.0 blue:147/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_689C_Color 
+{
+	return [UIColor colorWithRed:149/255.0 green:65/255.0 blue:111/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_690C_Color 
+{
+	return [UIColor colorWithRed:109/255.0 green:35/255.0 blue:72/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_691C_Color 
+{
+	return [UIColor colorWithRed:231/255.0 green:205/255.0 blue:210/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_692C_Color 
+{
+	return [UIColor colorWithRed:226/255.0 green:193/255.0 blue:200/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_693C_Color 
+{
+	return [UIColor colorWithRed:217/255.0 green:167/255.0 blue:177/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_694C_Color 
+{
+	return [UIColor colorWithRed:202/255.0 green:144/255.0 blue:156/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_695C_Color 
+{
+	return [UIColor colorWithRed:176/255.0 green:104/255.0 blue:118/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_696C_Color 
+{
+	return [UIColor colorWithRed:148/255.0 green:69/255.0 blue:84/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_697C_Color 
+{
+	return [UIColor colorWithRed:129/255.0 green:51/255.0 blue:61/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_698C_Color 
+{
+	return [UIColor colorWithRed:237/255.0 green:207/255.0 blue:215/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_699C_Color 
+{
+	return [UIColor colorWithRed:240/255.0 green:194/255.0 blue:205/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_700C_Color 
+{
+	return [UIColor colorWithRed:236/255.0 green:169/255.0 blue:185/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_701C_Color 
+{
+	return [UIColor colorWithRed:229/255.0 green:141/255.0 blue:162/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_702C_Color 
+{
+	return [UIColor colorWithRed:213/255.0 green:100/255.0 blue:124/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_703C_Color 
+{
+	return [UIColor colorWithRed:186/255.0 green:57/255.0 blue:78/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_704C_Color 
+{
+	return [UIColor colorWithRed:162/255.0 green:38/255.0 blue:48/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_705C_Color 
+{
+	return [UIColor colorWithRed:242/255.0 green:214/255.0 blue:222/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_706C_Color 
+{
+	return [UIColor colorWithRed:245/255.0 green:199/255.0 blue:212/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_707C_Color 
+{
+	return [UIColor colorWithRed:245/255.0 green:176/255.0 blue:193/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_708C_Color 
+{
+	return [UIColor colorWithRed:245/255.0 green:144/255.0 blue:166/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_709C_Color 
+{
+	return [UIColor colorWithRed:239/255.0 green:103/255.0 blue:130/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_710C_Color 
+{
+	return [UIColor colorWithRed:229/255.0 green:70/255.0 blue:97/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_711C_Color 
+{
+	return [UIColor colorWithRed:211/255.0 green:41/255.0 blue:57/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_712C_Color 
+{
+	return [UIColor colorWithRed:250/255.0 green:205/255.0 blue:174/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_713C_Color 
+{
+	return [UIColor colorWithRed:251/255.0 green:195/255.0 blue:153/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_714C_Color 
+{
+	return [UIColor colorWithRed:253/255.0 green:177/255.0 blue:121/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_715C_Color 
+{
+	return [UIColor colorWithRed:249/255.0 green:150/255.0 blue:74/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_716C_Color 
+{
+	return [UIColor colorWithRed:241/255.0 green:124/255.0 blue:14/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_717C_Color 
+{
+	return [UIColor colorWithRed:222/255.0 green:97/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_718C_Color 
+{
+	return [UIColor colorWithRed:207/255.0 green:82/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_719C_Color 
+{
+	return [UIColor colorWithRed:239/255.0 green:207/255.0 blue:184/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_720C_Color 
+{
+	return [UIColor colorWithRed:236/255.0 green:195/255.0 blue:165/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_721C_Color 
+{
+	return [UIColor colorWithRed:229/255.0 green:174/255.0 blue:134/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_722C_Color 
+{
+	return [UIColor colorWithRed:213/255.0 green:143/255.0 blue:89/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_723C_Color 
+{
+	return [UIColor colorWithRed:192/255.0 green:114/255.0 blue:47/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_724C_Color 
+{
+	return [UIColor colorWithRed:154/255.0 green:75/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_725C_Color 
+{
+	return [UIColor colorWithRed:132/255.0 green:59/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_726C_Color 
+{
+	return [UIColor colorWithRed:232/255.0 green:206/255.0 blue:187/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_727C_Color 
+{
+	return [UIColor colorWithRed:225/255.0 green:190/255.0 blue:164/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_728C_Color 
+{
+	return [UIColor colorWithRed:213/255.0 green:170/255.0 blue:136/255.0 alpha:255/255.0];
 };
 
 +(UIColor *)pantone_729C_Color 
@@ -4537,14 +4462,89 @@
 	return [UIColor colorWithRed:195/255.0 green:142/255.0 blue:99/255.0 alpha:255/255.0];
 };
 
++(UIColor *)pantone_730C_Color 
+{
+	return [UIColor colorWithRed:172/255.0 green:112/255.0 blue:61/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_731C_Color 
+{
+	return [UIColor colorWithRed:121/255.0 green:63/255.0 blue:13/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_732C_Color 
+{
+	return [UIColor colorWithRed:100/255.0 green:48/255.0 blue:10/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_801C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:167/255.0 blue:216/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_802C_Color 
+{
+	return [UIColor colorWithRed:91/255.0 green:221/255.0 blue:69/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_803C_Color 
+{
+	return [UIColor colorWithRed:255/255.0 green:232/255.0 blue:5/255.0 alpha:255/255.0];
+};
+
 +(UIColor *)pantone_804C_Color 
 {
 	return [UIColor colorWithRed:255/255.0 green:162/255.0 blue:67/255.0 alpha:255/255.0];
 };
 
-+(UIColor *)pantone_1777C_Color 
++(UIColor *)pantone_805C_Color 
 {
-	return [UIColor colorWithRed:251/255.0 green:101/255.0 blue:129/255.0 alpha:255/255.0];
+	return [UIColor colorWithRed:255/255.0 green:88/255.0 blue:94/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_806C_Color 
+{
+	return [UIColor colorWithRed:255/255.0 green:28/255.0 blue:172/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_807C_Color 
+{
+	return [UIColor colorWithRed:215/255.0 green:8/255.0 blue:178/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_808C_Color 
+{
+	return [UIColor colorWithRed:0/255.0 green:174/255.0 blue:151/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_809C_Color 
+{
+	return [UIColor colorWithRed:225/255.0 green:228/255.0 blue:0/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_810C_Color 
+{
+	return [UIColor colorWithRed:255/255.0 green:206/255.0 blue:9/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_811C_Color 
+{
+	return [UIColor colorWithRed:255/255.0 green:119/255.0 blue:80/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_812C_Color 
+{
+	return [UIColor colorWithRed:255/255.0 green:52/255.0 blue:133/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_813C_Color 
+{
+	return [UIColor colorWithRed:234/255.0 green:18/255.0 blue:175/255.0 alpha:255/255.0];
+};
+
++(UIColor *)pantone_814C_Color 
+{
+	return [UIColor colorWithRed:126/255.0 green:96/255.0 blue:206/255.0 alpha:255/255.0];
 };
 
 @end

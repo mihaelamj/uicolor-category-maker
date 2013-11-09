@@ -66,6 +66,14 @@
     return [NSString stringWithFormat:@"%@%@",[[lowerStr substringToIndex:1] uppercaseString],[lowerStr substringFromIndex:1]];
 }
 
++ (NSArray *)sortByName:(NSArray *)colorsArray;
+{
+    NSArray *sortedArray = [colorsArray sortedArrayUsingComparator:^NSComparisonResult(id id1, id id2) {
+        return [(NSString *)id1 compare:(NSString *)id2];
+    }];
+    return sortedArray;
+}
+
 #pragma mark - Public
 
 + (void)getFileBodiesForColorCategoryNamed:(NSString *)colorCategoryName withColorDictionary:(NSDictionary *)colorDictionary colorCodesSource:(NSString *)colorCodesSource withReturnBlock:(void (^)(NSString *interfaceFileName, NSString *implementationFileName, NSString *interfaceBody, NSString *implementationBody, NSError *error))block
@@ -98,6 +106,9 @@
     
     //get all color names from dictionary
     NSArray *colorNames = [colorDictionary allKeys];
+    
+    //sort colorNames by names
+    colorNames = [MMJColorCategoryMaker sortByName:colorNames];
     
     //for each color in dictionary
     [colorNames enumerateObjectsUsingBlock:^(id object, NSUInteger idx, BOOL *stop) {

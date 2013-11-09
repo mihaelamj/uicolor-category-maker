@@ -74,8 +74,7 @@
             
             NSDictionary *colorComponents = [UIColor colorComponentsForHexString:colorHex];
             [resultDict setObject:colorComponents forKey:key];
-            
-            NSLog(@"key: %@\n, colorColponents: %@", key, colorComponents);
+//            NSLog(@"key: %@\n, colorColponents: %@", key, colorComponents);
         }
     }];
     
