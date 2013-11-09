@@ -57,7 +57,7 @@
 
 + (NSString *)makeColorCategoryReadmeFile:(NSString *)fileName categoryName:(NSString *)categoryName imagesDictionary:(NSDictionary *)imagesDictionary directory:(NSString *)directory colorCodesSource:(NSString *)colorCodesSource gitHubPath:(NSString *)gitHubPath imageSize:(CGSize)imageSize
 {
-    MMJColorCategoryReadmeWriter *writer = [[MMJColorCategoryReadmeWriter alloc] initWithCategoryName:categoryName imagesDictionary:imagesDictionary directory:directory readmeFileName:fileName colorsSource:colorsSource gitHubPath:gitHubPath imageSize:imageSize];
+    MMJColorCategoryReadmeWriter *writer = [[MMJColorCategoryReadmeWriter alloc] initWithCategoryName:categoryName imagesDictionary:imagesDictionary directory:directory readmeFileName:fileName colorsSource:colorCodesSource gitHubPath:gitHubPath imageSize:imageSize];
     if (!writer) return nil;
     
     return [writer writeReadmeFile];

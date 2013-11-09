@@ -51,9 +51,7 @@
 + (NSString *)readmeTitleForColorCategory:(NSString *)colorCategory
 {
     NSString *category = [NSString stringWithFormat:@"UIColor+%@", [colorCategory stringCapitilized]];
-    NSString *underline = [NSString stringPaddedWithString:@"=@" length:[category length]];
-
-    return [NSString stringWithFormat:@"%@\n%@\n\n", category, underline];
+    return [NSString stringWithFormat:@"%@\n%@\n\n", category, @"======================"];
 }
 
 + (NSString *)colorSource:(NSString *)source
@@ -115,14 +113,16 @@
 //        NSString *imageName = [NSString stringWithFormat:@"%@.png", colorImageName];
         NSString *imageName = [NSString stringWithFormat:@"%@_%@_%@.png", [categoryName lowercaseString], @"Color", colorImageName];
         
-        NSString *imgSrc = [MMJColorCategoryReadmeMaker fullImageSourceFromImageFileName:imageName gitHubPath:gitHubPath imagesDirectory:imagesDirectory imageSize:imageSize altName:colorImageName];
+        NSString *imageAlt = [NSString stringWithFormat:@"%@ color: %@", categoryName, colorImageName];
+        
+        NSString *imgSrc = [MMJColorCategoryReadmeMaker fullImageSourceFromImageFileName:imageName gitHubPath:gitHubPath imagesDirectory:imagesDirectory imageSize:imageSize altName:imageAlt];
         
         NSString *colorCode = [NSString stringWithFormat:COLOR_CODE, colorImageName];
         
         //make table row
         NSString *tableRow = [MMJColorCategoryReadmeMaker tableRowForImageSource:imgSrc colorName:colorImageName colorCode:colorCode];
         //add table row to result
-        [tableString appendString:[NSString stringWithFormat:@"\n%@\n", tableRow]];
+        [tableString appendString:[NSString stringWithFormat:@"%@", tableRow]];
     }];
     
     //end table
