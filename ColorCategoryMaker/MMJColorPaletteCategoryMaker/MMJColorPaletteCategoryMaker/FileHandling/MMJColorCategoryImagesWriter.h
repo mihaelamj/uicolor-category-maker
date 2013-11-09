@@ -10,4 +10,6 @@
 
 @interface MMJColorCategoryImagesWriter : NSObject
 
++ (NSString *)makeColorCategoryImagesCategoryName:(NSString *)categoryName imagesDictionary:(NSDictionary *)colorsDictionary directory:(NSString *)directory;
+
 @end

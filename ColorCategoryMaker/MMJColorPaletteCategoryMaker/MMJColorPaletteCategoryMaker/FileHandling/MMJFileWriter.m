@@ -24,4 +24,24 @@
     NSLog(@"%@ directory: %@", directory, [fileManager contentsOfDirectoryAtPath:directory error:&error]);
     return directory;
 }
+
++ (NSString *)writeImage:(UIImage *)image fileName:(NSString *)fileName directoryName:(NSString *)directoryName
+{
+    NSError *error;
+    // Create file manager
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    
+    NSString *directory = [NSHomeDirectory() stringByAppendingPathComponent:directoryName];
+    NSString *filePath = [directory stringByAppendingPathComponent:fileName];
+    
+    //get image PNG data
+    NSData *pngData = UIImagePNGRepresentation(image);
+    
+    // Write the image file
+    [pngData writeToFile:filePath atomically:YES];
+    
+    NSLog(@"%@ directory: %@", directory, [fileManager contentsOfDirectoryAtPath:directory error:&error]);
+    return directory;
+}
+
 @end

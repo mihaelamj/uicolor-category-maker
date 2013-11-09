@@ -10,4 +10,6 @@
 
 @interface MMJFileWriter : NSObject
 + (NSString *)writeFileName:(NSString *)fileName directoryName:(NSString *)directoryName fileBody:(NSString *)fileBody;
+
++ (NSString *)writeImage:(UIImage *)image fileName:(NSString *)fileName directoryName:(NSString *)directoryName;
 @end

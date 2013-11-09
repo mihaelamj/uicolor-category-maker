@@ -68,7 +68,7 @@
 
 + (NSString *)makeColorCategoryFilesCategoryName:(NSString *)categoryName colorsDictionary:(NSDictionary *)colorsDictionary directory:(NSString *)directory colorCodesSource:(NSString *)colorCodesSource
 {
-    MMJColorCategoryWriter *writer = [[MMJColorCategoryWriter alloc]initWithCategoryName:categoryName colorsDictionary:colorsDictionary directory:directory colorCodesSource:colorCodesSource];
+    MMJColorCategoryWriter *writer = [[MMJColorCategoryWriter alloc] initWithCategoryName:categoryName colorsDictionary:colorsDictionary directory:directory colorCodesSource:colorCodesSource];
     if (!writer) return nil;
     
     return [writer writeColorCategoryFiles];

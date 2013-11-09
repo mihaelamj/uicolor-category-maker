@@ -17,6 +17,12 @@
 //specific parsers
 #import "MMJCrayolaColorParser.h"
 
+//making images from colors
+#import "MMJColorCategoryImagesMaker.h"
+
+//writing images to the disk
+#import "MMJColorCategoryImagesWriter.h"
+
 @implementation MMJAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -27,25 +33,34 @@
     [self.window makeKeyAndVisible];
     
     [self generateCopic];
-    [self generateHtml];
-    [self generateCrayola];
-    [self generatePantone];
-    [self generateCrayon]; 
+//    [self generateHtml];
+//    [self generateCrayola];
+//    [self generatePantone];
+//    [self generateCrayon]; 
     
     return YES;
 }
 
 - (void)generateCopic
 {
+    NSString *categoryName = @"Copic";
     NSDictionary *copicColors = [MMJGenericColorParser genericColorsDictionaryWithFileName:@"Copic_Color_HEX_CODE" fileType:@"txt"];
     
     NSString *filesPath = [MMJColorCategoryWriter
-                           makeColorCategoryFilesCategoryName:@"Copic"
+                           makeColorCategoryFilesCategoryName:categoryName
                            colorsDictionary:copicColors
                            directory:@"Documents"
                            colorCodesSource:@"http://blog.paigeedraw.com/2012/07/copic-marker-color-rgb-hex-conversion.html"];
     
     NSLog(@"files written to /n%@", filesPath);
+    
+    //make images dictionary
+    CGSize imageSize = CGSizeMake(50, 50);
+    //make dictionary woth colorname : UIImage pairs
+    NSDictionary *colorImages = [MMJColorCategoryImagesMaker imagesForColorCategoryNamed:categoryName withColorDictionary:copicColors size:imageSize];
+    
+    NSString *imagesPath = [MMJColorCategoryImagesWriter makeColorCategoryImagesCategoryName:categoryName imagesDictionary:colorImages directory:@"Documents"];
+    NSLog(@"images written to /n%@", imagesPath);
 }
 
 - (void)generateHtml
