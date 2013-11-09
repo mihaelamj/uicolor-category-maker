@@ -46,8 +46,10 @@
         NSString *colorImageName = (NSString *)object;
         //image
         UIImage *colorImage = [self.imagesDictionary objectForKey:colorImageName];
+        
         //image file name
-        NSString *imageName = [NSString stringWithFormat:@"%@.png", colorImageName];
+//        NSString *imageName = [NSString stringWithFormat:@"%@.png", colorImageName];
+        NSString *imageName = [NSString stringWithFormat:@"%@_%@_%@.png", [self.categoryName lowercaseString], @"Color", colorImageName];
         
         //write the images
         filesPath = [MMJFileWriter writeImage:colorImage fileName:imageName directoryName:self.directory];

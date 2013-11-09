@@ -23,6 +23,9 @@
 //writing images to the disk
 #import "MMJColorCategoryImagesWriter.h"
 
+//writing README.md to the deisk
+#import "MMJColorCategoryReadmeWriter.h"
+
 @implementation MMJAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -43,24 +46,36 @@
 
 - (void)generateCopic
 {
+// 1. make color category files
     NSString *categoryName = @"Copic";
+    NSString *directory = @"Documents";
+    NSString *colorCodesSource =@"http://blog.paigeedraw.com/2012/07/copic-marker-color-rgb-hex-conversion.html";
+    
     NSDictionary *copicColors = [MMJGenericColorParser genericColorsDictionaryWithFileName:@"Copic_Color_HEX_CODE" fileType:@"txt"];
     
     NSString *filesPath = [MMJColorCategoryWriter
                            makeColorCategoryFilesCategoryName:categoryName
                            colorsDictionary:copicColors
-                           directory:@"Documents"
-                           colorCodesSource:@"http://blog.paigeedraw.com/2012/07/copic-marker-color-rgb-hex-conversion.html"];
+                           directory:directory
+                           colorCodesSource:colorCodesSource];
     
     NSLog(@"files written to /n%@", filesPath);
     
+// 2. make images in colors
     //make images dictionary
     CGSize imageSize = CGSizeMake(50, 50);
-    //make dictionary woth colorname : UIImage pairs
+    //make dictionary with colorname : UIImage pairs
     NSDictionary *colorImages = [MMJColorCategoryImagesMaker imagesForColorCategoryNamed:categoryName withColorDictionary:copicColors size:imageSize];
     
-    NSString *imagesPath = [MMJColorCategoryImagesWriter makeColorCategoryImagesCategoryName:categoryName imagesDictionary:colorImages directory:@"Documents"];
+    NSString *imagesPath = [MMJColorCategoryImagesWriter makeColorCategoryImagesCategoryName:categoryName imagesDictionary:colorImages directory:directory];
     NSLog(@"images written to /n%@", imagesPath);
+    
+// 3. make redame file for GitHub
+    NSString *gitHubPath = @"";
+    
+    NSString *readmePath = [MMJColorCategoryReadmeWriter makeColorCategoryReadmeFile:@"README.md" categoryName:categoryName imagesDictionary:colorImages directory:directory colorCodesSource:colorCodesSource gitHubPath:gitHubPath imageSize:imageSize];
+    
+     NSLog(@"readme file written to /n%@", readmePath);
 }
 
 - (void)generateHtml

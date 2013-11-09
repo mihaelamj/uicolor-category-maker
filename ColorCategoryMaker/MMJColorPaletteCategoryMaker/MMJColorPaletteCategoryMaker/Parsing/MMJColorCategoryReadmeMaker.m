@@ -19,11 +19,6 @@
 #define TABLE_START @"<table>\n"
 #define TABLE_END @"</table>\n"
 
-#define TABLE_ROW_START @"<tr>"
-#define TABLE_ROW_END @"</tr>"
-
-#define TABLE_DATA @"<td>%@</td>"
-
 #define TABLE_ROW @"<tr>\n<td>%@</td>\n<td>%@</td>\n<td>%@</td>\n</tr>\n"
 // 1. image source
 // 2. color name
@@ -101,7 +96,7 @@
     return [NSString stringWithFormat:TABLE_ROW, imageSource, colorName, colorCode];
 }
 
-+ (NSString *)tableStringFromImagesDictionary:(NSDictionary *)imagesDictionary imageSize:(CGSize)imageSize gitHubPath:(NSString *)gitHubPath imagesDirectory:(NSString *)imagesDirectory
++ (NSString *)tableStringFromImagesDictionary:(NSDictionary *)imagesDictionary categoryName:(NSString *)categoryName imageSize:(CGSize)imageSize gitHubPath:(NSString *)gitHubPath imagesDirectory:(NSString *)imagesDirectory
 {
    __block NSMutableString *tableString = [[NSMutableString alloc] init];
     
@@ -115,9 +110,11 @@
     [colorImageNames enumerateObjectsUsingBlock:^(id object, NSUInteger idx, BOOL *stop) {
         //image name
         NSString *colorImageName = (NSString *)object;
-        //image
-//        UIImage *colorImage = [imagesDictionary objectForKey:colorImageName];
-        NSString *imageName = [NSString stringWithFormat:@"%@.png", colorImageName];
+        
+        //full image name
+//        NSString *imageName = [NSString stringWithFormat:@"%@.png", colorImageName];
+        NSString *imageName = [NSString stringWithFormat:@"%@_%@_%@.png", [categoryName lowercaseString], @"Color", colorImageName];
+        
         NSString *imgSrc = [MMJColorCategoryReadmeMaker fullImageSourceFromImageFileName:imageName gitHubPath:gitHubPath imagesDirectory:imagesDirectory imageSize:imageSize altName:colorImageName];
         
         NSString *colorCode = [NSString stringWithFormat:COLOR_CODE, colorImageName];
@@ -148,7 +145,7 @@
     [MMJColorCategoryReadmeMaker appendIntroToString:readmeBodyString colorCategoryName:colorCategoryName colorCodesSource:colorCodesSource];
     
     //append table to string
-    NSString *tableString = [MMJColorCategoryReadmeMaker tableStringFromImagesDictionary:imagesDictionary imageSize:imageSize gitHubPath:gitHubPath imagesDirectory:imagesDirectory];
+    NSString *tableString = [MMJColorCategoryReadmeMaker tableStringFromImagesDictionary:imagesDictionary categoryName:colorCategoryName imageSize:imageSize gitHubPath:gitHubPath imagesDirectory:imagesDirectory];
     [readmeBodyString appendString:tableString];
     
     return [NSString stringWithString:readmeBodyString];
