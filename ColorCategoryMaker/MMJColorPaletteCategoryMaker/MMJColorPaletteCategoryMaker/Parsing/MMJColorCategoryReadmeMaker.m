@@ -94,6 +94,14 @@
     return [NSString stringWithFormat:TABLE_ROW, imageSource, colorName, colorCode];
 }
 
++ (NSArray *)sortByName:(NSArray *)colorsArray;
+{
+    NSArray *sortedArray = [colorsArray sortedArrayUsingComparator:^NSComparisonResult(id id1, id id2) {
+        return [(NSString *)id1 compare:(NSString *)id2];
+    }];
+    return sortedArray;
+}
+
 + (NSString *)tableStringFromImagesDictionary:(NSDictionary *)imagesDictionary categoryName:(NSString *)categoryName imageSize:(CGSize)imageSize gitHubPath:(NSString *)gitHubPath imagesDirectory:(NSString *)imagesDirectory
 {
    __block NSMutableString *tableString = [[NSMutableString alloc] init];
@@ -103,6 +111,8 @@
     
     //get all color names from dictionary
     NSArray *colorImageNames = [imagesDictionary allKeys];
+    //sort colorNames by names
+    colorImageNames = [MMJColorCategoryReadmeMaker sortByName:colorImageNames];
     
     //for each color in dictionary
     [colorImageNames enumerateObjectsUsingBlock:^(id object, NSUInteger idx, BOOL *stop) {
@@ -117,10 +127,12 @@
         
         NSString *imgSrc = [MMJColorCategoryReadmeMaker fullImageSourceFromImageFileName:imageName gitHubPath:gitHubPath imageSize:imageSize altName:imageAlt];
         
-        NSString *colorMethodName = [NSString stringWithFormat:@"%@_%@_%@", [categoryName lowercaseString], @"Color", colorImageName];
+        NSString *colorMethodName = [NSString stringWithFormat:@"%@_%@_%@", [categoryName lowercaseString], colorImageName, @"Color"];
         
         NSString *colorCode = [NSString stringWithFormat:COLOR_CODE, colorMethodName];
         
+        //copic_Color_bg53	[UIColor copic_Color_bg53]
+        //copic_100_Color
         //make table row
         NSString *tableRow = [MMJColorCategoryReadmeMaker tableRowForImageSource:imgSrc colorName:colorMethodName colorCode:colorCode];
         //add table row to result

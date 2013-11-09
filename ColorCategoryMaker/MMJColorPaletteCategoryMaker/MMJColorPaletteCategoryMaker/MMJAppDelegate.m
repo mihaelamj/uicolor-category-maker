@@ -44,6 +44,7 @@
     return YES;
 }
 
+
 - (void)generateCopic
 {
 // 1. make color category files
@@ -67,8 +68,8 @@
     //make dictionary with colorname : UIImage pairs
     NSDictionary *colorImages = [MMJColorCategoryImagesMaker imagesForColorCategoryNamed:categoryName withColorDictionary:copicColors size:imageSize];
     
-    NSString *imagesPath = [MMJColorCategoryImagesWriter makeColorCategoryImagesCategoryName:categoryName imagesDictionary:colorImages directory:directory];
-    NSLog(@"images written to /n%@", imagesPath);
+    //NSString *imagesPath = [MMJColorCategoryImagesWriter makeColorCategoryImagesCategoryName:categoryName imagesDictionary:colorImages directory:directory];
+    //NSLog(@"images written to /n%@", imagesPath);
     
 // 3. make redame file for GitHub https://github.com/mihaelamj/uicolor-copic/master/images"
     NSString *gitHubPath = @"https://raw.github.com//mihaelamj/uicolor-copic/master/images/";
