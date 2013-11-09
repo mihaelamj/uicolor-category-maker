@@ -30,9 +30,9 @@
     [self.window makeKeyAndVisible];
     
     //[self generateCopic];
-    [self generateHtml];
+  //  [self generateHtml];
 //    [self generateCrayola];
-//    [self generatePantone];
+    [self generatePantone];
 //    [self generateCrayon]; 
     
     return YES;
@@ -127,6 +127,9 @@
     
     //make images and readme file
     CGSize imageSize = CGSizeMake(150, 50);
+    NSString *gitHubPath = @"https://raw.github.com//mihaelamj/uicolor-pantone/master/images/";
+    NSString *readmePath = [MMJColorImagesWithReadme makeColorImagesForCategory:categoryName directory:directory colorsSource:colorCodesSource imageSize:imageSize gitHubPath:gitHubPath colorsDictionary:pantoneColors shortFormat:YES];
+    NSLog(@"readme file written to /n%@", readmePath);
 }
 
 - (void)generateCrayon

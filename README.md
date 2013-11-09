@@ -4,6 +4,12 @@
 * Tool for generating UIColor category files (h and m) from hex values using text files.
 * iOS app for viewing generated colours in table view.
 
+## Generated Categories
+* [UIColor+Copic](https://github.com/mihaelamj/uicolor-copic "Copic markers colors category")
+* [UIColor+HTML](https://github.com/mihaelamj/uicolor-html "HTML named colors category")
+* [UIColor+Crayola](https://github.com/mihaelamj/uicolor-crayola "Crayola crayon colors category")
+* [UIColor+Pantone](https://github.com/mihaelamj/uicolor-pantone"Pantone colors category")
+
 ## ColorPaletteCategoryMaker
 
 It parses text file with hex color values and color names, and generates UIColor category interface and implementation files.
