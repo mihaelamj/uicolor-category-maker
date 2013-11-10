@@ -83,19 +83,17 @@
     NSString *implementationFN = [NSString stringWithFormat:IMPLEMENTATION_FILE_NAME, capitilizedCategoryName];
     
     //INTERFACE
-    
-    //append header comments to interface
+        //append header comments to interface
     [interfaceBodyString appendString:[MMJColorCategoryMaker headerCommentsForFileName:interfaceFN colorCodesSource:colorCodesSource]];
-    //append interface with interface start
+        //append interface with interface start
     [interfaceBodyString appendString:[NSString stringWithFormat:INTERFACE_START_STRING, capitilizedCategoryName]];
     
     //IMPEMENTATION
-    
-    //append header comments to implementation
+        //append header comments to implementation
     [implementationBodyString appendString:[MMJColorCategoryMaker headerCommentsForFileName:implementationFN colorCodesSource:colorCodesSource]];
-    //append import header
+        //append import header
     [implementationBodyString appendString:[NSString stringWithFormat:IMPORT_HEADER, interfaceFN]];
-    //append implementation with implenetation start
+        //append implementation with implenetation start
     [implementationBodyString appendString:[NSString stringWithFormat:IMPLEMENTATION_START_STRING, capitilizedCategoryName]];
     
     
@@ -130,7 +128,6 @@
     [implementationBodyString appendString:INTERFACE_IMPLEMENTATION_END_STRING];
     [interfaceBodyString appendString:INTERFACE_IMPLEMENTATION_END_STRING];
 
-    
     //return values to the caller
     if (block)
         block(interfaceFN, implementationFN,  interfaceBodyString, implementationBodyString, nil);

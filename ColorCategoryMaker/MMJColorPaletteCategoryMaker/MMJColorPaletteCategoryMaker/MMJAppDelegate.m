@@ -28,12 +28,12 @@
 
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    
-    //[self generateCopic];
-  //  [self generateHtml];
+
+    [self generateCopic];
+//    [self generateHtml];
 //    [self generateCrayola];
-    [self generatePantone];
-//    [self generateCrayon]; 
+//    [self generatePantone];
+//    [self generateCrayon];
     
     return YES;
 }

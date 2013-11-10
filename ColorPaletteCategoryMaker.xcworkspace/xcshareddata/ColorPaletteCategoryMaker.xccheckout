@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>012CD7D2-6B4E-4887-8B9B-38CAA0B0ACB4</string>
+	<string>49623B33-97DF-459F-9DED-E5D809BF44A5</string>
 	<key>IDESourceControlProjectName</key>
 	<string>ColorPaletteCategoryMaker</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>B0F71D99-52C1-47D1-AA74-7EA4ABC4C70B</key>
-		<string>https://github.com/mihaelamj/uicolor-category-maker.git</string>
+		<key>CD74CFB4-7206-4AA3-8423-515A736D2A97</key>
+		<string>https://github.com/mihaelamj/uicolor-category-maker</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>ColorPaletteCategoryMaker.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>B0F71D99-52C1-47D1-AA74-7EA4ABC4C70B</key>
+		<key>CD74CFB4-7206-4AA3-8423-515A736D2A97</key>
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/mihaelamj/uicolor-category-maker.git</string>
+	<string>https://github.com/mihaelamj/uicolor-category-maker</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>B0F71D99-52C1-47D1-AA74-7EA4ABC4C70B</string>
+	<string>CD74CFB4-7206-4AA3-8423-515A736D2A97</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>B0F71D99-52C1-47D1-AA74-7EA4ABC4C70B</string>
+			<string>CD74CFB4-7206-4AA3-8423-515A736D2A97</string>
 			<key>IDESourceControlWCCName</key>
 			<string>uicolor-category-maker</string>
 		</dict>

@@ -47,10 +47,10 @@
 
 - (NSString *)writeReadmeFile
 {
-    //get the read me body
+    //get the README.md body
     NSString *readmeContents = [MMJColorCategoryReadmeMaker readmeContentsForColorCategoryName:self.categoryName colorCodesSource:self.colorsSource colorsDictionary:self.imagesDictionary imageSize:self.imageSize gitHubPath:self.gitHubPath imagesDirectory:self.directory shortFormat:self.shortFormat];
     
-    //write the files
+    //write the file
     NSString *filesPath = [MMJFileWriter writeFileName:self.readmeFileName directoryName:self.directory fileBody:readmeContents];
     return filesPath;
 }

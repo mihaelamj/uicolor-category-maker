@@ -53,9 +53,7 @@
         _implementationBody = implementationBody;
     }];
     NSLog(@"interfaceFileName /n%@", _interfaceFileName);
-//    NSLog(@"interfaceBody /n%@", _interfaceBody);
     NSLog(@"implementationFileName /n%@", _implementationFileName);
-//    NSLog(@"implementationBody /n%@", _implementationBody);
     
     //write the files
     NSString *filesPath = [MMJFileWriter writeFileName:_interfaceFileName directoryName:self.directory fileBody:_interfaceBody];

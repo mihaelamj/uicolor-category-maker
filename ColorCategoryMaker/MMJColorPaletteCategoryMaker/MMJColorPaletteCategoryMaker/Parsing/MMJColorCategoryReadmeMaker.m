@@ -135,11 +135,7 @@
         NSString *oneColorName = (NSString *)object;
         NSDictionary *oneColorComponents = [colorsDictionary objectForKey:oneColorName];
         
-        NSLog(@"color:%@", oneColorName);
-        NSLog(@"components:%@", oneColorComponents);
-        
         //full image name
-//        NSString *imageName = [NSString stringWithFormat:@"%@.png", colorImageName];
         NSString *imageName = [NSString stringWithFormat:@"%@_%@_%@.png", [categoryName lowercaseString], @"Color", oneColorName];
         
         NSString *imageAlt = [NSString stringWithFormat:@"%@ color: %@", categoryName, oneColorName];
