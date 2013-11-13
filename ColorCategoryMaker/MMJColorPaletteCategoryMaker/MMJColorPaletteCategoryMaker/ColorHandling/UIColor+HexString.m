@@ -112,7 +112,7 @@
             hexComponentAlpha = [self hexComponentFrom: colorString start: 0 length: 1];
             hexComponentRed   = [self hexComponentFrom: colorString start: 1 length: 1];
             hexComponentGreen = [self hexComponentFrom: colorString start: 2 length: 1];
-            hexComponentBlue  = [self colorComponentFrom: colorString start: 3 length: 1];
+            hexComponentBlue  = [self hexComponentFrom: colorString start: 3 length: 1];
             break;
         case HexColorType_RRGGBB:
             hexComponentAlpha = 255.0f;
