@@ -10,6 +10,7 @@
 #import "NSString+MMJUtils.h"
 
 #define INTERFACE_FILE_NAME @"UIColor+%@.h"
+#define INTERFACE_UIKIT_STRING @"\n#import <UIKit/UIKit.h>\n\n"
 #define INTERFACE_START_STRING @"@interface UIColor (%@)\n"
 #define INTERFACE_IMPLEMENTATION_END_STRING @"\n@end"
 
@@ -85,6 +86,8 @@
     //INTERFACE
         //append header comments to interface
     [interfaceBodyString appendString:[MMJColorCategoryMaker headerCommentsForFileName:interfaceFN colorCodesSource:colorCodesSource]];
+    //import UIKit
+    [interfaceBodyString appendString:INTERFACE_UIKIT_STRING];
         //append interface with interface start
     [interfaceBodyString appendString:[NSString stringWithFormat:INTERFACE_START_STRING, capitilizedCategoryName]];
     

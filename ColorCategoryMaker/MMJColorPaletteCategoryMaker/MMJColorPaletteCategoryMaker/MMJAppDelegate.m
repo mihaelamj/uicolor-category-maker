@@ -27,13 +27,16 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    self.window.rootViewController = [[UIViewController alloc] init];
+    
     [self.window makeKeyAndVisible];
 
-    [self generateCopic];
+//    [self generateCopic];
 //    [self generateHtml];
 //    [self generateCrayola];
 //    [self generatePantone];
-//    [self generateCrayon];
+    [self generateCrayon];
     
     return YES;
 }
